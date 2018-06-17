@@ -153,7 +153,7 @@ def read_dataset(args, mode):
         input_paths = args['train_data_paths']
     else:
         input_paths = args['eval_data_paths']
-
+    
     transformed_metadata = metadata_io.read_metadata(
               os.path.join(args['metadata_path'], 'transformed_metadata'))
 

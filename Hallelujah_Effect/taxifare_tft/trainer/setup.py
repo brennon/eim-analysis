@@ -20,7 +20,7 @@ REQUIRED_PACKAGES = [
 
 setup(
     name='taxifare',
-    version='0.1',
+    version='0.2',
     author = 'Google',
     author_email = 'training-feedback@cloud.google.com',
     install_requires=REQUIRED_PACKAGES,

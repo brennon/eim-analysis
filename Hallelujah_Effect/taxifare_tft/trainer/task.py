@@ -65,7 +65,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--metadata_path',
         help = 'GCS or local path to transformed metadata if using TFT',
-        default = './preproc/metadata'
+        default = './preproc_tft/metadata'
     )
     # Training arguments
     parser.add_argument(
