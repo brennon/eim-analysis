@@ -37,6 +37,36 @@
       "fixedShape": {
         "axis": []
       },
+      "name": "artistic",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "concentration",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
       "name": "engagement",
       "parsingOptions": {
         "tfOptions": {
@@ -62,7 +92,27 @@
     },
     {
       "domain": {
-        "bools": {}
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "fault",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
       },
       "fixedShape": {
         "axis": []
@@ -77,7 +127,12 @@
     },
     {
       "domain": {
-        "bools": {}
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
       },
       "fixedShape": {
         "axis": []
@@ -89,6 +144,21 @@
         }
       },
       "type": "INT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "imagination",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
     },
     {
       "domain": {
@@ -104,6 +174,21 @@
         }
       },
       "type": "BYTES"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "lazy",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
     },
     {
       "domain": {
@@ -137,6 +222,221 @@
     },
     {
       "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_classical",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_dance",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_folk",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_hiphop",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_jazz",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_none",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_pop",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_rock",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_traditional_irish",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "music_pref_world",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "musical_expertise",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
         "strings": {}
       },
       "fixedShape": {
@@ -157,7 +457,52 @@
       "fixedShape": {
         "axis": []
       },
+      "name": "nervous",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "outgoing",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
       "name": "positivity",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "reserved",
       "parsingOptions": {
         "tfOptions": {
           "fixedLenFeature": {}
@@ -187,7 +532,52 @@
       "fixedShape": {
         "axis": []
       },
+      "name": "stress",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
       "name": "tension",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "thorough",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "trusting",
       "parsingOptions": {
         "tfOptions": {
           "fixedLenFeature": {}
