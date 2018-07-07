@@ -434,7 +434,7 @@ node {
       list {
         shape {
           dim {
-            size: 3
+            size: 1
           }
         }
       }
@@ -453,12 +453,10 @@ node {
         dtype: DT_STRING
         tensor_shape {
           dim {
-            size: 3
+            size: 1
           }
         }
-        string_val: "gs://eim-muse/analysis/hallelujah-effect/preproc_tft/train-00000-of-00003.gz"
-        string_val: "gs://eim-muse/analysis/hallelujah-effect/preproc_tft/train-00001-of-00003.gz"
-        string_val: "gs://eim-muse/analysis/hallelujah-effect/preproc_tft/train-00002-of-00003.gz"
+        string_val: "/content/datalab/notebooks/eim-analysis/Hallelujah_Effect/basic_features/preproc_tft/train-00000-of-00001.gz"
       }
     }
   }
@@ -489,7 +487,7 @@ node {
         dtype: DT_INT32
         tensor_shape {
         }
-        int_val: 3
+        int_val: 1
       }
     }
   }
@@ -648,7 +646,7 @@ node {
       list {
         shape {
           dim {
-            size: 3
+            size: 1
           }
         }
       }
@@ -672,7 +670,7 @@ node {
       list {
         shape {
           dim {
-            size: 3
+            size: 1
           }
         }
       }
@@ -36279,7 +36277,7 @@ node {
         dtype: DT_STRING
         tensor_shape {
         }
-        string_val: "_temp_f41cbed1d9214d15b613c91443b2f17f/part"
+        string_val: "_temp_b0bf88c6e29a450a8a16ec874d35fdaf/part"
       }
     }
   }
