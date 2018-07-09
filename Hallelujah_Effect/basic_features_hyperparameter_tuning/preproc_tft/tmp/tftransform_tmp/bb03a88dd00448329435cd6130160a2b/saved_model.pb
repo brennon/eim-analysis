@@ -88,41 +88,41 @@ i
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ
 f
-inputs/lazyPlaceholder*
+inputs/lazyPlaceholder*
+shape:ÿÿÿÿÿÿÿÿÿ*
 dtype0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ
 l
-inputs/engagementPlaceholder*
+inputs/engagementPlaceholder*
+shape:ÿÿÿÿÿÿÿÿÿ*
 dtype0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ
 j
-inputs/reservedPlaceholder*
-dtype0*#
+inputs/reservedPlaceholder*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ
+shape:ÿÿÿÿÿÿÿÿÿ*
+dtype0
 q
-inputs/music_pref_rockPlaceholder*
+inputs/music_pref_rockPlaceholder*
+shape:ÿÿÿÿÿÿÿÿÿ*
 dtype0	*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ
 s
-inputs/music_pref_hiphopPlaceholder*
+inputs/music_pref_hiphopPlaceholder*
+shape:ÿÿÿÿÿÿÿÿÿ*
 dtype0	*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ
 j
-inputs/trustingPlaceholder*
-dtype0*#
+inputs/trustingPlaceholder*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ
+shape:ÿÿÿÿÿÿÿÿÿ*
+dtype0
 ~
 #inputs/music_pref_traditional_irishPlaceholder*
 dtype0	*#
@@ -130,11 +130,11 @@ j
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ
 j
-inputs/outgoingPlaceholder*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
+inputs/outgoingPlaceholder*
 shape:ÿÿÿÿÿÿÿÿÿ*
-dtype0
+dtype0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ
 e
 
 inputs/sexPlaceholder*
@@ -155,23 +155,23 @@ i
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ
 v
-inputs/music_pref_classicalPlaceholder*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ*
-dtype0	
-q
-inputs/music_pref_jazzPlaceholder*
-shape:ÿÿÿÿÿÿÿÿÿ*
+inputs/music_pref_classicalPlaceholder*
 dtype0	*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+shape:ÿÿÿÿÿÿÿÿÿ
+q
+inputs/music_pref_jazzPlaceholder*
+dtype0	*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+shape:ÿÿÿÿÿÿÿÿÿ
 m
-inputs/nationalityPlaceholder*
-shape:ÿÿÿÿÿÿÿÿÿ*
+inputs/nationalityPlaceholder*
 dtype0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+shape:ÿÿÿÿÿÿÿÿÿ
 o
 inputs/concentrationPlaceholder*
 dtype0*#
@@ -191,11 +191,11 @@ u
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 u
-inputs/hallelujah_reactionPlaceholder*
+inputs/hallelujah_reactionPlaceholder*
+shape:ÿÿÿÿÿÿÿÿÿ*
 dtype0	*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ
 h
 inputs/stressPlaceholder*
 dtype0*#
@@ -215,30 +215,30 @@ j
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ
 g
-inputs/faultPlaceholder*#
+inputs/faultPlaceholder*
+dtype0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ*
-dtype0
+shape:ÿÿÿÿÿÿÿÿÿ
 e
 
-inputs/agePlaceholder*
-shape:ÿÿÿÿÿÿÿÿÿ*
+inputs/agePlaceholder*
 dtype0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-s
-inputs/musical_expertisePlaceholder*
-shape:ÿÿÿÿÿÿÿÿÿ*
-dtype0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-m
-inputs/familiarityPlaceholder*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ*
-dtype0
+shape:ÿÿÿÿÿÿÿÿÿ
+s
+inputs/musical_expertisePlaceholder*
+dtype0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+shape:ÿÿÿÿÿÿÿÿÿ
+m
+inputs/familiarityPlaceholder*
+dtype0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+shape:ÿÿÿÿÿÿÿÿÿ
 p
 inputs/music_pref_popPlaceholder*
 dtype0	*#
@@ -246,11 +246,11 @@ p
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ
 j
-inputs/thoroughPlaceholder*
-shape:ÿÿÿÿÿÿÿÿÿ*
+inputs/thoroughPlaceholder*
 dtype0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+shape:ÿÿÿÿÿÿÿÿÿ
 q
 inputs/music_pref_nonePlaceholder*
 dtype0	*#
@@ -258,35 +258,35 @@ q
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ
 q
-inputs/music_pref_folkPlaceholder*
+inputs/music_pref_folkPlaceholder*
+shape:ÿÿÿÿÿÿÿÿÿ*
+dtype0	*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ
+j
+inputs/locationPlaceholder*
+dtype0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+shape:ÿÿÿÿÿÿÿÿÿ
+r
+inputs/music_pref_worldPlaceholder*
 dtype0	*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ
 j
-inputs/locationPlaceholder*
-shape:ÿÿÿÿÿÿÿÿÿ*
-dtype0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-r
-inputs/music_pref_worldPlaceholder*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ*
-dtype0	
-j
-inputs/activityPlaceholder*
-dtype0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-shape:ÿÿÿÿÿÿÿÿÿ
-l
-inputs/positivityPlaceholder*#
+inputs/activityPlaceholder*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ*
 dtype0
+l
+inputs/positivityPlaceholder*
+dtype0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+shape:ÿÿÿÿÿÿÿÿÿ
 j
 inputs/artisticPlaceholder*
 dtype0*#
@@ -294,20 +294,20 @@ j
 :ÿÿÿÿÿÿÿÿÿ*
 shape:ÿÿÿÿÿÿÿÿÿ
 o
-inputs/music_pref_world_copyIdentityinputs/music_pref_world*
-T0	*#
+inputs/music_pref_world_copyIdentityinputs/music_pref_world*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0	
 q
 inputs/musical_expertise_copyIdentityinputs/musical_expertise*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 _
-inputs/reserved_copyIdentityinputs/reserved*
-T0*#
+inputs/reserved_copyIdentityinputs/reserved*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 q
 inputs/music_pref_hiphop_copyIdentityinputs/music_pref_hiphop*
 T0	*#
@@ -325,35 +325,35 @@ _
 :ÿÿÿÿÿÿÿÿÿ
 U
 inputs/sex_copyIdentity
-inputs/sex*
-T0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-e
-inputs/imagination_copyIdentityinputs/imagination*
-T0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-w
- inputs/music_pref_classical_copyIdentityinputs/music_pref_classical*#
+inputs/sex*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
-T0	
+T0
+e
+inputs/imagination_copyIdentityinputs/imagination*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+T0
+w
+ inputs/music_pref_classical_copyIdentityinputs/music_pref_classical*
+T0	*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ
 i
 inputs/concentration_copyIdentityinputs/concentration*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 u
-inputs/hearing_impairments_copyIdentityinputs/hearing_impairments*
-T0	*#
+inputs/hearing_impairments_copyIdentityinputs/hearing_impairments*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0	
 u
-inputs/hallelujah_reaction_copyIdentityinputs/hallelujah_reaction*
-T0	*#
+inputs/hallelujah_reaction_copyIdentityinputs/hallelujah_reaction*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0	
 ]
 inputs/nervous_copyIdentityinputs/nervous*
 T0*#
@@ -365,15 +365,15 @@ c
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 c
-inputs/engagement_copyIdentityinputs/engagement*#
+inputs/engagement_copyIdentityinputs/engagement*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 e
-inputs/familiarity_copyIdentityinputs/familiarity*#
+inputs/familiarity_copyIdentityinputs/familiarity*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 _
 inputs/thorough_copyIdentityinputs/thorough*
 T0*#
@@ -385,15 +385,15 @@ m
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 _
-inputs/location_copyIdentityinputs/location*#
+inputs/location_copyIdentityinputs/location*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 m
-inputs/music_pref_rock_copyIdentityinputs/music_pref_rock*#
+inputs/music_pref_rock_copyIdentityinputs/music_pref_rock*
+T0	*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0	
+:ÿÿÿÿÿÿÿÿÿ
 ]
 inputs/tension_copyIdentityinputs/tension*#
 _output_shapes
@@ -405,20 +405,20 @@ W
 :ÿÿÿÿÿÿÿÿÿ*
 T0
 _
-inputs/activity_copyIdentityinputs/activity*#
+inputs/activity_copyIdentityinputs/activity*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 e
-inputs/nationality_copyIdentityinputs/nationality*#
+inputs/nationality_copyIdentityinputs/nationality*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 o
-inputs/music_pref_dance_copyIdentityinputs/music_pref_dance*#
+inputs/music_pref_dance_copyIdentityinputs/music_pref_dance*
+T0	*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0	
+:ÿÿÿÿÿÿÿÿÿ
 [
 inputs/stress_copyIdentityinputs/stress*
 T0*#
@@ -435,10 +435,10 @@ _
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 Y
-inputs/fault_copyIdentityinputs/fault*
-T0*#
+inputs/fault_copyIdentityinputs/fault*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 U
 inputs/age_copyIdentity
 inputs/age*
@@ -446,20 +446,20 @@ inputs/age*
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 k
-inputs/music_pref_pop_copyIdentityinputs/music_pref_pop*
-T0	*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-m
-inputs/music_pref_jazz_copyIdentityinputs/music_pref_jazz*#
+inputs/music_pref_pop_copyIdentityinputs/music_pref_pop*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
 T0	
 m
-inputs/music_pref_folk_copyIdentityinputs/music_pref_folk*
+inputs/music_pref_jazz_copyIdentityinputs/music_pref_jazz*
 T0	*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
+m
+inputs/music_pref_folk_copyIdentityinputs/music_pref_folk*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+T0	
 _
 inputs/artistic_copyIdentityinputs/artistic*
 T0*#
@@ -471,12 +471,12 @@ _
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 g
-"scale_by_min_max/min_and_max/sub/xConst*
-_output_shapes
-: *
+"scale_by_min_max/min_and_max/sub/xConst*
 valueB
  *    *
-dtype0
+dtype0*
+_output_shapes
+: 
 
  scale_by_min_max/min_and_max/subSub"scale_by_min_max/min_and_max/sub/xinputs/activity_copy*#
 _output_shapes
@@ -490,28 +490,28 @@ n
 shape: 
 p
 /scale_by_min_max/min_and_max/amax/Placeholder_1Placeholder*
+shape: *
 dtype0*
 _output_shapes
-: *
-shape: 
+: 
 i
-$scale_by_min_max/min_and_max/sub_1/xConst*
+$scale_by_min_max/min_and_max/sub_1/xConst*
+valueB
+ *    *
 dtype0*
 _output_shapes
-: *
-valueB
- *    
+: 
 Ÿ
-"scale_by_min_max/min_and_max/sub_1Sub$scale_by_min_max/min_and_max/sub_1/x-scale_by_min_max/min_and_max/amax/Placeholder*
+"scale_by_min_max/min_and_max/sub_1Sub$scale_by_min_max/min_and_max/sub_1/x-scale_by_min_max/min_and_max/amax/Placeholder*
+T0*
 _output_shapes
-: *
-T0
+: 
 j
-scale_by_min_max/ShapeShapeinputs/activity_copy*
-_output_shapes
-:*
+scale_by_min_max/ShapeShapeinputs/activity_copy*
 T0*
-out_type0
+out_type0*
+_output_shapes
+:
 “
 scale_by_min_max/LessLess"scale_by_min_max/min_and_max/sub_1/scale_by_min_max/min_and_max/amax/Placeholder_1*
 _output_shapes
@@ -531,15 +531,15 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 “
-scale_by_min_max/sub_1Sub/scale_by_min_max/min_and_max/amax/Placeholder_1"scale_by_min_max/min_and_max/sub_1*
+scale_by_min_max/sub_1Sub/scale_by_min_max/min_and_max/amax/Placeholder_1"scale_by_min_max/min_and_max/sub_1*
+T0*
 _output_shapes
-: *
-T0
+: 
 
-scale_by_min_max/truedivRealDivscale_by_min_max/subscale_by_min_max/sub_1*
-T0*#
+scale_by_min_max/truedivRealDivscale_by_min_max/subscale_by_min_max/sub_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 b
 scale_by_min_max/Fill_1/valueConst*
 valueB
@@ -555,10 +555,10 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ™
-scale_by_min_max/SelectSelectscale_by_min_max/Fillscale_by_min_max/truedivscale_by_min_max/Fill_1*
-T0*#
+scale_by_min_max/SelectSelectscale_by_min_max/Fillscale_by_min_max/truedivscale_by_min_max/Fill_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 [
 scale_by_min_max/mul/yConst*
 valueB
@@ -572,17 +572,17 @@ z
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 [
-scale_by_min_max/add/yConst*
-_output_shapes
-: *
+scale_by_min_max/add/yConst*
 valueB
  *    *
-dtype0
+dtype0*
+_output_shapes
+: 
 w
-scale_by_min_max/addAddscale_by_min_max/mulscale_by_min_max/add/y*#
+scale_by_min_max/addAddscale_by_min_max/mulscale_by_min_max/add/y*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 i
 $scale_by_min_max_1/min_and_max/sub/xConst*
 valueB
@@ -597,34 +597,34 @@ $scale_by_min_max_1/min_and_max/sub/xConst*
 :ÿÿÿÿÿÿÿÿÿ
 p
 /scale_by_min_max_1/min_and_max/amax/PlaceholderPlaceholder*
-shape: *
 dtype0*
 _output_shapes
-: 
+: *
+shape: 
 r
 1scale_by_min_max_1/min_and_max/amax/Placeholder_1Placeholder*
-shape: *
 dtype0*
 _output_shapes
-: 
+: *
+shape: 
 k
-&scale_by_min_max_1/min_and_max/sub_1/xConst*
+&scale_by_min_max_1/min_and_max/sub_1/xConst*
+valueB
+ *    *
 dtype0*
 _output_shapes
-: *
-valueB
- *    
-¥
-$scale_by_min_max_1/min_and_max/sub_1Sub&scale_by_min_max_1/min_and_max/sub_1/x/scale_by_min_max_1/min_and_max/amax/Placeholder*
-T0*
-_output_shapes
 : 
+¥
+$scale_by_min_max_1/min_and_max/sub_1Sub&scale_by_min_max_1/min_and_max/sub_1/x/scale_by_min_max_1/min_and_max/amax/Placeholder*
+_output_shapes
+: *
+T0
 g
-scale_by_min_max_1/ShapeShapeinputs/age_copy*
+scale_by_min_max_1/ShapeShapeinputs/age_copy*
+T0*
 out_type0*
 _output_shapes
-:*
-T0
+:
 ™
 scale_by_min_max_1/LessLess$scale_by_min_max_1/min_and_max/sub_11scale_by_min_max_1/min_and_max/amax/Placeholder_1*
 T0*
@@ -639,10 +639,10 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ‚
-scale_by_min_max_1/subSubinputs/age_copy$scale_by_min_max_1/min_and_max/sub_1*#
+scale_by_min_max_1/subSubinputs/age_copy$scale_by_min_max_1/min_and_max/sub_1*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 ™
 scale_by_min_max_1/sub_1Sub1scale_by_min_max_1/min_and_max/amax/Placeholder_1$scale_by_min_max_1/min_and_max/sub_1*
 T0*
@@ -654,12 +654,12 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 d
-scale_by_min_max_1/Fill_1/valueConst*
-_output_shapes
-: *
+scale_by_min_max_1/Fill_1/valueConst*
 valueB
  *   ?*
-dtype0
+dtype0*
+_output_shapes
+: 
 œ
 scale_by_min_max_1/Fill_1Fillscale_by_min_max_1/Shapescale_by_min_max_1/Fill_1/value*
 T0*
@@ -673,17 +673,17 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ]
-scale_by_min_max_1/mul/yConst*
+scale_by_min_max_1/mul/yConst*
+_output_shapes
+: *
 valueB
  *  €?*
-dtype0*
-_output_shapes
-: 
+dtype0
 €
-scale_by_min_max_1/mulMulscale_by_min_max_1/Selectscale_by_min_max_1/mul/y*#
+scale_by_min_max_1/mulMulscale_by_min_max_1/Selectscale_by_min_max_1/mul/y*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 ]
 scale_by_min_max_1/add/yConst*
 valueB
@@ -692,10 +692,10 @@ index_type0*#
 _output_shapes
 : 
 }
-scale_by_min_max_1/addAddscale_by_min_max_1/mulscale_by_min_max_1/add/y*
-T0*#
+scale_by_min_max_1/addAddscale_by_min_max_1/mulscale_by_min_max_1/add/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 i
 $scale_by_min_max_2/min_and_max/sub/xConst*
 valueB
@@ -709,29 +709,29 @@ $scale_by_min_max_2/min_and_max/sub/xConst*
 :ÿÿÿÿÿÿÿÿÿ*
 T0
 p
-/scale_by_min_max_2/min_and_max/amax/PlaceholderPlaceholder*
-_output_shapes
-: *
-shape: *
-dtype0
-r
-1scale_by_min_max_2/min_and_max/amax/Placeholder_1Placeholder*
+/scale_by_min_max_2/min_and_max/amax/PlaceholderPlaceholder*
 dtype0*
 _output_shapes
 : *
 shape: 
-k
-&scale_by_min_max_2/min_and_max/sub_1/xConst*
-valueB
- *    *
+r
+1scale_by_min_max_2/min_and_max/amax/Placeholder_1Placeholder*
+shape: *
 dtype0*
 _output_shapes
 : 
-¥
-$scale_by_min_max_2/min_and_max/sub_1Sub&scale_by_min_max_2/min_and_max/sub_1/x/scale_by_min_max_2/min_and_max/amax/Placeholder*
+k
+&scale_by_min_max_2/min_and_max/sub_1/xConst*
+dtype0*
 _output_shapes
-: *
-T0
+: *
+valueB
+ *    
+¥
+$scale_by_min_max_2/min_and_max/sub_1Sub&scale_by_min_max_2/min_and_max/sub_1/x/scale_by_min_max_2/min_and_max/amax/Placeholder*
+T0*
+_output_shapes
+: 
 l
 scale_by_min_max_2/ShapeShapeinputs/artistic_copy*
 T0*
@@ -739,28 +739,28 @@ l
 _output_shapes
 :
 ™
-scale_by_min_max_2/LessLess$scale_by_min_max_2/min_and_max/sub_11scale_by_min_max_2/min_and_max/amax/Placeholder_1*
-T0*
+scale_by_min_max_2/LessLess$scale_by_min_max_2/min_and_max/sub_11scale_by_min_max_2/min_and_max/amax/Placeholder_1*
 _output_shapes
-: 
+: *
+T0
 ’
-scale_by_min_max_2/FillFillscale_by_min_max_2/Shapescale_by_min_max_2/Less*
-T0
-*
+scale_by_min_max_2/FillFillscale_by_min_max_2/Shapescale_by_min_max_2/Less*
 
 index_type0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
+
 ‡
 scale_by_min_max_2/subSubinputs/artistic_copy$scale_by_min_max_2/min_and_max/sub_1*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
 T0
 ™
-scale_by_min_max_2/sub_1Sub1scale_by_min_max_2/min_and_max/amax/Placeholder_1$scale_by_min_max_2/min_and_max/sub_1*
-T0*
+scale_by_min_max_2/sub_1Sub1scale_by_min_max_2/min_and_max/amax/Placeholder_1$scale_by_min_max_2/min_and_max/sub_1*
 _output_shapes
-: 
+: *
+T0
 …
 scale_by_min_max_2/truedivRealDivscale_by_min_max_2/subscale_by_min_max_2/sub_1*
 T0*#
@@ -774,12 +774,12 @@ d
 _output_shapes
 : 
 œ
-scale_by_min_max_2/Fill_1Fillscale_by_min_max_2/Shapescale_by_min_max_2/Fill_1/value*
+scale_by_min_max_2/Fill_1Fillscale_by_min_max_2/Shapescale_by_min_max_2/Fill_1/value*
+T0*
 
 index_type0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 ¡
 scale_by_min_max_2/SelectSelectscale_by_min_max_2/Fillscale_by_min_max_2/truedivscale_by_min_max_2/Fill_1*
 T0*#
@@ -793,17 +793,17 @@ index_type0*#
 _output_shapes
 : 
 €
-scale_by_min_max_2/mulMulscale_by_min_max_2/Selectscale_by_min_max_2/mul/y*
-T0*#
+scale_by_min_max_2/mulMulscale_by_min_max_2/Selectscale_by_min_max_2/mul/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 ]
-scale_by_min_max_2/add/yConst*
+scale_by_min_max_2/add/yConst*
+valueB
+ *    *
 dtype0*
 _output_shapes
-: *
-valueB
- *    
+: 
 }
 scale_by_min_max_2/addAddscale_by_min_max_2/mulscale_by_min_max_2/add/y*
 T0*#
@@ -817,10 +817,10 @@ $scale_by_min_max_3/min_and_max/sub/xConst*
 _output_shapes
 : 
 ˜
-"scale_by_min_max_3/min_and_max/subSub$scale_by_min_max_3/min_and_max/sub/xinputs/concentration_copy*
-T0*#
+"scale_by_min_max_3/min_and_max/subSub$scale_by_min_max_3/min_and_max/sub/xinputs/concentration_copy*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 p
 /scale_by_min_max_3/min_and_max/amax/PlaceholderPlaceholder*
 dtype0*
@@ -834,12 +834,12 @@ r
 : *
 shape: 
 k
-&scale_by_min_max_3/min_and_max/sub_1/xConst*
+&scale_by_min_max_3/min_and_max/sub_1/xConst*
+valueB
+ *    *
 dtype0*
 _output_shapes
-: *
-valueB
- *    
+: 
 ¥
 $scale_by_min_max_3/min_and_max/sub_1Sub&scale_by_min_max_3/min_and_max/sub_1/x/scale_by_min_max_3/min_and_max/amax/Placeholder*
 T0*
@@ -857,18 +857,18 @@ q
 : *
 T0
 ’
-scale_by_min_max_3/FillFillscale_by_min_max_3/Shapescale_by_min_max_3/Less*
-T0
-*
+scale_by_min_max_3/FillFillscale_by_min_max_3/Shapescale_by_min_max_3/Less*
 
 index_type0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-Œ
-scale_by_min_max_3/subSubinputs/concentration_copy$scale_by_min_max_3/min_and_max/sub_1*#
-_output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
-T0
+T0
+
+Œ
+scale_by_min_max_3/subSubinputs/concentration_copy$scale_by_min_max_3/min_and_max/sub_1*
+T0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ
 ™
 scale_by_min_max_3/sub_1Sub1scale_by_min_max_3/min_and_max/amax/Placeholder_1$scale_by_min_max_3/min_and_max/sub_1*
 T0*
@@ -899,12 +899,12 @@ index_type0
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ]
-scale_by_min_max_3/mul/yConst*
-valueB
- *  €?*
+scale_by_min_max_3/mul/yConst*
 dtype0*
 _output_shapes
-: 
+: *
+valueB
+ *  €?
 €
 scale_by_min_max_3/mulMulscale_by_min_max_3/Selectscale_by_min_max_3/mul/y*#
 _output_shapes
@@ -936,47 +936,47 @@ $scale_by_min_max_4/min_and_max/sub/xConst*
 :ÿÿÿÿÿÿÿÿÿ
 p
 /scale_by_min_max_4/min_and_max/amax/PlaceholderPlaceholder*
+shape: *
 dtype0*
 _output_shapes
-: *
-shape: 
+: 
 r
 1scale_by_min_max_4/min_and_max/amax/Placeholder_1Placeholder*
+shape: *
 dtype0*
 _output_shapes
-: *
-shape: 
+: 
 k
-&scale_by_min_max_4/min_and_max/sub_1/xConst*
+&scale_by_min_max_4/min_and_max/sub_1/xConst*
+_output_shapes
+: *
 valueB
  *    *
-dtype0*
-_output_shapes
-: 
+dtype0
 ¥
-$scale_by_min_max_4/min_and_max/sub_1Sub&scale_by_min_max_4/min_and_max/sub_1/x/scale_by_min_max_4/min_and_max/amax/Placeholder*
-T0*
+$scale_by_min_max_4/min_and_max/sub_1Sub&scale_by_min_max_4/min_and_max/sub_1/x/scale_by_min_max_4/min_and_max/amax/Placeholder*
 _output_shapes
-: 
+: *
+T0
 n
-scale_by_min_max_4/ShapeShapeinputs/engagement_copy*
-_output_shapes
-:*
+scale_by_min_max_4/ShapeShapeinputs/engagement_copy*
 T0*
-out_type0
+out_type0*
+_output_shapes
+:
 ™
-scale_by_min_max_4/LessLess$scale_by_min_max_4/min_and_max/sub_11scale_by_min_max_4/min_and_max/amax/Placeholder_1*
-T0*
+scale_by_min_max_4/LessLess$scale_by_min_max_4/min_and_max/sub_11scale_by_min_max_4/min_and_max/amax/Placeholder_1*
 _output_shapes
-: 
+: *
+T0
 ’
-scale_by_min_max_4/FillFillscale_by_min_max_4/Shapescale_by_min_max_4/Less*
+scale_by_min_max_4/FillFillscale_by_min_max_4/Shapescale_by_min_max_4/Less*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
 T0
 *
 
-index_type0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+index_type0
 ‰
 scale_by_min_max_4/subSubinputs/engagement_copy$scale_by_min_max_4/min_and_max/sub_1*
 T0*#
@@ -1007,10 +1007,10 @@ d
 
 index_type0
 ¡
-scale_by_min_max_4/SelectSelectscale_by_min_max_4/Fillscale_by_min_max_4/truedivscale_by_min_max_4/Fill_1*#
+scale_by_min_max_4/SelectSelectscale_by_min_max_4/Fillscale_by_min_max_4/truedivscale_by_min_max_4/Fill_1*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 ]
 scale_by_min_max_4/mul/yConst*
 valueB
@@ -1031,28 +1031,28 @@ index_type0
 valueB
  *    
 }
-scale_by_min_max_4/addAddscale_by_min_max_4/mulscale_by_min_max_4/add/y*#
+scale_by_min_max_4/addAddscale_by_min_max_4/mulscale_by_min_max_4/add/y*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 i
-$scale_by_min_max_5/min_and_max/sub/xConst*
+$scale_by_min_max_5/min_and_max/sub/xConst*
+valueB
+ *    *
 dtype0*
 _output_shapes
-: *
-valueB
- *    
+: 
 –
 "scale_by_min_max_5/min_and_max/subSub$scale_by_min_max_5/min_and_max/sub/xinputs/familiarity_copy*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 p
-/scale_by_min_max_5/min_and_max/amax/PlaceholderPlaceholder*
-shape: *
-dtype0*
+/scale_by_min_max_5/min_and_max/amax/PlaceholderPlaceholder*
 _output_shapes
-: 
+: *
+shape: *
+dtype0
 r
 1scale_by_min_max_5/min_and_max/amax/Placeholder_1Placeholder*
 dtype0*
@@ -1067,63 +1067,63 @@ k
 _output_shapes
 : 
 ¥
-$scale_by_min_max_5/min_and_max/sub_1Sub&scale_by_min_max_5/min_and_max/sub_1/x/scale_by_min_max_5/min_and_max/amax/Placeholder*
+$scale_by_min_max_5/min_and_max/sub_1Sub&scale_by_min_max_5/min_and_max/sub_1/x/scale_by_min_max_5/min_and_max/amax/Placeholder*
+T0*
 _output_shapes
-: *
-T0
+: 
 o
-scale_by_min_max_5/ShapeShapeinputs/familiarity_copy*
-_output_shapes
-:*
+scale_by_min_max_5/ShapeShapeinputs/familiarity_copy*
 T0*
-out_type0
+out_type0*
+_output_shapes
+:
 ™
 scale_by_min_max_5/LessLess$scale_by_min_max_5/min_and_max/sub_11scale_by_min_max_5/min_and_max/amax/Placeholder_1*
 T0*
 _output_shapes
 : 
 ’
-scale_by_min_max_5/FillFillscale_by_min_max_5/Shapescale_by_min_max_5/Less*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
+scale_by_min_max_5/FillFillscale_by_min_max_5/Shapescale_by_min_max_5/Less*
 T0
 *
 
-index_type0
+index_type0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ
 Š
 scale_by_min_max_5/subSubinputs/familiarity_copy$scale_by_min_max_5/min_and_max/sub_1*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ™
-scale_by_min_max_5/sub_1Sub1scale_by_min_max_5/min_and_max/amax/Placeholder_1$scale_by_min_max_5/min_and_max/sub_1*
+scale_by_min_max_5/sub_1Sub1scale_by_min_max_5/min_and_max/amax/Placeholder_1$scale_by_min_max_5/min_and_max/sub_1*
+T0*
 _output_shapes
-: *
-T0
+: 
 …
 scale_by_min_max_5/truedivRealDivscale_by_min_max_5/subscale_by_min_max_5/sub_1*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 d
-scale_by_min_max_5/Fill_1/valueConst*
-_output_shapes
-: *
+scale_by_min_max_5/Fill_1/valueConst*
 valueB
  *   ?*
-dtype0
+dtype0*
+_output_shapes
+: 
 œ
-scale_by_min_max_5/Fill_1Fillscale_by_min_max_5/Shapescale_by_min_max_5/Fill_1/value*#
+scale_by_min_max_5/Fill_1Fillscale_by_min_max_5/Shapescale_by_min_max_5/Fill_1/value*
+
+index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
-T0*
-
-index_type0
+T0
 ¡
-scale_by_min_max_5/SelectSelectscale_by_min_max_5/Fillscale_by_min_max_5/truedivscale_by_min_max_5/Fill_1*
-T0*#
+scale_by_min_max_5/SelectSelectscale_by_min_max_5/Fillscale_by_min_max_5/truedivscale_by_min_max_5/Fill_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 ]
 scale_by_min_max_5/mul/yConst*
 valueB
@@ -1137,17 +1137,17 @@ index_type0
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ]
-scale_by_min_max_5/add/yConst*
+scale_by_min_max_5/add/yConst*
+valueB
+ *    *
 dtype0*
 _output_shapes
-: *
-valueB
- *    
+: 
 }
-scale_by_min_max_5/addAddscale_by_min_max_5/mulscale_by_min_max_5/add/y*
-T0*#
+scale_by_min_max_5/addAddscale_by_min_max_5/mulscale_by_min_max_5/add/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 i
 $scale_by_min_max_6/min_and_max/sub/xConst*
 valueB
@@ -1162,10 +1162,10 @@ $scale_by_min_max_6/min_and_max/sub/xConst*
 T0
 p
 /scale_by_min_max_6/min_and_max/amax/PlaceholderPlaceholder*
-shape: *
 dtype0*
 _output_shapes
-: 
+: *
+shape: 
 r
 1scale_by_min_max_6/min_and_max/amax/Placeholder_1Placeholder*
 dtype0*
@@ -1214,10 +1214,10 @@ index_type0*#
 _output_shapes
 : 
 …
-scale_by_min_max_6/truedivRealDivscale_by_min_max_6/subscale_by_min_max_6/sub_1*#
+scale_by_min_max_6/truedivRealDivscale_by_min_max_6/subscale_by_min_max_6/sub_1*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 d
 scale_by_min_max_6/Fill_1/valueConst*
 valueB
@@ -1238,12 +1238,12 @@ index_type0*#
 :ÿÿÿÿÿÿÿÿÿ*
 T0
 ]
-scale_by_min_max_6/mul/yConst*
+scale_by_min_max_6/mul/yConst*
+valueB
+ *  €?*
 dtype0*
 _output_shapes
-: *
-valueB
- *  €?
+: 
 €
 scale_by_min_max_6/mulMulscale_by_min_max_6/Selectscale_by_min_max_6/mul/y*
 T0*#
@@ -1262,12 +1262,12 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 i
-$scale_by_min_max_7/min_and_max/sub/xConst*
+$scale_by_min_max_7/min_and_max/sub/xConst*
+dtype0*
 _output_shapes
 : *
 valueB
- *    *
-dtype0
+ *    
 –
 "scale_by_min_max_7/min_and_max/subSub$scale_by_min_max_7/min_and_max/sub/xinputs/imagination_copy*#
 _output_shapes
@@ -1275,39 +1275,39 @@ $scale_by_min_max_7/min_and_max/sub/xConst*
 T0
 p
 /scale_by_min_max_7/min_and_max/amax/PlaceholderPlaceholder*
+shape: *
 dtype0*
 _output_shapes
-: *
-shape: 
+: 
 r
-1scale_by_min_max_7/min_and_max/amax/Placeholder_1Placeholder*
-_output_shapes
-: *
+1scale_by_min_max_7/min_and_max/amax/Placeholder_1Placeholder*
 shape: *
-dtype0
+dtype0*
+_output_shapes
+: 
 k
-&scale_by_min_max_7/min_and_max/sub_1/xConst*
+&scale_by_min_max_7/min_and_max/sub_1/xConst*
+_output_shapes
+: *
 valueB
  *    *
-dtype0*
-_output_shapes
-: 
+dtype0
 ¥
-$scale_by_min_max_7/min_and_max/sub_1Sub&scale_by_min_max_7/min_and_max/sub_1/x/scale_by_min_max_7/min_and_max/amax/Placeholder*
-T0*
+$scale_by_min_max_7/min_and_max/sub_1Sub&scale_by_min_max_7/min_and_max/sub_1/x/scale_by_min_max_7/min_and_max/amax/Placeholder*
 _output_shapes
-: 
+: *
+T0
 o
-scale_by_min_max_7/ShapeShapeinputs/imagination_copy*
+scale_by_min_max_7/ShapeShapeinputs/imagination_copy*
+T0*
 out_type0*
 _output_shapes
-:*
-T0
+:
 ™
-scale_by_min_max_7/LessLess$scale_by_min_max_7/min_and_max/sub_11scale_by_min_max_7/min_and_max/amax/Placeholder_1*
-T0*
+scale_by_min_max_7/LessLess$scale_by_min_max_7/min_and_max/sub_11scale_by_min_max_7/min_and_max/amax/Placeholder_1*
 _output_shapes
-: 
+: *
+T0
 ’
 scale_by_min_max_7/FillFillscale_by_min_max_7/Shapescale_by_min_max_7/Less*
 T0
@@ -1322,22 +1322,22 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ™
-scale_by_min_max_7/sub_1Sub1scale_by_min_max_7/min_and_max/amax/Placeholder_1$scale_by_min_max_7/min_and_max/sub_1*
+scale_by_min_max_7/sub_1Sub1scale_by_min_max_7/min_and_max/amax/Placeholder_1$scale_by_min_max_7/min_and_max/sub_1*
+T0*
 _output_shapes
-: *
-T0
+: 
 …
 scale_by_min_max_7/truedivRealDivscale_by_min_max_7/subscale_by_min_max_7/sub_1*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 d
-scale_by_min_max_7/Fill_1/valueConst*
-_output_shapes
-: *
+scale_by_min_max_7/Fill_1/valueConst*
 valueB
  *   ?*
-dtype0
+dtype0*
+_output_shapes
+: 
 œ
 scale_by_min_max_7/Fill_1Fillscale_by_min_max_7/Shapescale_by_min_max_7/Fill_1/value*
 T0*
@@ -1351,12 +1351,12 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ]
-scale_by_min_max_7/mul/yConst*
+scale_by_min_max_7/mul/yConst*
+valueB
+ *  €?*
 dtype0*
 _output_shapes
-: *
-valueB
- *  €?
+: 
 €
 scale_by_min_max_7/mulMulscale_by_min_max_7/Selectscale_by_min_max_7/mul/y*
 T0*#
@@ -1370,10 +1370,10 @@ index_type0*#
 _output_shapes
 : 
 }
-scale_by_min_max_7/addAddscale_by_min_max_7/mulscale_by_min_max_7/add/y*
-T0*#
+scale_by_min_max_7/addAddscale_by_min_max_7/mulscale_by_min_max_7/add/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 i
 $scale_by_min_max_8/min_and_max/sub/xConst*
 _output_shapes
@@ -1382,16 +1382,16 @@ $scale_by_min_max_8/min_and_max/sub/xConst*
  *    *
 dtype0
 
-"scale_by_min_max_8/min_and_max/subSub$scale_by_min_max_8/min_and_max/sub/xinputs/lazy_copy*
-T0*#
+"scale_by_min_max_8/min_and_max/subSub$scale_by_min_max_8/min_and_max/sub/xinputs/lazy_copy*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 p
 /scale_by_min_max_8/min_and_max/amax/PlaceholderPlaceholder*
-shape: *
 dtype0*
 _output_shapes
-: 
+: *
+shape: 
 r
 1scale_by_min_max_8/min_and_max/amax/Placeholder_1Placeholder*
 dtype0*
@@ -1411,16 +1411,16 @@ $scale_by_min_max_8/min_and_max/sub_1Sub&scale_by_min_max_8/min_and_max/sub_1
 _output_shapes
 : 
 h
-scale_by_min_max_8/ShapeShapeinputs/lazy_copy*
+scale_by_min_max_8/ShapeShapeinputs/lazy_copy*
+T0*
 out_type0*
 _output_shapes
-:*
-T0
+:
 ™
-scale_by_min_max_8/LessLess$scale_by_min_max_8/min_and_max/sub_11scale_by_min_max_8/min_and_max/amax/Placeholder_1*
-T0*
+scale_by_min_max_8/LessLess$scale_by_min_max_8/min_and_max/sub_11scale_by_min_max_8/min_and_max/amax/Placeholder_1*
 _output_shapes
-: 
+: *
+T0
 ’
 scale_by_min_max_8/FillFillscale_by_min_max_8/Shapescale_by_min_max_8/Less*
 T0
@@ -1445,24 +1445,24 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 d
-scale_by_min_max_8/Fill_1/valueConst*
+scale_by_min_max_8/Fill_1/valueConst*
+_output_shapes
+: *
 valueB
  *   ?*
-dtype0*
-_output_shapes
-: 
+dtype0
 œ
-scale_by_min_max_8/Fill_1Fillscale_by_min_max_8/Shapescale_by_min_max_8/Fill_1/value*#
+scale_by_min_max_8/Fill_1Fillscale_by_min_max_8/Shapescale_by_min_max_8/Fill_1/value*
+
+index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
-T0*
-
-index_type0
+T0
 ¡
-scale_by_min_max_8/SelectSelectscale_by_min_max_8/Fillscale_by_min_max_8/truedivscale_by_min_max_8/Fill_1*
-T0*#
+scale_by_min_max_8/SelectSelectscale_by_min_max_8/Fillscale_by_min_max_8/truedivscale_by_min_max_8/Fill_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 ]
 scale_by_min_max_8/mul/yConst*
 valueB
@@ -1483,10 +1483,10 @@ index_type0
 _output_shapes
 : 
 }
-scale_by_min_max_8/addAddscale_by_min_max_8/mulscale_by_min_max_8/add/y*
-T0*#
+scale_by_min_max_8/addAddscale_by_min_max_8/mulscale_by_min_max_8/add/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 i
 $scale_by_min_max_9/min_and_max/sub/xConst*
 valueB
@@ -1495,10 +1495,10 @@ $scale_by_min_max_9/min_and_max/sub/xConst*
 _output_shapes
 : 
 —
-"scale_by_min_max_9/min_and_max/subSub$scale_by_min_max_9/min_and_max/sub/xinputs/like_dislike_copy*#
+"scale_by_min_max_9/min_and_max/subSub$scale_by_min_max_9/min_and_max/sub/xinputs/like_dislike_copy*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 p
 /scale_by_min_max_9/min_and_max/amax/PlaceholderPlaceholder*
 shape: *
@@ -1507,10 +1507,10 @@ p
 : 
 r
 1scale_by_min_max_9/min_and_max/amax/Placeholder_1Placeholder*
+shape: *
 dtype0*
 _output_shapes
-: *
-shape: 
+: 
 k
 &scale_by_min_max_9/min_and_max/sub_1/xConst*
 valueB
@@ -1519,10 +1519,10 @@ k
 _output_shapes
 : 
 ¥
-$scale_by_min_max_9/min_and_max/sub_1Sub&scale_by_min_max_9/min_and_max/sub_1/x/scale_by_min_max_9/min_and_max/amax/Placeholder*
+$scale_by_min_max_9/min_and_max/sub_1Sub&scale_by_min_max_9/min_and_max/sub_1/x/scale_by_min_max_9/min_and_max/amax/Placeholder*
+T0*
 _output_shapes
-: *
-T0
+: 
 p
 scale_by_min_max_9/ShapeShapeinputs/like_dislike_copy*
 out_type0*
@@ -1530,10 +1530,10 @@ p
 :*
 T0
 ™
-scale_by_min_max_9/LessLess$scale_by_min_max_9/min_and_max/sub_11scale_by_min_max_9/min_and_max/amax/Placeholder_1*
-T0*
+scale_by_min_max_9/LessLess$scale_by_min_max_9/min_and_max/sub_11scale_by_min_max_9/min_and_max/amax/Placeholder_1*
 _output_shapes
-: 
+: *
+T0
 ’
 scale_by_min_max_9/FillFillscale_by_min_max_9/Shapescale_by_min_max_9/Less*
 T0
@@ -1548,15 +1548,15 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ™
-scale_by_min_max_9/sub_1Sub1scale_by_min_max_9/min_and_max/amax/Placeholder_1$scale_by_min_max_9/min_and_max/sub_1*
-T0*
+scale_by_min_max_9/sub_1Sub1scale_by_min_max_9/min_and_max/amax/Placeholder_1$scale_by_min_max_9/min_and_max/sub_1*
 _output_shapes
-: 
+: *
+T0
 …
-scale_by_min_max_9/truedivRealDivscale_by_min_max_9/subscale_by_min_max_9/sub_1*
-T0*#
+scale_by_min_max_9/truedivRealDivscale_by_min_max_9/subscale_by_min_max_9/sub_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 d
 scale_by_min_max_9/Fill_1/valueConst*
 valueB
@@ -1572,10 +1572,10 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ¡
-scale_by_min_max_9/SelectSelectscale_by_min_max_9/Fillscale_by_min_max_9/truedivscale_by_min_max_9/Fill_1*
-T0*#
+scale_by_min_max_9/SelectSelectscale_by_min_max_9/Fillscale_by_min_max_9/truedivscale_by_min_max_9/Fill_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 ]
 scale_by_min_max_9/mul/yConst*
 dtype0*
@@ -1596,17 +1596,17 @@ index_type0*#
 _output_shapes
 : 
 }
-scale_by_min_max_9/addAddscale_by_min_max_9/mulscale_by_min_max_9/add/y*
-T0*#
+scale_by_min_max_9/addAddscale_by_min_max_9/mulscale_by_min_max_9/add/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 j
-%scale_by_min_max_10/min_and_max/sub/xConst*
+%scale_by_min_max_10/min_and_max/sub/xConst*
+_output_shapes
+: *
 valueB
  *    *
-dtype0*
-_output_shapes
-: 
+dtype0
 
 #scale_by_min_max_10/min_and_max/subSub%scale_by_min_max_10/min_and_max/sub/xinputs/musical_expertise_copy*
 T0*#
@@ -1619,42 +1619,42 @@ q
 shape: *
 dtype0
 s
-2scale_by_min_max_10/min_and_max/amax/Placeholder_1Placeholder*
-dtype0*
+2scale_by_min_max_10/min_and_max/amax/Placeholder_1Placeholder*
 _output_shapes
 : *
-shape: 
+shape: *
+dtype0
 l
-'scale_by_min_max_10/min_and_max/sub_1/xConst*
-_output_shapes
-: *
+'scale_by_min_max_10/min_and_max/sub_1/xConst*
 valueB
  *    *
-dtype0
-¨
-%scale_by_min_max_10/min_and_max/sub_1Sub'scale_by_min_max_10/min_and_max/sub_1/x0scale_by_min_max_10/min_and_max/amax/Placeholder*
-T0*
+dtype0*
 _output_shapes
 : 
+¨
+%scale_by_min_max_10/min_and_max/sub_1Sub'scale_by_min_max_10/min_and_max/sub_1/x0scale_by_min_max_10/min_and_max/amax/Placeholder*
+_output_shapes
+: *
+T0
 v
-scale_by_min_max_10/ShapeShapeinputs/musical_expertise_copy*
-T0*
-out_type0*
+scale_by_min_max_10/ShapeShapeinputs/musical_expertise_copy*
 _output_shapes
-:
+:*
+T0*
+out_type0
 œ
 scale_by_min_max_10/LessLess%scale_by_min_max_10/min_and_max/sub_12scale_by_min_max_10/min_and_max/amax/Placeholder_1*
 T0*
 _output_shapes
 : 
 •
-scale_by_min_max_10/FillFillscale_by_min_max_10/Shapescale_by_min_max_10/Less*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
+scale_by_min_max_10/FillFillscale_by_min_max_10/Shapescale_by_min_max_10/Less*
 T0
 *
 
-index_type0
+index_type0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ
 ’
 scale_by_min_max_10/subSubinputs/musical_expertise_copy%scale_by_min_max_10/min_and_max/sub_1*
 T0*#
@@ -1666,10 +1666,10 @@ index_type0
 : *
 T0
 ˆ
-scale_by_min_max_10/truedivRealDivscale_by_min_max_10/subscale_by_min_max_10/sub_1*#
+scale_by_min_max_10/truedivRealDivscale_by_min_max_10/subscale_by_min_max_10/sub_1*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 e
  scale_by_min_max_10/Fill_1/valueConst*
 valueB
@@ -1678,12 +1678,12 @@ e
 _output_shapes
 : 
 Ÿ
-scale_by_min_max_10/Fill_1Fillscale_by_min_max_10/Shape scale_by_min_max_10/Fill_1/value*
+scale_by_min_max_10/Fill_1Fillscale_by_min_max_10/Shape scale_by_min_max_10/Fill_1/value*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
 T0*
 
-index_type0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+index_type0
 ¥
 scale_by_min_max_10/SelectSelectscale_by_min_max_10/Fillscale_by_min_max_10/truedivscale_by_min_max_10/Fill_1*
 T0*#
@@ -1702,12 +1702,12 @@ index_type0*#
 :ÿÿÿÿÿÿÿÿÿ*
 T0
 ^
-scale_by_min_max_10/add/yConst*
-valueB
- *    *
+scale_by_min_max_10/add/yConst*
 dtype0*
 _output_shapes
-: 
+: *
+valueB
+ *    
 €
 scale_by_min_max_10/addAddscale_by_min_max_10/mulscale_by_min_max_10/add/y*#
 _output_shapes
@@ -1738,28 +1738,28 @@ s
 : *
 shape: 
 l
-'scale_by_min_max_11/min_and_max/sub_1/xConst*
+'scale_by_min_max_11/min_and_max/sub_1/xConst*
+dtype0*
 _output_shapes
 : *
 valueB
- *    *
-dtype0
+ *    
 ¨
-%scale_by_min_max_11/min_and_max/sub_1Sub'scale_by_min_max_11/min_and_max/sub_1/x0scale_by_min_max_11/min_and_max/amax/Placeholder*
-T0*
-_output_shapes
-: 
-l
-scale_by_min_max_11/ShapeShapeinputs/nervous_copy*
-_output_shapes
-:*
-T0*
-out_type0
-œ
-scale_by_min_max_11/LessLess%scale_by_min_max_11/min_and_max/sub_12scale_by_min_max_11/min_and_max/amax/Placeholder_1*
+%scale_by_min_max_11/min_and_max/sub_1Sub'scale_by_min_max_11/min_and_max/sub_1/x0scale_by_min_max_11/min_and_max/amax/Placeholder*
 _output_shapes
 : *
 T0
+l
+scale_by_min_max_11/ShapeShapeinputs/nervous_copy*
+T0*
+out_type0*
+_output_shapes
+:
+œ
+scale_by_min_max_11/LessLess%scale_by_min_max_11/min_and_max/sub_12scale_by_min_max_11/min_and_max/amax/Placeholder_1*
+T0*
+_output_shapes
+: 
 •
 scale_by_min_max_11/FillFillscale_by_min_max_11/Shapescale_by_min_max_11/Less*
 T0
@@ -1774,22 +1774,22 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 œ
-scale_by_min_max_11/sub_1Sub2scale_by_min_max_11/min_and_max/amax/Placeholder_1%scale_by_min_max_11/min_and_max/sub_1*
-T0*
+scale_by_min_max_11/sub_1Sub2scale_by_min_max_11/min_and_max/amax/Placeholder_1%scale_by_min_max_11/min_and_max/sub_1*
 _output_shapes
-: 
+: *
+T0
 ˆ
-scale_by_min_max_11/truedivRealDivscale_by_min_max_11/subscale_by_min_max_11/sub_1*
-T0*#
+scale_by_min_max_11/truedivRealDivscale_by_min_max_11/subscale_by_min_max_11/sub_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 e
- scale_by_min_max_11/Fill_1/valueConst*
+ scale_by_min_max_11/Fill_1/valueConst*
+valueB
+ *   ?*
 dtype0*
 _output_shapes
-: *
-valueB
- *   ?
+: 
 Ÿ
 scale_by_min_max_11/Fill_1Fillscale_by_min_max_11/Shape scale_by_min_max_11/Fill_1/value*#
 _output_shapes
@@ -1803,17 +1803,17 @@ index_type0
 :ÿÿÿÿÿÿÿÿÿ*
 T0
 ^
-scale_by_min_max_11/mul/yConst*
-valueB
- *  €?*
+scale_by_min_max_11/mul/yConst*
 dtype0*
 _output_shapes
-: 
+: *
+valueB
+ *  €?
 ƒ
-scale_by_min_max_11/mulMulscale_by_min_max_11/Selectscale_by_min_max_11/mul/y*
-T0*#
+scale_by_min_max_11/mulMulscale_by_min_max_11/Selectscale_by_min_max_11/mul/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 ^
 scale_by_min_max_11/add/yConst*
 valueB
@@ -1827,12 +1827,12 @@ index_type0
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 j
-%scale_by_min_max_12/min_and_max/sub/xConst*
-valueB
- *    *
+%scale_by_min_max_12/min_and_max/sub/xConst*
 dtype0*
 _output_shapes
-: 
+: *
+valueB
+ *    
 •
 #scale_by_min_max_12/min_and_max/subSub%scale_by_min_max_12/min_and_max/sub/xinputs/outgoing_copy*
 T0*#
@@ -1846,10 +1846,10 @@ q
 shape: 
 s
 2scale_by_min_max_12/min_and_max/amax/Placeholder_1Placeholder*
+shape: *
 dtype0*
 _output_shapes
-: *
-shape: 
+: 
 l
 'scale_by_min_max_12/min_and_max/sub_1/xConst*
 valueB
@@ -1863,16 +1863,16 @@ l
 _output_shapes
 : 
 m
-scale_by_min_max_12/ShapeShapeinputs/outgoing_copy*
-_output_shapes
-:*
+scale_by_min_max_12/ShapeShapeinputs/outgoing_copy*
 T0*
-out_type0
+out_type0*
+_output_shapes
+:
 œ
-scale_by_min_max_12/LessLess%scale_by_min_max_12/min_and_max/sub_12scale_by_min_max_12/min_and_max/amax/Placeholder_1*
+scale_by_min_max_12/LessLess%scale_by_min_max_12/min_and_max/sub_12scale_by_min_max_12/min_and_max/amax/Placeholder_1*
+T0*
 _output_shapes
-: *
-T0
+: 
 •
 scale_by_min_max_12/FillFillscale_by_min_max_12/Shapescale_by_min_max_12/Less*
 T0
@@ -1882,39 +1882,39 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ‰
-scale_by_min_max_12/subSubinputs/outgoing_copy%scale_by_min_max_12/min_and_max/sub_1*
-T0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-œ
-scale_by_min_max_12/sub_1Sub2scale_by_min_max_12/min_and_max/amax/Placeholder_1%scale_by_min_max_12/min_and_max/sub_1*
-T0*
-_output_shapes
-: 
-ˆ
-scale_by_min_max_12/truedivRealDivscale_by_min_max_12/subscale_by_min_max_12/sub_1*
-T0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-e
- scale_by_min_max_12/Fill_1/valueConst*
-_output_shapes
-: *
-valueB
- *   ?*
-dtype0
-Ÿ
-scale_by_min_max_12/Fill_1Fillscale_by_min_max_12/Shape scale_by_min_max_12/Fill_1/value*#
+scale_by_min_max_12/subSubinputs/outgoing_copy%scale_by_min_max_12/min_and_max/sub_1*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
+T0
+œ
+scale_by_min_max_12/sub_1Sub2scale_by_min_max_12/min_and_max/amax/Placeholder_1%scale_by_min_max_12/min_and_max/sub_1*
+_output_shapes
+: *
+T0
+ˆ
+scale_by_min_max_12/truedivRealDivscale_by_min_max_12/subscale_by_min_max_12/sub_1*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+T0
+e
+ scale_by_min_max_12/Fill_1/valueConst*
+valueB
+ *   ?*
+dtype0*
+_output_shapes
+: 
+Ÿ
+scale_by_min_max_12/Fill_1Fillscale_by_min_max_12/Shape scale_by_min_max_12/Fill_1/value*
 T0*
 
-index_type0
-¥
-scale_by_min_max_12/SelectSelectscale_by_min_max_12/Fillscale_by_min_max_12/truedivscale_by_min_max_12/Fill_1*
-T0*#
+index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
+¥
+scale_by_min_max_12/SelectSelectscale_by_min_max_12/Fillscale_by_min_max_12/truedivscale_by_min_max_12/Fill_1*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 ^
 scale_by_min_max_12/mul/yConst*
 valueB
@@ -1928,17 +1928,17 @@ index_type0
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ^
-scale_by_min_max_12/add/yConst*
-_output_shapes
-: *
+scale_by_min_max_12/add/yConst*
 valueB
  *    *
-dtype0
+dtype0*
+_output_shapes
+: 
 €
-scale_by_min_max_12/addAddscale_by_min_max_12/mulscale_by_min_max_12/add/y*
-T0*#
+scale_by_min_max_12/addAddscale_by_min_max_12/mulscale_by_min_max_12/add/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 j
 %scale_by_min_max_13/min_and_max/sub/xConst*
 valueB
@@ -1959,10 +1959,10 @@ q
 shape: 
 s
 2scale_by_min_max_13/min_and_max/amax/Placeholder_1Placeholder*
+shape: *
 dtype0*
 _output_shapes
-: *
-shape: 
+: 
 l
 'scale_by_min_max_13/min_and_max/sub_1/xConst*
 valueB
@@ -1976,16 +1976,16 @@ l
 _output_shapes
 : 
 o
-scale_by_min_max_13/ShapeShapeinputs/positivity_copy*
-T0*
-out_type0*
+scale_by_min_max_13/ShapeShapeinputs/positivity_copy*
 _output_shapes
-:
+:*
+T0*
+out_type0
 œ
-scale_by_min_max_13/LessLess%scale_by_min_max_13/min_and_max/sub_12scale_by_min_max_13/min_and_max/amax/Placeholder_1*
-T0*
+scale_by_min_max_13/LessLess%scale_by_min_max_13/min_and_max/sub_12scale_by_min_max_13/min_and_max/amax/Placeholder_1*
 _output_shapes
-: 
+: *
+T0
 •
 scale_by_min_max_13/FillFillscale_by_min_max_13/Shapescale_by_min_max_13/Less*
 T0
@@ -1995,10 +1995,10 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ‹
-scale_by_min_max_13/subSubinputs/positivity_copy%scale_by_min_max_13/min_and_max/sub_1*#
+scale_by_min_max_13/subSubinputs/positivity_copy%scale_by_min_max_13/min_and_max/sub_1*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 œ
 scale_by_min_max_13/sub_1Sub2scale_by_min_max_13/min_and_max/amax/Placeholder_1%scale_by_min_max_13/min_and_max/sub_1*
 T0*
@@ -2029,53 +2029,53 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ^
-scale_by_min_max_13/mul/yConst*
+scale_by_min_max_13/mul/yConst*
+_output_shapes
+: *
 valueB
  *  €?*
-dtype0*
-_output_shapes
-: 
+dtype0
 ƒ
 scale_by_min_max_13/mulMulscale_by_min_max_13/Selectscale_by_min_max_13/mul/y*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ^
-scale_by_min_max_13/add/yConst*
-_output_shapes
-: *
-valueB
- *    *
-dtype0
-€
-scale_by_min_max_13/addAddscale_by_min_max_13/mulscale_by_min_max_13/add/y*
-T0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-j
-%scale_by_min_max_14/min_and_max/sub/xConst*
+scale_by_min_max_13/add/yConst*
 valueB
  *    *
 dtype0*
 _output_shapes
 : 
+€
+scale_by_min_max_13/addAddscale_by_min_max_13/mulscale_by_min_max_13/add/y*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
+T0
+j
+%scale_by_min_max_14/min_and_max/sub/xConst*
+_output_shapes
+: *
+valueB
+ *    *
+dtype0
 •
 #scale_by_min_max_14/min_and_max/subSub%scale_by_min_max_14/min_and_max/sub/xinputs/reserved_copy*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 q
-0scale_by_min_max_14/min_and_max/amax/PlaceholderPlaceholder*
-_output_shapes
-: *
-shape: *
-dtype0
-s
-2scale_by_min_max_14/min_and_max/amax/Placeholder_1Placeholder*
-shape: *
+0scale_by_min_max_14/min_and_max/amax/PlaceholderPlaceholder*
 dtype0*
 _output_shapes
-: 
+: *
+shape: 
+s
+2scale_by_min_max_14/min_and_max/amax/Placeholder_1Placeholder*
+dtype0*
+_output_shapes
+: *
+shape: 
 l
 'scale_by_min_max_14/min_and_max/sub_1/xConst*
 valueB
@@ -2095,28 +2095,28 @@ m
 _output_shapes
 :
 œ
-scale_by_min_max_14/LessLess%scale_by_min_max_14/min_and_max/sub_12scale_by_min_max_14/min_and_max/amax/Placeholder_1*
-T0*
+scale_by_min_max_14/LessLess%scale_by_min_max_14/min_and_max/sub_12scale_by_min_max_14/min_and_max/amax/Placeholder_1*
 _output_shapes
-: 
+: *
+T0
 •
-scale_by_min_max_14/FillFillscale_by_min_max_14/Shapescale_by_min_max_14/Less*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
+scale_by_min_max_14/FillFillscale_by_min_max_14/Shapescale_by_min_max_14/Less*
 T0
 *
 
-index_type0
+index_type0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ
 ‰
 scale_by_min_max_14/subSubinputs/reserved_copy%scale_by_min_max_14/min_and_max/sub_1*
 T0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 œ
-scale_by_min_max_14/sub_1Sub2scale_by_min_max_14/min_and_max/amax/Placeholder_1%scale_by_min_max_14/min_and_max/sub_1*
+scale_by_min_max_14/sub_1Sub2scale_by_min_max_14/min_and_max/amax/Placeholder_1%scale_by_min_max_14/min_and_max/sub_1*
+T0*
 _output_shapes
-: *
-T0
+: 
 ˆ
 scale_by_min_max_14/truedivRealDivscale_by_min_max_14/subscale_by_min_max_14/sub_1*
 T0*#
@@ -2130,12 +2130,12 @@ e
 _output_shapes
 : 
 Ÿ
-scale_by_min_max_14/Fill_1Fillscale_by_min_max_14/Shape scale_by_min_max_14/Fill_1/value*
+scale_by_min_max_14/Fill_1Fillscale_by_min_max_14/Shape scale_by_min_max_14/Fill_1/value*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
 T0*
 
-index_type0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+index_type0
 ¥
 scale_by_min_max_14/SelectSelectscale_by_min_max_14/Fillscale_by_min_max_14/truedivscale_by_min_max_14/Fill_1*
 T0*#
@@ -2178,17 +2178,17 @@ j
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 q
-0scale_by_min_max_15/min_and_max/amax/PlaceholderPlaceholder*
-_output_shapes
-: *
-shape: *
-dtype0
-s
-2scale_by_min_max_15/min_and_max/amax/Placeholder_1Placeholder*
+0scale_by_min_max_15/min_and_max/amax/PlaceholderPlaceholder*
 dtype0*
 _output_shapes
 : *
 shape: 
+s
+2scale_by_min_max_15/min_and_max/amax/Placeholder_1Placeholder*
+shape: *
+dtype0*
+_output_shapes
+: 
 l
 'scale_by_min_max_15/min_and_max/sub_1/xConst*
 valueB
@@ -2197,16 +2197,16 @@ l
 _output_shapes
 : 
 ¨
-%scale_by_min_max_15/min_and_max/sub_1Sub'scale_by_min_max_15/min_and_max/sub_1/x0scale_by_min_max_15/min_and_max/amax/Placeholder*
-T0*
+%scale_by_min_max_15/min_and_max/sub_1Sub'scale_by_min_max_15/min_and_max/sub_1/x0scale_by_min_max_15/min_and_max/amax/Placeholder*
 _output_shapes
-: 
+: *
+T0
 k
-scale_by_min_max_15/ShapeShapeinputs/stress_copy*
-T0*
-out_type0*
+scale_by_min_max_15/ShapeShapeinputs/stress_copy*
 _output_shapes
-:
+:*
+T0*
+out_type0
 œ
 scale_by_min_max_15/LessLess%scale_by_min_max_15/min_and_max/sub_12scale_by_min_max_15/min_and_max/amax/Placeholder_1*
 T0*
@@ -2221,15 +2221,15 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ‡
-scale_by_min_max_15/subSubinputs/stress_copy%scale_by_min_max_15/min_and_max/sub_1*
-T0*#
+scale_by_min_max_15/subSubinputs/stress_copy%scale_by_min_max_15/min_and_max/sub_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-œ
-scale_by_min_max_15/sub_1Sub2scale_by_min_max_15/min_and_max/amax/Placeholder_1%scale_by_min_max_15/min_and_max/sub_1*
-_output_shapes
-: *
+:ÿÿÿÿÿÿÿÿÿ*
 T0
+œ
+scale_by_min_max_15/sub_1Sub2scale_by_min_max_15/min_and_max/amax/Placeholder_1%scale_by_min_max_15/min_and_max/sub_1*
+T0*
+_output_shapes
+: 
 ˆ
 scale_by_min_max_15/truedivRealDivscale_by_min_max_15/subscale_by_min_max_15/sub_1*#
 _output_shapes
@@ -2255,12 +2255,12 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ^
-scale_by_min_max_15/mul/yConst*
-_output_shapes
-: *
+scale_by_min_max_15/mul/yConst*
 valueB
  *  €?*
-dtype0
+dtype0*
+_output_shapes
+: 
 ƒ
 scale_by_min_max_15/mulMulscale_by_min_max_15/Selectscale_by_min_max_15/mul/y*
 T0*#
@@ -2286,16 +2286,16 @@ j
 _output_shapes
 : 
 ”
-#scale_by_min_max_16/min_and_max/subSub%scale_by_min_max_16/min_and_max/sub/xinputs/tension_copy*#
+#scale_by_min_max_16/min_and_max/subSub%scale_by_min_max_16/min_and_max/sub/xinputs/tension_copy*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 q
-0scale_by_min_max_16/min_and_max/amax/PlaceholderPlaceholder*
+0scale_by_min_max_16/min_and_max/amax/PlaceholderPlaceholder*
+dtype0*
 _output_shapes
 : *
-shape: *
-dtype0
+shape: 
 s
 2scale_by_min_max_16/min_and_max/amax/Placeholder_1Placeholder*
 dtype0*
@@ -2303,17 +2303,17 @@ s
 : *
 shape: 
 l
-'scale_by_min_max_16/min_and_max/sub_1/xConst*
+'scale_by_min_max_16/min_and_max/sub_1/xConst*
+valueB
+ *    *
 dtype0*
 _output_shapes
-: *
-valueB
- *    
+: 
 ¨
-%scale_by_min_max_16/min_and_max/sub_1Sub'scale_by_min_max_16/min_and_max/sub_1/x0scale_by_min_max_16/min_and_max/amax/Placeholder*
+%scale_by_min_max_16/min_and_max/sub_1Sub'scale_by_min_max_16/min_and_max/sub_1/x0scale_by_min_max_16/min_and_max/amax/Placeholder*
+T0*
 _output_shapes
-: *
-T0
+: 
 l
 scale_by_min_max_16/ShapeShapeinputs/tension_copy*
 T0*
@@ -2334,20 +2334,20 @@ index_type0*#
 _output_shapes
 :ÿÿÿÿÿÿÿÿÿ
 ˆ
-scale_by_min_max_16/subSubinputs/tension_copy%scale_by_min_max_16/min_and_max/sub_1*
-T0*#
+scale_by_min_max_16/subSubinputs/tension_copy%scale_by_min_max_16/min_and_max/sub_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 œ
-scale_by_min_max_16/sub_1Sub2scale_by_min_max_16/min_and_max/amax/Placeholder_1%scale_by_min_max_16/min_and_max/sub_1*
-T0*
+scale_by_min_max_16/sub_1Sub2scale_by_min_max_16/min_and_max/amax/Placeholder_1%scale_by_min_max_16/min_and_max/sub_1*
 _output_shapes
-: 
+: *
+T0
 ˆ
-scale_by_min_max_16/truedivRealDivscale_by_min_max_16/subscale_by_min_max_16/sub_1*
-T0*#
+scale_by_min_max_16/truedivRealDivscale_by_min_max_16/subscale_by_min_max_16/sub_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 e
  scale_by_min_max_16/Fill_1/valueConst*
 valueB
@@ -2356,12 +2356,12 @@ e
 _output_shapes
 : 
 Ÿ
-scale_by_min_max_16/Fill_1Fillscale_by_min_max_16/Shape scale_by_min_max_16/Fill_1/value*
+scale_by_min_max_16/Fill_1Fillscale_by_min_max_16/Shape scale_by_min_max_16/Fill_1/value*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ*
 T0*
 
-index_type0*#
-_output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+index_type0
 ¥
 scale_by_min_max_16/SelectSelectscale_by_min_max_16/Fillscale_by_min_max_16/truedivscale_by_min_max_16/Fill_1*
 T0*#
@@ -2399,10 +2399,10 @@ j
 _output_shapes
 : 
 •
-#scale_by_min_max_17/min_and_max/subSub%scale_by_min_max_17/min_and_max/sub/xinputs/thorough_copy*#
+#scale_by_min_max_17/min_and_max/subSub%scale_by_min_max_17/min_and_max/sub/xinputs/thorough_copy*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 q
 0scale_by_min_max_17/min_and_max/amax/PlaceholderPlaceholder*
 dtype0*
@@ -2411,33 +2411,33 @@ q
 shape: 
 s
 2scale_by_min_max_17/min_and_max/amax/Placeholder_1Placeholder*
+shape: *
 dtype0*
 _output_shapes
-: *
-shape: 
+: 
 l
-'scale_by_min_max_17/min_and_max/sub_1/xConst*
-_output_shapes
-: *
+'scale_by_min_max_17/min_and_max/sub_1/xConst*
 valueB
  *    *
-dtype0
+dtype0*
+_output_shapes
+: 
 ¨
-%scale_by_min_max_17/min_and_max/sub_1Sub'scale_by_min_max_17/min_and_max/sub_1/x0scale_by_min_max_17/min_and_max/amax/Placeholder*
-T0*
+%scale_by_min_max_17/min_and_max/sub_1Sub'scale_by_min_max_17/min_and_max/sub_1/x0scale_by_min_max_17/min_and_max/amax/Placeholder*
 _output_shapes
-: 
+: *
+T0
 m
-scale_by_min_max_17/ShapeShapeinputs/thorough_copy*
-_output_shapes
-:*
+scale_by_min_max_17/ShapeShapeinputs/thorough_copy*
 T0*
-out_type0
+out_type0*
+_output_shapes
+:
 œ
-scale_by_min_max_17/LessLess%scale_by_min_max_17/min_and_max/sub_12scale_by_min_max_17/min_and_max/amax/Placeholder_1*
-T0*
+scale_by_min_max_17/LessLess%scale_by_min_max_17/min_and_max/sub_12scale_by_min_max_17/min_and_max/amax/Placeholder_1*
 _output_shapes
-: 
+: *
+T0
 •
 scale_by_min_max_17/FillFillscale_by_min_max_17/Shapescale_by_min_max_17/Less*
 T0
@@ -2488,10 +2488,10 @@ index_type0*#
 _output_shapes
 : 
 ƒ
-scale_by_min_max_17/mulMulscale_by_min_max_17/Selectscale_by_min_max_17/mul/y*
-T0*#
+scale_by_min_max_17/mulMulscale_by_min_max_17/Selectscale_by_min_max_17/mul/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 ^
 scale_by_min_max_17/add/yConst*
 valueB
@@ -2500,10 +2500,10 @@ index_type0*#
 _output_shapes
 : 
 €
-scale_by_min_max_17/addAddscale_by_min_max_17/mulscale_by_min_max_17/add/y*#
+scale_by_min_max_17/addAddscale_by_min_max_17/mulscale_by_min_max_17/add/y*
+T0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ*
-T0
+:ÿÿÿÿÿÿÿÿÿ
 j
 %scale_by_min_max_18/min_and_max/sub/xConst*
 valueB
@@ -2512,16 +2512,16 @@ j
 _output_shapes
 : 
 •
-#scale_by_min_max_18/min_and_max/subSub%scale_by_min_max_18/min_and_max/sub/xinputs/trusting_copy*
-T0*#
+#scale_by_min_max_18/min_and_max/subSub%scale_by_min_max_18/min_and_max/sub/xinputs/trusting_copy*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 q
-0scale_by_min_max_18/min_and_max/amax/PlaceholderPlaceholder*
+0scale_by_min_max_18/min_and_max/amax/PlaceholderPlaceholder*
+dtype0*
 _output_shapes
 : *
-shape: *
-dtype0
+shape: 
 s
 2scale_by_min_max_18/min_and_max/amax/Placeholder_1Placeholder*
 shape: *
@@ -2529,12 +2529,12 @@ s
 _output_shapes
 : 
 l
-'scale_by_min_max_18/min_and_max/sub_1/xConst*
-dtype0*
+'scale_by_min_max_18/min_and_max/sub_1/xConst*
 _output_shapes
 : *
 valueB
- *    
+ *    *
+dtype0
 ¨
 %scale_by_min_max_18/min_and_max/sub_1Sub'scale_by_min_max_18/min_and_max/sub_1/x0scale_by_min_max_18/min_and_max/amax/Placeholder*
 _output_shapes
@@ -2560,10 +2560,10 @@ m
 
 index_type0
 ‰
-scale_by_min_max_18/subSubinputs/trusting_copy%scale_by_min_max_18/min_and_max/sub_1*
-T0*#
+scale_by_min_max_18/subSubinputs/trusting_copy%scale_by_min_max_18/min_and_max/sub_1*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 œ
 scale_by_min_max_18/sub_1Sub2scale_by_min_max_18/min_and_max/amax/Placeholder_1%scale_by_min_max_18/min_and_max/sub_1*
 _output_shapes
@@ -2582,17 +2582,17 @@ e
 _output_shapes
 : 
 Ÿ
-scale_by_min_max_18/Fill_1Fillscale_by_min_max_18/Shape scale_by_min_max_18/Fill_1/value*
-T0*
+scale_by_min_max_18/Fill_1Fillscale_by_min_max_18/Shape scale_by_min_max_18/Fill_1/value*
 
 index_type0*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
-¥
-scale_by_min_max_18/SelectSelectscale_by_min_max_18/Fillscale_by_min_max_18/truedivscale_by_min_max_18/Fill_1*#
-_output_shapes
 :ÿÿÿÿÿÿÿÿÿ*
 T0
+¥
+scale_by_min_max_18/SelectSelectscale_by_min_max_18/Fillscale_by_min_max_18/truedivscale_by_min_max_18/Fill_1*
+T0*#
+_output_shapes
+:ÿÿÿÿÿÿÿÿÿ
 ^
 scale_by_min_max_18/mul/yConst*
 valueB
@@ -2601,10 +2601,10 @@ index_type0*#
 _output_shapes
 : 
 ƒ
-scale_by_min_max_18/mulMulscale_by_min_max_18/Selectscale_by_min_max_18/mul/y*
-T0*#
+scale_by_min_max_18/mulMulscale_by_min_max_18/Selectscale_by_min_max_18/mul/y*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 ^
 scale_by_min_max_18/add/yConst*
 valueB
@@ -2618,10 +2618,10 @@ index_type0*#
 :ÿÿÿÿÿÿÿÿÿ*
 T0
 X
-IdentityIdentityinputs/language_copy*
-T0*#
+IdentityIdentityinputs/language_copy*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 Z
 
 Identity_1Identityinputs/location_copy*
@@ -2636,58 +2636,13 @@ Identity_2Identityinputs/nationality_copy*#
 T0
 U
 
-Identity_3Identityinputs/sex_copy*
-T0*#
+Identity_3Identityinputs/sex_copy*#
 _output_shapes
-:ÿÿÿÿÿÿÿÿÿ
+:ÿÿÿÿÿÿÿÿÿ*
+T0
 
 initNoOp"*­0
 transform_signature•0
-=
-thorough$dense_tensor$
-inputs/thorough:0ÿÿÿÿÿÿÿÿÿ
-C
-nationality$dense_tensor'
-inputs/nationality:0ÿÿÿÿÿÿÿÿÿ
-=
-language$dense_tensor$
-inputs/language:0ÿÿÿÿÿÿÿÿÿ
-3
-age$dense_tensor
-inputs/age:0ÿÿÿÿÿÿÿÿÿ
-;
-tension$dense_tensor#
-inputs/tension:0ÿÿÿÿÿÿÿÿÿ
-M
-music_pref_world$dense_tensor,
-inputs/music_pref_world:0	ÿÿÿÿÿÿÿÿÿ
-E
-like_dislike$dense_tensor(
-inputs/like_dislike:0ÿÿÿÿÿÿÿÿÿ
-M
-music_pref_dance$dense_tensor,
-inputs/music_pref_dance:0	ÿÿÿÿÿÿÿÿÿ
-=
-location$dense_tensor$
-inputs/location:0ÿÿÿÿÿÿÿÿÿ
-U
-!music_pref_classical$dense_tensor0
-inputs/music_pref_classical:0	ÿÿÿÿÿÿÿÿÿ
-=
-outgoing$dense_tensor$
-inputs/outgoing:0ÿÿÿÿÿÿÿÿÿ
-K
-music_pref_folk$dense_tensor+
-inputs/music_pref_folk:0	ÿÿÿÿÿÿÿÿÿ
-5
-lazy$dense_tensor 
-inputs/lazy:0ÿÿÿÿÿÿÿÿÿ
-S
- hearing_impairments$dense_tensor/
-inputs/hearing_impairments:0	ÿÿÿÿÿÿÿÿÿ
-;
-nervous$dense_tensor#
-inputs/nervous:0ÿÿÿÿÿÿÿÿÿ
 K
 music_pref_jazz$dense_tensor+
 inputs/music_pref_jazz:0	ÿÿÿÿÿÿÿÿÿ
@@ -2747,7 +2702,76 @@ C
 inputs/familiarity:0ÿÿÿÿÿÿÿÿÿ
 9
 stress$dense_tensor"
-inputs/stress:0ÿÿÿÿÿÿÿÿÿn
+inputs/stress:0ÿÿÿÿÿÿÿÿÿ
+=
+thorough$dense_tensor$
+inputs/thorough:0ÿÿÿÿÿÿÿÿÿ
+C
+nationality$dense_tensor'
+inputs/nationality:0ÿÿÿÿÿÿÿÿÿ
+=
+language$dense_tensor$
+inputs/language:0ÿÿÿÿÿÿÿÿÿ
+3
+age$dense_tensor
+inputs/age:0ÿÿÿÿÿÿÿÿÿ
+;
+tension$dense_tensor#
+inputs/tension:0ÿÿÿÿÿÿÿÿÿ
+M
+music_pref_world$dense_tensor,
+inputs/music_pref_world:0	ÿÿÿÿÿÿÿÿÿ
+E
+like_dislike$dense_tensor(
+inputs/like_dislike:0ÿÿÿÿÿÿÿÿÿ
+M
+music_pref_dance$dense_tensor,
+inputs/music_pref_dance:0	ÿÿÿÿÿÿÿÿÿ
+=
+location$dense_tensor$
+inputs/location:0ÿÿÿÿÿÿÿÿÿ
+U
+!music_pref_classical$dense_tensor0
+inputs/music_pref_classical:0	ÿÿÿÿÿÿÿÿÿ
+=
+outgoing$dense_tensor$
+inputs/outgoing:0ÿÿÿÿÿÿÿÿÿ
+K
+music_pref_folk$dense_tensor+
+inputs/music_pref_folk:0	ÿÿÿÿÿÿÿÿÿ
+5
+lazy$dense_tensor 
+inputs/lazy:0ÿÿÿÿÿÿÿÿÿ
+S
+ hearing_impairments$dense_tensor/
+inputs/hearing_impairments:0	ÿÿÿÿÿÿÿÿÿ
+;
+nervous$dense_tensor#
+inputs/nervous:0ÿÿÿÿÿÿÿÿÿP
+#inputs/artistic_copy:0$dense_tensor)
+inputs/artistic_copy:0ÿÿÿÿÿÿÿÿÿV
+&inputs/familiarity_copy:0$dense_tensor,
+inputs/familiarity_copy:0ÿÿÿÿÿÿÿÿÿl
+1scale_by_min_max_3/min_and_max/sub:0$dense_tensor7
+$scale_by_min_max_3/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿl
+1scale_by_min_max_8/min_and_max/sub:0$dense_tensor7
+$scale_by_min_max_8/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿJ
+ inputs/fault_copy:0$dense_tensor&
+inputs/fault_copy:0ÿÿÿÿÿÿÿÿÿF
+inputs/age_copy:0$dense_tensor$
+inputs/age_copy:0ÿÿÿÿÿÿÿÿÿH
+inputs/lazy_copy:0$dense_tensor%
+inputs/lazy_copy:0ÿÿÿÿÿÿÿÿÿP
+#inputs/activity_copy:0$dense_tensor)
+inputs/activity_copy:0ÿÿÿÿÿÿÿÿÿn
+2scale_by_min_max_11/min_and_max/sub:0$dense_tensor8
+%scale_by_min_max_11/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿn
+2scale_by_min_max_16/min_and_max/sub:0$dense_tensor8
+%scale_by_min_max_16/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿl
+1scale_by_min_max_4/min_and_max/sub:0$dense_tensor7
+$scale_by_min_max_4/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿl
+1scale_by_min_max_9/min_and_max/sub:0$dense_tensor7
+$scale_by_min_max_9/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿn
 2scale_by_min_max_12/min_and_max/sub:0$dense_tensor8
 %scale_by_min_max_12/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿn
 2scale_by_min_max_17/min_and_max/sub:0$dense_tensor8
@@ -2799,28 +2823,4 @@ $scale_by_min_max_7/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿV
 2scale_by_min_max_10/min_and_max/sub:0$dense_tensor8
 %scale_by_min_max_10/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿn
 2scale_by_min_max_15/min_and_max/sub:0$dense_tensor8
-%scale_by_min_max_15/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿP
-#inputs/artistic_copy:0$dense_tensor)
-inputs/artistic_copy:0ÿÿÿÿÿÿÿÿÿV
-&inputs/familiarity_copy:0$dense_tensor,
-inputs/familiarity_copy:0ÿÿÿÿÿÿÿÿÿl
-1scale_by_min_max_3/min_and_max/sub:0$dense_tensor7
-$scale_by_min_max_3/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿl
-1scale_by_min_max_8/min_and_max/sub:0$dense_tensor7
-$scale_by_min_max_8/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿJ
- inputs/fault_copy:0$dense_tensor&
-inputs/fault_copy:0ÿÿÿÿÿÿÿÿÿF
-inputs/age_copy:0$dense_tensor$
-inputs/age_copy:0ÿÿÿÿÿÿÿÿÿH
-inputs/lazy_copy:0$dense_tensor%
-inputs/lazy_copy:0ÿÿÿÿÿÿÿÿÿP
-#inputs/activity_copy:0$dense_tensor)
-inputs/activity_copy:0ÿÿÿÿÿÿÿÿÿn
-2scale_by_min_max_11/min_and_max/sub:0$dense_tensor8
-%scale_by_min_max_11/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿn
-2scale_by_min_max_16/min_and_max/sub:0$dense_tensor8
-%scale_by_min_max_16/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿl
-1scale_by_min_max_4/min_and_max/sub:0$dense_tensor7
-$scale_by_min_max_4/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿl
-1scale_by_min_max_9/min_and_max/sub:0$dense_tensor7
-$scale_by_min_max_9/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿtensorflow/serving/predict
+%scale_by_min_max_15/min_and_max/sub:0ÿÿÿÿÿÿÿÿÿtensorflow/serving/predict
