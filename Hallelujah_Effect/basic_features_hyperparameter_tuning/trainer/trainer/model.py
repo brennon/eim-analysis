@@ -92,14 +92,20 @@ def build_estimator(model_dir, nbuckets, hidden_units):
         keep_checkpoint_max = 10,       # Retain the 10 most recent checkpoints.
     )
     
-    estimator = tf.estimator.DNNLinearCombinedClassifier(
+    estimator = tf.estimator.DNNClassifier(
         model_dir = model_dir,
-        linear_feature_columns = wide_columns,
-        dnn_feature_columns = deep_columns,
-        dnn_hidden_units = hidden_units,
+        feature_columns = deep_columns,
+        hidden_units = hidden_units,
         config=checkpointing_config)
     
-    # estimator = tf.contrib.estimator.add_metrics(estimator, add_eval_metrics)
+    # estimator = tf.estimator.DNNLinearCombinedClassifier(
+    #     model_dir = model_dir,
+    #     linear_feature_columns = wide_columns,
+    #     dnn_feature_columns = deep_columns,
+    #     dnn_hidden_units = hidden_units,
+    #     config=checkpointing_config)
+    
+    estimator = tf.contrib.estimator.add_metrics(estimator, my_metric)
     return estimator
 
 # Create serving input function to be able to serve predictions
@@ -169,4 +175,16 @@ def add_eval_metrics(labels, predictions):
     # pred_values = predictions['predictions']
     return {
         'confusion_matrix': tf.confusion_matrix(labels, predictions)
+    }
+
+def my_metric(labels, predictions):
+    precision, precision_op = tf.metrics.precision(labels, predictions['class_ids'])
+    recall, recall_op = tf.metrics.recall(labels, predictions['class_ids'])   
+    f1 = 2. / ((1. / precision) + (1. / recall))
+    return {
+        'f1_score': (f1, tf.group(precision_op, recall_op)),
+        'true_positives': tf.metrics.true_positives(labels, predictions['class_ids']),
+        'true_negatives': tf.metrics.true_negatives(labels, predictions['class_ids']),
+        'false_positives': tf.metrics.false_positives(labels, predictions['class_ids']),
+        'false_negatives': tf.metrics.false_negatives(labels, predictions['class_ids'])
     }
