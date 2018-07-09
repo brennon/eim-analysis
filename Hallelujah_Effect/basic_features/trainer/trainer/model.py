@@ -88,7 +88,7 @@ def build_estimator(model_dir, nbuckets, hidden_units):
     ]
     
     checkpointing_config = tf.estimator.RunConfig(
-        save_checkpoints_secs = 60,  # Save checkpoints every 5 seconds
+        save_checkpoints_secs = 90,  # Save checkpoints every 90 seconds
         keep_checkpoint_max = 10,       # Retain the 10 most recent checkpoints.
     )
     
