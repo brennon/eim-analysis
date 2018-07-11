@@ -171,11 +171,11 @@ def gzip_reader_fn():
     return tf.TFRecordReader(options=tf.python_io.TFRecordOptions(
             compression_type = tf.python_io.TFRecordCompressionType.GZIP))
 
-def add_eval_metrics(labels, predictions):
-    # pred_values = predictions['predictions']
-    return {
-        'confusion_matrix': tf.confusion_matrix(labels, predictions)
-    }
+# def add_eval_metrics(labels, predictions):
+#     # pred_values = predictions['predictions']
+#     return {
+#         'confusion_matrix': tf.confusion_matrix(labels, predictions)
+#     }
 
 def my_metric(labels, predictions):
     precision, precision_op = tf.metrics.precision(labels, predictions['class_ids'])

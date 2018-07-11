@@ -22,6 +22,21 @@
       "fixedShape": {
         "axis": []
       },
+      "name": "actpos",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
       "name": "age",
       "parsingOptions": {
         "tfOptions": {
@@ -239,21 +254,6 @@
         }
       },
       "type": "INT"
-    },
-    {
-      "domain": {
-        "floats": {}
-      },
-      "fixedShape": {
-        "axis": []
-      },
-      "name": "music_pref_count",
-      "parsingOptions": {
-        "tfOptions": {
-          "fixedLenFeature": {}
-        }
-      },
-      "type": "FLOAT"
     },
     {
       "domain": {
