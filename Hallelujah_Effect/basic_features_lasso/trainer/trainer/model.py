@@ -92,10 +92,20 @@ def build_estimator(model_dir, nbuckets, hidden_units):
         keep_checkpoint_max = 10,       # Retain the 10 most recent checkpoints.
     )
     
-    estimator = tf.estimator.DNNClassifier(
+    learning_rate = 0.1
+    optimizer = tf.train.FtrlOptimizer(
+        learning_rate, 
+        l1_regularization_strength = 0.01,
+        name = 'Optimizer',
+        accum_name = 'accum_name',
+        linear_name = 'linear_name'
+    )
+    
+    estimator = tf.estimator.LinearClassifier(
         model_dir = model_dir,
         feature_columns = deep_columns,
-        hidden_units = hidden_units,
+        optimizer = optimizer,
+        # hidden_units = hidden_units,
         config=checkpointing_config)
     
     # estimator = tf.estimator.DNNLinearCombinedClassifier(
@@ -165,6 +175,10 @@ def train_and_evaluate(args):
         start_delay_secs = 5,
         throttle_secs = 5)
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
+    
+    tf.logging.info('Variables values:')
+    for name in [var for var in estimator.get_variable_names()]:
+        tf.logging.info('{}: {};'.format(name, estimator.get_variable_value(name)))
 
 # If we want to use TFRecords instead of CSV
 def gzip_reader_fn():
