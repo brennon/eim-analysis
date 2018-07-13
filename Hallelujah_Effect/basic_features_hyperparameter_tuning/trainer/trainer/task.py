@@ -103,6 +103,36 @@ if __name__ == '__main__':
         default = 1,
         type = int
     )
+    parser.add_argument(
+        '--learning_rate',
+        help = 'Learning rate',
+        default = 0.001,
+        type = float
+    )
+    parser.add_argument(
+        '--beta1',
+        help = 'Adam optimizer beta_1 parameter',
+        default = 0.9,
+        type = float
+    )
+    parser.add_argument(
+        '--beta2',
+        help = 'Adam optimizer beta_1 parameter',
+        default = 0.999,
+        type = float
+    )
+    parser.add_argument(
+        '--dropout',
+        help = 'Probability a given node will be dropped',
+        default = 0.,
+        type = float
+    )
+    parser.add_argument(
+        '--activation_function',
+        help = 'Choice of activation function (supported choices include \'elu\', \'relu\', and \'leaky_relu\'',
+        default = 'relu',
+        type = str
+    )
 
     args = parser.parse_args()
     arguments = args.__dict__

@@ -61,7 +61,7 @@ INPUT_COLUMNS = [
 ]
 
 # Build the estimator
-def build_estimator(model_dir, nbuckets, hidden_units):
+def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta1=0.9, beta2=0.999, dropout=None, activation_function='relu'):
     """
     Build an estimator starting from INPUT COLUMNS.
     These include feature transformations and synthetic features.
@@ -84,7 +84,40 @@ def build_estimator(model_dir, nbuckets, hidden_units):
         # Embedding columns
 
         # Numeric columns
-        language, location, nationality, sex, activity, artistic, age, concentration, engagement, familiarity, fault, hearing_impairments, imagination, lazy, like_dislike, musical_expertise, music_pref_classical, music_pref_dance, music_pref_folk, music_pref_hiphop, music_pref_jazz, music_pref_none, music_pref_pop, music_pref_rock, music_pref_traditional_irish, music_pref_world, nervous, outgoing, positivity, reserved, stress, tension, thorough, trusting
+        # language,
+        # location,
+        nationality,
+        # sex,
+        # activity,
+        # artistic,
+        # age,
+        # concentration,
+        # engagement,
+        # familiarity,
+        # fault,
+        # hearing_impairments,
+        # imagination,
+        # lazy,
+        # like_dislike,
+        # musical_expertise,
+        # music_pref_classical,
+        # music_pref_dance,
+        # music_pref_folk,
+        # music_pref_hiphop,
+        # music_pref_jazz,
+        music_pref_none,
+        # music_pref_pop,
+        # music_pref_rock,
+        # music_pref_traditional_irish,
+        # music_pref_world,
+        # nervous,
+        # outgoing,
+        # positivity,
+        # reserved,
+        stress,
+        # tension,
+        thorough,
+        # trusting
     ]
     
     checkpointing_config = tf.estimator.RunConfig(
@@ -92,11 +125,23 @@ def build_estimator(model_dir, nbuckets, hidden_units):
         keep_checkpoint_max = 10,       # Retain the 10 most recent checkpoints.
     )
     
+    activation_functions = {
+        'elu': tf.nn.elu,
+        'relu': tf.nn.relu,
+        'leaky_relu': tf.nn.leaky_relu
+    }
+    
+    optimizer = tf.train.AdamOptimizer(learning_rate, beta1, beta2)
+    
     estimator = tf.estimator.DNNClassifier(
         model_dir = model_dir,
         feature_columns = deep_columns,
         hidden_units = hidden_units,
-        config=checkpointing_config)
+        config=checkpointing_config,
+        optimizer = optimizer,
+        dropout = dropout,
+        activation_fn = activation_functions[activation_function]
+    )
     
     # estimator = tf.estimator.DNNLinearCombinedClassifier(
     #     model_dir = model_dir,
@@ -152,7 +197,7 @@ def read_dataset(args, mode):
 
 # Create estimator train and evaluate function
 def train_and_evaluate(args):
-    estimator = build_estimator(args['output_dir'], args['nbuckets'], args['hidden_units'].split(' '))
+    estimator = build_estimator(args['output_dir'], args['nbuckets'], args['hidden_units'].split(' '), args['learning_rate'], args['beta1'], args['beta2'], args['dropout'], args['activation_function'])
     train_spec = tf.estimator.TrainSpec(
         input_fn = read_dataset(args, tf.estimator.ModeKeys.TRAIN),
         max_steps = args['train_steps'])

@@ -2,15 +2,22 @@ trainingInput:
   scaleTier: STANDARD_1
   hyperparameters:
     goal: MAXIMIZE
-    maxTrials: 2
-    maxParallelTrials: 3
-    hyperparameterMetricTag: accuracy
+    maxTrials: 1000
+    maxParallelTrials: 5
+    hyperparameterMetricTag: auc_precision_recall
     params:
-    - parameterName: train_batch_size
-      type: INTEGER
-      minValue: 64
-      maxValue: 512
-      scaleType: UNIT_LOG_SCALE
+    - parameterName: train_steps
+      type: DISCRETE
+      discreteValues: [500, 5000, 10000, 20000, 30000, 50000]
     - parameterName: hidden_units
       type: CATEGORICAL
-      categoricalValues: ["128 32", "256 128 16", "64 64 64 8"]
+      categoricalValues: ["128 32 4", "256 128 16", "64 64 64 8", "16 8 4"]
+    - parameterName: dropout
+      type: DISCRETE
+      discreteValues: [0., 0.25, 0.5, 0.75]
+    - parameterName: learning_rate
+      type: DISCRETE
+      discreteValues: [0.001, 0.01, 0.1, 0.25, 0.5]
+    - parameterName: activation_function
+      type: CATEGORICAL
+      categoricalValues: ["relu", "leaky_relu", "elu"]
