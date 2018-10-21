@@ -20,7 +20,7 @@ import argparse
 import json
 import os
 
-import model
+from .model import train_and_evaluate
 
 import tensorflow as tf
 
@@ -124,6 +124,6 @@ if __name__ == '__main__':
 
     # Run the training job:
     try:
-        model.train_and_evaluate(arguments)
+        train_and_evaluate(arguments)
     except:
         traceback.print_exc()
