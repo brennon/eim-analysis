@@ -4,11 +4,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-# import numpy as np
-# import os
 import tensorflow as tf
-# from tensorflow_transform.saved import input_fn_maker, saved_transform_io
-# from tensorflow_transform.tf_metadata import metadata_io
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
@@ -16,7 +12,6 @@ CSV_COLUMNS = ' ,id,age,concentration,hearing_impairments,musical_expertise,nati
 LABEL_COLUMN = 'hallelujah_reaction'
 KEY_FEATURE_COLUMN = None
 DEFAULTS = [[], [''], [], [], [], [], [''], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [''], [0], [''], [''], [], [], [], [], [], [], [], [], [], []]
-# DEFAULTS = [[0.0], ['Sun'], [0], [-74.0], [40.0], [-74.0], [40.7], [1.0], ['nokey']]
 
 # These are the raw input columns, and will be provided for prediction also
 INPUT_COLUMNS = [
@@ -148,26 +143,6 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
     estimator = tf.contrib.estimator.add_metrics(estimator, additional_metrics)
     return estimator
 
-# Create serving input function to be able to serve predictions
-# def make_serving_input_fn(args):
-#   transform_savedmodel_dir = (
-#         os.path.join(args['metadata_path'], 'transform_fn'))
-#
-#   def _input_fn():
-#     # Placeholders for all the raw inputs; a lot of inputs are missing here
-#     feature_placeholders = {
-#       column_name: tf.placeholder(tf.float32, [None]) for column_name in 'age,activity'.split(',')
-#     }
-#
-#     # transform using the saved model in transform_fn
-#     _, features = saved_transform_io.partially_apply_saved_transform(
-#       transform_savedmodel_dir,
-#       feature_placeholders
-#     )
-#     return tf.estimator.export.ServingInputReceiver(features, feature_placeholders)
-#
-#   return _input_fn
-
 # Create input function to load data into datasets
 def read_dataset(args, mode):
     batch_size = args['train_batch_size']
@@ -218,11 +193,6 @@ def train_and_evaluate(args):
         start_delay_secs = 5,
         throttle_secs = 5)
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
-
-# # If we want to use TFRecords instead of CSV
-# def gzip_reader_fn():
-#     return tf.TFRecordReader(options=tf.python_io.TFRecordOptions(
-#             compression_type = tf.python_io.TFRecordCompressionType.GZIP))
 
 def additional_metrics(labels, predictions):
     precision, precision_op = tf.metrics.precision(labels, predictions['class_ids'])
