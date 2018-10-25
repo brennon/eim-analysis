@@ -4,18 +4,14 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import numpy as np
-import os
 import tensorflow as tf
-from tensorflow_transform.saved import input_fn_maker, saved_transform_io
-from tensorflow_transform.tf_metadata import metadata_io
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
-# CSV_COLUMNS = 'age,activity,hallelujah_reaction'.split(',')
+CSV_COLUMNS = ' ,id,age,concentration,hearing_impairments,musical_expertise,nationality,artistic,fault,imagination,lazy,nervous,outgoing,reserved,stress,thorough,trusting,activity,engagement,familiarity,like_dislike,positivity,tension,sex,hallelujah_reaction,location,language,music_pref_none,music_pref_hiphop,music_pref_dance,music_pref_world,music_pref_rock,music_pref_pop,music_pref_classical,music_pref_jazz,music_pref_folk,music_pref_traditional_irish'.split(',')
 LABEL_COLUMN = 'hallelujah_reaction'
 KEY_FEATURE_COLUMN = None
-# DEFAULTS = [[0.0], ['Sun'], [0], [-74.0], [40.0], [-74.0], [40.7], [1.0], ['nokey']]
+DEFAULTS = [[], [''], [], [], [], [], [''], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [''], [0], [''], [''], [], [], [], [], [], [], [], [], [], []]
 
 # These are the raw input columns, and will be provided for prediction also
 INPUT_COLUMNS = [
@@ -61,7 +57,7 @@ INPUT_COLUMNS = [
 ]
 
 # Build the estimator
-def build_estimator(model_dir, nbuckets, hidden_units):
+def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta1=0.9, beta2=0.999, dropout=None, activation_function='relu'):
     """
     Build an estimator starting from INPUT COLUMNS.
     These include feature transformations and synthetic features.
@@ -88,98 +84,82 @@ def build_estimator(model_dir, nbuckets, hidden_units):
     ]
     
     checkpointing_config = tf.estimator.RunConfig(
-        save_checkpoints_secs = 60,  # Save checkpoints every 5 seconds
-        keep_checkpoint_max = 10,       # Retain the 10 most recent checkpoints.
+        save_checkpoints_secs=90,  # Save checkpoints every 90 seconds
+        keep_checkpoint_max=10,       # Retain the 10 most recent checkpoints.
     )
+
+    activation_functions = {
+        'elu': tf.nn.elu,
+        'relu': tf.nn.relu,
+        'leaky_relu': tf.nn.leaky_relu
+    }
+
+    optimizer = tf.train.AdamOptimizer(learning_rate, beta1, beta2)
     
     estimator = tf.estimator.DNNClassifier(
         model_dir = model_dir,
         feature_columns = deep_columns,
         hidden_units = hidden_units,
-        config=checkpointing_config)
-    
-    # estimator = tf.estimator.DNNLinearCombinedClassifier(
-    #     model_dir = model_dir,
-    #     linear_feature_columns = wide_columns,
-    #     dnn_feature_columns = deep_columns,
-    #     dnn_hidden_units = hidden_units,
-    #     config=checkpointing_config)
-    
-    estimator = tf.contrib.estimator.add_metrics(estimator, my_metric)
-    return estimator
-
-# Create serving input function to be able to serve predictions
-def make_serving_input_fn(args):
-  transform_savedmodel_dir = (
-        os.path.join(args['metadata_path'], 'transform_fn'))
-
-  def _input_fn():
-    # Placeholders for all the raw inputs; a lot of inputs are missing here
-    feature_placeholders = {
-      column_name: tf.placeholder(tf.float32, [None]) for column_name in 'age,activity'.split(',')
-    }
-
-    # transform using the saved model in transform_fn
-    _, features = saved_transform_io.partially_apply_saved_transform(
-      transform_savedmodel_dir,
-      feature_placeholders
+        config=checkpointing_config,
+        optimizer=optimizer,
+        dropout=dropout,
+        activation_fn=activation_functions[activation_function]
     )
-    return tf.estimator.export.ServingInputReceiver(features, feature_placeholders)
 
-  return _input_fn
+    estimator = tf.contrib.estimator.add_metrics(estimator, additional_metrics)
+    return estimator
 
 # Create input function to load data into datasets
 def read_dataset(args, mode):
     batch_size = args['train_batch_size']
+
     if mode == tf.estimator.ModeKeys.TRAIN:
         input_paths = args['train_data_paths']
     else:
         input_paths = args['eval_data_paths']
-    
-    transformed_metadata = metadata_io.read_metadata(
-        os.path.join(args['metadata_path'], 'transformed_metadata'))
 
-    return input_fn_maker.build_training_input_fn(
-        metadata = transformed_metadata,
-        file_pattern = (
-          input_paths[0] if len(input_paths) == 1 else input_paths),
-        training_batch_size = batch_size,
-        label_keys = [LABEL_COLUMN],
-        reader = gzip_reader_fn,
-        key_feature_name = KEY_FEATURE_COLUMN,
-        randomize_input = (mode != tf.estimator.ModeKeys.EVAL),
-        num_epochs = (1 if mode == tf.estimator.ModeKeys.EVAL else None)) 
+    def _input_fn():
+        def decode_csv(value_column):
+            columns = tf.decode_csv(value_column, record_defaults=DEFAULTS)
+            features = dict(zip(CSV_COLUMNS, columns))
+            label = features.pop(LABEL_COLUMN)
+            return features, label
+
+        # Create list of files that match pattern
+        file_list = tf.gfile.Glob(input_paths)
+
+        # Create dataset from file list
+        dataset = tf.data.TextLineDataset(file_list).map(decode_csv)
+
+        if mode == tf.estimator.ModeKeys.TRAIN:
+            num_epochs = None  # indefinitely
+            dataset = dataset.shuffle(buffer_size=10 * batch_size)
+        else:
+            num_epochs = 1  # end-of-input after this
+
+        dataset = dataset.repeat(num_epochs).batch(batch_size)
+        return dataset.make_one_shot_iterator().get_next()
+
+    return _input_fn
 
 # Create estimator train and evaluate function
 def train_and_evaluate(args):
-    estimator = build_estimator(args['output_dir'], args['nbuckets'], args['hidden_units'].split(' '))
+    estimator = build_estimator(args['output_dir'], args['nbuckets'], args['hidden_units'].split(' '),
+                                args['learning_rate'], args['beta1'], args['beta2'], args['dropout'],
+                                args['activation_function'])
     train_spec = tf.estimator.TrainSpec(
         input_fn = read_dataset(args, tf.estimator.ModeKeys.TRAIN),
         max_steps = args['train_steps'])
-    exporter = tf.estimator.LatestExporter(
-        'exporter', make_serving_input_fn(args))
     eval_spec = tf.estimator.EvalSpec(
         input_fn = read_dataset(args, tf.estimator.ModeKeys.EVAL),
         steps = args['eval_steps'],
-        exporters = exporter,
         start_delay_secs = 5,
         throttle_secs = 5)
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
 
-# If we want to use TFRecords instead of CSV
-def gzip_reader_fn():
-    return tf.TFRecordReader(options=tf.python_io.TFRecordOptions(
-            compression_type = tf.python_io.TFRecordCompressionType.GZIP))
-
-def add_eval_metrics(labels, predictions):
-    # pred_values = predictions['predictions']
-    return {
-        'confusion_matrix': tf.confusion_matrix(labels, predictions)
-    }
-
-def my_metric(labels, predictions):
+def additional_metrics(labels, predictions):
     precision, precision_op = tf.metrics.precision(labels, predictions['class_ids'])
-    recall, recall_op = tf.metrics.recall(labels, predictions['class_ids'])   
+    recall, recall_op = tf.metrics.recall(labels, predictions['class_ids'])
     f1 = 2. / ((1. / precision) + (1. / recall))
     return {
         'f1_score': (f1, tf.group(precision_op, recall_op)),
