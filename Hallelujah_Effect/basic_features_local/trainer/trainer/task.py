@@ -103,6 +103,36 @@ if __name__ == '__main__':
         default = 1,
         type = int
     )
+    parser.add_argument(
+        '--learning_rate',
+        help = 'Learning rate',
+        default = 0.001,
+        type = float
+    )
+    parser.add_argument(
+        '--beta1',
+        help = 'Adam optimizer beta_1 parameter',
+        default = 0.9,
+        type = float
+    )
+    parser.add_argument(
+        '--beta2',
+        help = 'Adam optimizer beta_1 parameter',
+        default = 0.999,
+        type = float
+    )
+    parser.add_argument(
+        '--dropout',
+        help = 'Probability a given node will be dropped',
+        default = 0.,
+        type = float
+    )
+    parser.add_argument(
+        '--activation_function',
+        help = 'Choice of activation function (supported choices include \'elu\', \'relu\', and \'leaky_relu\'',
+        default = 'relu',
+        type = str
+    )
 
     args = parser.parse_args()
     arguments = args.__dict__
@@ -121,6 +151,14 @@ if __name__ == '__main__':
             os.environ.get('TF_CONFIG', '{}')
         ).get('task', {}).get('trial', '')
     )
+
+    arguments['output_dir'] = output_dir
+
+    # tf.logging.info('json.loads(os.environ.get("TF_CONFIG", ""): {}'.format(os.environ.get('TF_CONFIG', '{}')))
+    # tf.logging.info('json.loads(os.environ.get("TF_CONFIG", "").get("task"): {}'.format(os.environ.get('TF_CONFIG', '{}').get('task')))
+    # tf.logging.info('json.loads(os.environ.get("TF_CONFIG", "").get("task").get("trial"): {}'.format(os.environ.get('TF_CONFIG', '{}').get('task').get('trial')))
+    # tf.logging.info('output_dir: {}'.format(output_dir))
+    # tf.logging.info('arguments["output_dir"]: {}'.format(arguments['output_dir']))
 
     # Run the training job:
     try:
