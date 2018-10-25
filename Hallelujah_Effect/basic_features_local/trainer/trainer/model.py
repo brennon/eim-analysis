@@ -184,12 +184,9 @@ def train_and_evaluate(args):
     train_spec = tf.estimator.TrainSpec(
         input_fn = read_dataset(args, tf.estimator.ModeKeys.TRAIN),
         max_steps = args['train_steps'])
-    # exporter = tf.estimator.LatestExporter(
-    #     'exporter', make_serving_input_fn(args))
     eval_spec = tf.estimator.EvalSpec(
         input_fn = read_dataset(args, tf.estimator.ModeKeys.EVAL),
         steps = args['eval_steps'],
-        # exporters = exporter,
         start_delay_secs = 5,
         throttle_secs = 5)
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
