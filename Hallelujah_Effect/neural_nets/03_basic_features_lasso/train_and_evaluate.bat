@@ -1,6 +1,6 @@
 @ECHO OFF
 
-SET MODEL_NAME=basic_features_basic_dnn_lasso
+SET MODEL_NAME=basic_features_lasso
 
 ECHO ********************************************************************************
 ECHO * Training %MODEL_NAME% locally
@@ -70,7 +70,6 @@ gcloud ml-engine jobs submit training %JOBNAME% ^
 --job-dir=%OUTPUT_DIR% ^
 --scale-tier=STANDARD_1 ^
 --runtime-version=1.10 ^
---config=hyperparam.yaml ^
 -- ^
 --train_data_paths=gs://eim-muse/analysis/hallelujah-effect/samples/%MODEL_NAME%/train* ^
 --eval_data_paths=gs://eim-muse/analysis/hallelujah-effect/samples/%MODEL_NAME%/eval* ^
@@ -78,3 +77,5 @@ gcloud ml-engine jobs submit training %JOBNAME% ^
 --train_steps=10 ^
 --train_batch_size=%TRAIN_N% ^
 --eval_steps=1
+
+REM --config=hyperparam.yaml ^

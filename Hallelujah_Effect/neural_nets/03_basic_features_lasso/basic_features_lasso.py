@@ -3,7 +3,7 @@ import logging
 import os.path
 import subprocess
 
-SCRIPT_NAME = 'basic_features_basic_dnn_classifier'
+SCRIPT_NAME = 'basic_features_lasso'
 
 GCLOUD_CMD = 'C:\\Users\\bortzb\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin\\gcloud.cmd'
 GSUTIL_CMD = 'C:\\Users\\bortzb\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin\\gsutil.cmd'
