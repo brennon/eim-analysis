@@ -5,6 +5,14 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
+import numpy as np
+
+from tensorflow.contrib.estimator import stop_if_no_decrease_hook
+
+RANDOM_SEED = 42
+
+tf.set_random_seed(RANDOM_SEED)
+np.random.seed(RANDOM_SEED)
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
@@ -57,7 +65,7 @@ INPUT_COLUMNS = [
 ]
 
 # Build the estimator
-def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta1=0.9, beta2=0.999, dropout=None, activation_function='relu'):
+def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta1=0.9, beta2=0.999, dropout=None, activation_function='relu', checkpoint_secs=90):
     """
     Build an estimator starting from INPUT COLUMNS.
     These include feature transformations and synthetic features.
@@ -117,8 +125,9 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
     ]
     
     checkpointing_config = tf.estimator.RunConfig(
-        save_checkpoints_secs=90,  # Save checkpoints every 90 seconds
-        keep_checkpoint_max=10,       # Retain the 10 most recent checkpoints.
+        tf_random_seed=RANDOM_SEED,
+        save_checkpoints_secs=checkpoint_secs,  # Save checkpoints every 90 seconds
+        keep_checkpoint_max=100,       # Retain the 10 most recent checkpoints.
     )
 
     activation_functions = {
@@ -180,15 +189,25 @@ def read_dataset(args, mode):
 def train_and_evaluate(args):
     estimator = build_estimator(args['output_dir'], args['nbuckets'], args['hidden_units'].split(' '),
                                 args['learning_rate'], args['beta1'], args['beta2'], args['dropout'],
-                                args['activation_function'])
+                                args['activation_function'], args['checkpoint_secs'])
+
+    early_stopping = stop_if_no_decrease_hook(
+        estimator,
+        metric_name='auc_precision_recall',
+        max_steps_without_decrease=500,
+        min_steps=50)
+
     train_spec = tf.estimator.TrainSpec(
         input_fn = read_dataset(args, tf.estimator.ModeKeys.TRAIN),
-        max_steps = args['train_steps'])
+        max_steps = args['train_steps'],
+        hooks=[early_stopping])
+
     eval_spec = tf.estimator.EvalSpec(
         input_fn = read_dataset(args, tf.estimator.ModeKeys.EVAL),
         steps = args['eval_steps'],
         start_delay_secs = 5,
         throttle_secs = 5)
+
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
 
 def additional_metrics(labels, predictions):

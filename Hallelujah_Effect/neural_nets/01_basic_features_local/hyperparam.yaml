@@ -2,7 +2,7 @@ trainingInput:
   scaleTier: STANDARD_1
   hyperparameters:
     goal: MAXIMIZE
-    maxTrials: 250
+    maxTrials: 150
     maxParallelTrials: 5
     hyperparameterMetricTag: auc_precision_recall
     enableTrialEarlyStopping: true
@@ -14,7 +14,7 @@ trainingInput:
       scaleType: UNIT_LINEAR_SCALE
     - parameterName: hidden_units
       type: CATEGORICAL
-      categoricalValues: ["2", "4", "8", "16", "16 8", "16 8 4", "32 16"]
+      categoricalValues: ["4", "8", "16", "16 8", "16 8 4", "32 16"]
     - parameterName: dropout
       type: DOUBLE
       minValue: 0

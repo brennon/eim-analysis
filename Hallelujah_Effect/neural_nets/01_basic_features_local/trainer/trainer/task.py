@@ -98,6 +98,12 @@ if __name__ == '__main__':
         type = int
     )
     parser.add_argument(
+        '--checkpoint_secs',
+        help='How often (in seconds) to checkpoint',
+        default=90,
+        type=int
+    )
+    parser.add_argument(
         '--min_eval_frequency',
         help = 'Minimum number of training steps between evaluations',
         default = 1,
@@ -153,12 +159,6 @@ if __name__ == '__main__':
     )
 
     arguments['output_dir'] = output_dir
-
-    # tf.logging.info('json.loads(os.environ.get("TF_CONFIG", ""): {}'.format(os.environ.get('TF_CONFIG', '{}')))
-    # tf.logging.info('json.loads(os.environ.get("TF_CONFIG", "").get("task"): {}'.format(os.environ.get('TF_CONFIG', '{}').get('task')))
-    # tf.logging.info('json.loads(os.environ.get("TF_CONFIG", "").get("task").get("trial"): {}'.format(os.environ.get('TF_CONFIG', '{}').get('task').get('trial')))
-    # tf.logging.info('output_dir: {}'.format(output_dir))
-    # tf.logging.info('arguments["output_dir"]: {}'.format(arguments['output_dir']))
 
     # Run the training job:
     try:
