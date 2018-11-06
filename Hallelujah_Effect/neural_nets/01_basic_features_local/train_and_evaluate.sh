@@ -1,7 +1,8 @@
 #!/bin/bash
 
-#PBS -l nodes=1,gpus=2
-#PBS -l walltime=00:10:00
+#PBS -l procs=8
+#PBS -l gpus=1
+#PBS -l walltime=02:00:00
 #PBS -q v100_dev_q
 #PBS -A DeepLearner
 #PBS -W group_list=cascades
