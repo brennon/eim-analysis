@@ -140,6 +140,18 @@ if __name__ == '__main__':
         type = str
     )
     parser.add_argument(
+        '--num_layers',
+        help='Number of layers in neural network',
+        default=3,
+        type=int
+    )
+    parser.add_argument(
+        '--num_nodes',
+        help='Number of nodes in each layer in neural network',
+        default=5,
+        type=int
+    )
+    parser.add_argument(
         '--optimize',
         help='Whether or not hyperparameter optimization should be performed',
         default=False,
