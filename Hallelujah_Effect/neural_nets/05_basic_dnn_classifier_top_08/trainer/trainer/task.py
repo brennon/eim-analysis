@@ -20,7 +20,7 @@ import argparse
 import json
 import os
 
-import model
+from .model import train_and_evaluate
 
 import tensorflow as tf
 
@@ -98,10 +98,70 @@ if __name__ == '__main__':
         type = int
     )
     parser.add_argument(
+        '--checkpoint_secs',
+        help='How often (in seconds) to checkpoint',
+        default=90,
+        type=int
+    )
+    parser.add_argument(
         '--min_eval_frequency',
         help = 'Minimum number of training steps between evaluations',
         default = 1,
         type = int
+    )
+    parser.add_argument(
+        '--learning_rate',
+        help = 'Learning rate',
+        default = 0.001,
+        type = float
+    )
+    parser.add_argument(
+        '--beta1',
+        help = 'Adam optimizer beta_1 parameter',
+        default = 0.9,
+        type = float
+    )
+    parser.add_argument(
+        '--beta2',
+        help = 'Adam optimizer beta_1 parameter',
+        default = 0.999,
+        type = float
+    )
+    parser.add_argument(
+        '--dropout',
+        help = 'Probability a given node will be dropped',
+        default = 0.,
+        type = float
+    )
+    parser.add_argument(
+        '--activation_function',
+        help = 'Choice of activation function (supported choices include \'elu\', \'relu\', and \'leaky_relu\'',
+        default = 'relu',
+        type = str
+    )
+    parser.add_argument(
+        '--num_layers',
+        help='Number of layers in neural network',
+        default=3,
+        type=int
+    )
+    parser.add_argument(
+        '--num_nodes',
+        help='Number of nodes in each layer in neural network',
+        default=5,
+        type=int
+    )
+    parser.add_argument(
+        '--optimize',
+        help='Whether or not hyperparameter optimization should be performed',
+        default=False,
+        type=bool
+    )
+    parser.add_argument(
+        '--optimize_trials',
+        help='Number of hyperparameter optimization trials to be performed',
+        default=5,
+        type=int
     )
 
     args = parser.parse_args()
@@ -115,15 +175,22 @@ if __name__ == '__main__':
 
     # Append trial_id to path if we are doing hptuning
     # This code can be removed if you are not using hyperparameter tuning
-    output_dir = os.path.join(
-        output_dir,
-        json.loads(
-            os.environ.get('TF_CONFIG', '{}')
-        ).get('task', {}).get('trial', '')
-    )
+    if arguments['optimize']:
+        output_dir = os.path.join(
+            output_dir,
+            json.loads(
+                os.environ.get('TF_CONFIG', '{}')
+            ).get('task', {}).get('trial', '')
+        )
+
+    arguments['output_dir'] = output_dir
 
     # Run the training job:
     try:
-        model.train_and_evaluate(arguments)
+        if arguments['optimize']:
+            from .optimize import optimize
+            optimize(arguments)
+        else:
+            train_and_evaluate(arguments)
     except:
         traceback.print_exc()
