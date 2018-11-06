@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#PBS -l procs=8
+#PBS -l procs=4
 #PBS -l gpus=1
-#PBS -l walltime=02:00:00
-#PBS -q v100_dev_q
+#PBS -l walltime=12:00:00
+#PBS -q v100_normal_q
 #PBS -A DeepLearner
 #PBS -W group_list=cascades
 #PBS -M brennon@vt.edu
