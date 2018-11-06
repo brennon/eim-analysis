@@ -5,6 +5,14 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
+import numpy as np
+
+# from tensorflow.contrib.estimator import stop_if_no_decrease_hook
+
+RANDOM_SEED = 42
+
+tf.set_random_seed(RANDOM_SEED)
+np.random.seed(RANDOM_SEED)
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
@@ -57,7 +65,7 @@ INPUT_COLUMNS = [
 ]
 
 # Build the estimator
-def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta1=0.9, beta2=0.999, dropout=None, activation_function='relu'):
+def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta1=0.9, beta2=0.999, dropout=None, activation_function='relu', checkpoint_secs=90):
     """
     Build an estimator starting from INPUT COLUMNS.
     These include feature transformations and synthetic features.
@@ -83,9 +91,16 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
         language, location, nationality, sex, activity, artistic, age, concentration, engagement, familiarity, fault, hearing_impairments, imagination, lazy, like_dislike, musical_expertise, music_pref_classical, music_pref_dance, music_pref_folk, music_pref_hiphop, music_pref_jazz, music_pref_none, music_pref_pop, music_pref_rock, music_pref_traditional_irish, music_pref_world, nervous, outgoing, positivity, reserved, stress, tension, thorough, trusting
     ]
     
-    checkpointing_config = tf.estimator.RunConfig(
-        save_checkpoints_secs=90,  # Save checkpoints every 90 seconds
-        keep_checkpoint_max=10,       # Retain the 10 most recent checkpoints.
+    session_config = tf.ConfigProto(
+        allow_soft_placement=True,
+        log_device_placement=True
+    )
+
+    run_config = tf.estimator.RunConfig(
+        tf_random_seed=RANDOM_SEED,
+        save_checkpoints_secs=checkpoint_secs,  # Save checkpoints every 90 seconds
+        keep_checkpoint_max=100,       # Retain the 10 most recent checkpoints.
+        session_config=session_config
     )
     
     learning_rate = 0.1
@@ -98,10 +113,11 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
     )
     
     estimator = tf.estimator.LinearClassifier(
-        model_dir = model_dir,
-        feature_columns = deep_columns,
-        optimizer = optimizer,
-        config=checkpointing_config)
+        model_dir=model_dir,
+        feature_columns=deep_columns,
+        config=run_config,
+        optimizer=optimizer
+    )
     
     estimator = tf.contrib.estimator.add_metrics(estimator, additional_metrics)
     return estimator
@@ -141,7 +157,9 @@ def read_dataset(args, mode):
 
 # Create estimator train and evaluate function
 def train_and_evaluate(args):
-    estimator = build_estimator(args['output_dir'], args['nbuckets'], args['hidden_units'].split(' '),
+    hidden_units = [str(args['num_nodes']) for l in range(args['num_layers'])]
+
+    estimator = build_estimator(args['output_dir'], args['nbuckets'], hidden_units,
                                 args['learning_rate'], args['beta1'], args['beta2'], args['dropout'],
                                 args['activation_function'])
     train_spec = tf.estimator.TrainSpec(
@@ -157,6 +175,11 @@ def train_and_evaluate(args):
     tf.logging.info('Variables values:')
     for name in [var for var in estimator.get_variable_names()]:
         tf.logging.info('{}: {};'.format(name, estimator.get_variable_value(name)))
+
+    if args['optimize']:
+        return estimator.evaluate(read_dataset(args, tf.estimator.ModeKeys.EVAL), steps=1)
+    else:
+        return
 
 def additional_metrics(labels, predictions):
     precision, precision_op = tf.metrics.precision(labels, predictions['class_ids'])
