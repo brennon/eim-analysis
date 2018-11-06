@@ -1,5 +1,5 @@
 goal: MAXIMIZE
-maxTrials: 10
+maxTrials: 250
 hyperparameterMetricTag: auc_precision_recall
 params:
 - parameterName: train_steps
