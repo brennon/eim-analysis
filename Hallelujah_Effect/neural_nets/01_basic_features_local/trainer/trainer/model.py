@@ -125,10 +125,8 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
     ]
 
     session_config = tf.ConfigProto(
-        gpu_options=tf.GPUOptions(
-            allow_soft_placement=True,
-            log_device_placement=True
-        )
+        allow_soft_placement=True,
+        log_device_placement=True
     )
 
     run_config = tf.estimator.RunConfig(
