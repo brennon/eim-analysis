@@ -1,0 +1,30 @@
+trainingInput:
+  scaleTier: STANDARD_1
+  hyperparameters:
+    goal: MAXIMIZE
+    maxTrials: 150
+    maxParallelTrials: 5
+    hyperparameterMetricTag: auc_precision_recall
+    enableTrialEarlyStopping: true
+    params:
+    - parameterName: train_steps
+      type: INTEGER
+      minValue: 100
+      maxValue: 5000
+      scaleType: UNIT_LINEAR_SCALE
+    - parameterName: hidden_units
+      type: CATEGORICAL
+      categoricalValues: ["4", "8", "16", "16 8", "16 8 4", "32 16"]
+    - parameterName: dropout
+      type: DOUBLE
+      minValue: 0
+      maxValue: 0.75
+      scaleType: UNIT_LINEAR_SCALE
+    - parameterName: learning_rate
+      type: DOUBLE
+      minValue: 0.001
+      maxValue: 0.5
+      scaleType: UNIT_LINEAR_SCALE
+    - parameterName: activation_function
+      type: CATEGORICAL
+      categoricalValues: ["relu", "leaky_relu", "elu"]

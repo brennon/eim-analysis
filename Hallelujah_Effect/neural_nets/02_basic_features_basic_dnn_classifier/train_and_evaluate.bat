@@ -6,6 +6,7 @@ ECHO ***************************************************************************
 ECHO * Training %MODEL_NAME% locally
 ECHO ********************************************************************************
 
+SET OLDPYTHONPATH=%PYTHONPATH%
 SET PYTHONPATH=%PYTHONPATH%;%cd%\trainer
 
 SET TRAIN_N=303
@@ -19,7 +20,7 @@ python ^
 --train_data_paths=%cd%\sample\train* ^
 --eval_data_paths=%cd%\sample\eval* ^
 --output_dir=%MODEL_DIR% ^
---train_steps=100 ^
+--train_steps=10 ^
 --job-dir=C:\Windows\Temp
 
 REM ECHO ********************************************************************************
@@ -70,11 +71,14 @@ gcloud ml-engine jobs submit training %JOBNAME% ^
 --job-dir=%OUTPUT_DIR% ^
 --scale-tier=STANDARD_1 ^
 --runtime-version=1.10 ^
---config=hyperparam.yaml ^
 -- ^
 --train_data_paths=gs://eim-muse/analysis/hallelujah-effect/samples/%MODEL_NAME%/train* ^
 --eval_data_paths=gs://eim-muse/analysis/hallelujah-effect/samples/%MODEL_NAME%/eval* ^
 --output_dir=%OUTPUT_DIR% ^
---train_steps=10 ^
+--train_steps=1500000 ^
 --train_batch_size=%TRAIN_N% ^
 --eval_steps=1
+
+REM --config=hyperparam.yaml ^
+
+SET PYTHONPATH=%OLDPYTHONPATH%

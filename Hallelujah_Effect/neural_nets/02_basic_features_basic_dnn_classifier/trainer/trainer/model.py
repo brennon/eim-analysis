@@ -97,9 +97,9 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
     optimizer = tf.train.AdamOptimizer(learning_rate, beta1, beta2)
     
     estimator = tf.estimator.DNNClassifier(
-        model_dir = model_dir,
-        feature_columns = deep_columns,
-        hidden_units = hidden_units,
+        model_dir=model_dir,
+        feature_columns=deep_columns,
+        hidden_units=hidden_units,
         config=checkpointing_config,
         optimizer=optimizer,
         dropout=dropout,

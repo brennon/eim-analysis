@@ -139,6 +139,18 @@ if __name__ == '__main__':
         default = 'relu',
         type = str
     )
+    parser.add_argument(
+        '--optimize',
+        help='Whether or not hyperparameter optimization should be performed',
+        default=False,
+        type=bool
+    )
+    parser.add_argument(
+        '--optimize_trials',
+        help='Number of hyperparameter optimization trials to be performed',
+        default=5,
+        type=int
+    )
 
     args = parser.parse_args()
     arguments = args.__dict__
@@ -151,17 +163,22 @@ if __name__ == '__main__':
 
     # Append trial_id to path if we are doing hptuning
     # This code can be removed if you are not using hyperparameter tuning
-    output_dir = os.path.join(
-        output_dir,
-        json.loads(
-            os.environ.get('TF_CONFIG', '{}')
-        ).get('task', {}).get('trial', '')
-    )
+    if arguments['optimize']:
+        output_dir = os.path.join(
+            output_dir,
+            json.loads(
+                os.environ.get('TF_CONFIG', '{}')
+            ).get('task', {}).get('trial', '')
+        )
 
     arguments['output_dir'] = output_dir
 
     # Run the training job:
     try:
-        train_and_evaluate(arguments)
+        if arguments['optimize']:
+            from .optimize import optimize
+            optimize(arguments)
+        else:
+            train_and_evaluate(arguments)
     except:
         traceback.print_exc()
