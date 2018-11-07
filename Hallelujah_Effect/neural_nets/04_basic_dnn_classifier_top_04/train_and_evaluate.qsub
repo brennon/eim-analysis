@@ -2,7 +2,7 @@
 
 #PBS -l procs=4
 #PBS -l gpus=1
-#PBS -l walltime=12:00:00
+#PBS -l walltime=24:00:00
 #PBS -q v100_normal_q
 #PBS -A DeepLearner
 #PBS -W group_list=cascades
@@ -31,6 +31,7 @@ python \
     --eval_data_paths="${TMPFS}/data/eval*" \
     --output_dir=$MODEL_DIR \
     --train_steps=10 \
+    --eval_steps=1 \
     --optimize=true
 
 exit;
