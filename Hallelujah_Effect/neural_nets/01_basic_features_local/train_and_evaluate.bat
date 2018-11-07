@@ -19,11 +19,13 @@ rmdir /S /Q %MODEL_DIR%
 
 python ^
 -m trainer.task ^
---train_data_paths=%cd%\sample\train* ^
---eval_data_paths=%cd%\sample\eval* ^
+--train_data_paths=%cd%\..\sample\train* ^
+--eval_data_paths=%cd%\..\sample\eval* ^
 --output_dir=%MODEL_DIR% ^
---train_steps=10 ^
---job-dir=C:\Windows\Temp ^
+--num_train_examples=303 ^
+--train_batch_size=101 ^
+--train_steps=30 ^
+--job-dir=C:\Windows\Temp
 --optimize=true
 
 REM ECHO ********************************************************************************

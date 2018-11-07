@@ -28,6 +28,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # Input Arguments
     parser.add_argument(
+        '--num_train_examples',
+        help='Total number of training examples',
+        type=int,
+        default=303
+    )
+    parser.add_argument(
         '--train_data_paths',
         help = 'GCS or local path to training data',
         required = True
@@ -52,7 +58,7 @@ if __name__ == '__main__':
     )
     parser.add_argument(
         '--eval_steps',
-        help = 'Number of steps to run evalution for at each checkpoint',
+        help = 'Number of steps to run evaluation for at each checkpoint',
         default = 10,
         type = int
     )

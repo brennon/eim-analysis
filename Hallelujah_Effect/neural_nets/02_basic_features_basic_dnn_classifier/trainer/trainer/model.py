@@ -3,6 +3,7 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
+from math import ceil
 
 import tensorflow as tf
 import numpy as np
@@ -92,8 +93,7 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
     ]
     
     session_config = tf.ConfigProto(
-        allow_soft_placement=True,
-        log_device_placement=True
+        allow_soft_placement=True
     )
 
     run_config = tf.estimator.RunConfig(
@@ -124,6 +124,7 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
     estimator = tf.contrib.estimator.add_metrics(estimator, additional_metrics)
     return estimator
 
+
 # Create input function to load data into datasets
 def read_dataset(args, mode):
     batch_size = args['train_batch_size']
@@ -148,7 +149,7 @@ def read_dataset(args, mode):
 
         if mode == tf.estimator.ModeKeys.TRAIN:
             num_epochs = None  # indefinitely
-            dataset = dataset.shuffle(buffer_size=10 * batch_size)
+            dataset = dataset.shuffle(buffer_size=10 * batch_size, reshuffle_each_iteration=True)
         else:
             num_epochs = 1  # end-of-input after this
 
@@ -157,27 +158,33 @@ def read_dataset(args, mode):
 
     return _input_fn
 
+
 # Create estimator train and evaluate function
 def train_and_evaluate(args):
-    hidden_units = [str(args['num_nodes']) for l in range(args['num_layers'])]
+    # Calculate number of training steps required
+    # Here, we treat train_steps as epochs
+    total_training_steps = ceil(((args['num_train_examples'] * 1.0) / args['train_batch_size']) * args['train_steps'])
+
+    hidden_units = [str(args['num_nodes']) for _ in range(args['num_layers'])]
 
     estimator = build_estimator(args['output_dir'], args['nbuckets'], hidden_units,
                                 args['learning_rate'], args['beta1'], args['beta2'], args['dropout'],
                                 args['activation_function'])
     train_spec = tf.estimator.TrainSpec(
-        input_fn = read_dataset(args, tf.estimator.ModeKeys.TRAIN),
-        max_steps = args['train_steps'])
+        input_fn=read_dataset(args, tf.estimator.ModeKeys.TRAIN),
+        max_steps=total_training_steps)
     eval_spec = tf.estimator.EvalSpec(
-        input_fn = read_dataset(args, tf.estimator.ModeKeys.EVAL),
-        steps = args['eval_steps'],
-        start_delay_secs = 5,
-        throttle_secs = 5)
+        input_fn=read_dataset(args, tf.estimator.ModeKeys.EVAL),
+        steps=args['eval_steps'],
+        start_delay_secs=5,
+        throttle_secs=5)
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
 
     if args['optimize']:
         return estimator.evaluate(read_dataset(args, tf.estimator.ModeKeys.EVAL), steps=1)
     else:
         return
+
 
 def additional_metrics(labels, predictions):
     precision, precision_op = tf.metrics.precision(labels, predictions['class_ids'])
