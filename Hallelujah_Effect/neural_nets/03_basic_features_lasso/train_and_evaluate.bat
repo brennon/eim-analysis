@@ -2,7 +2,7 @@
 
 SET ARG=%1
 
-SET MODEL_NAME=basic_features_lasso
+SET MODEL_NAME=basic_features_local
 
 SET OLDPYTHONPATH=%PYTHONPATH%
 SET PYTHONPATH=%PYTHONPATH%;%cd%\trainer
@@ -19,12 +19,14 @@ rmdir /S /Q %MODEL_DIR%
 
 python ^
 -m trainer.task ^
---train_data_paths=%cd%\sample\train* ^
---eval_data_paths=%cd%\sample\eval* ^
+--train_data_paths=%cd%\..\sample\train* ^
+--eval_data_paths=%cd%\..\sample\eval* ^
 --output_dir=%MODEL_DIR% ^
---train_steps=10 ^
---job-dir=C:\Windows\Temp ^
---optimize=true
+--num_train_examples=303 ^
+--train_batch_size=101 ^
+--train_steps=30 ^
+--job-dir=C:\Windows\Temp
+--optimize=false
 
 REM ECHO ********************************************************************************
 REM ECHO * Training %MODEL_NAME% locally (with ml-engine)
