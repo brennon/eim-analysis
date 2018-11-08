@@ -8,6 +8,10 @@ from math import ceil
 import tensorflow as tf
 import numpy as np
 
+# from tensorflow.python.ops import math_ops
+# from tensorflow.python.ops.metrics_impl import _remove_squeezable_dimensions
+# from tensorflow.python.framework import dtypes
+
 # from tensorflow.contrib.estimator import stop_if_no_decrease_hook
 
 RANDOM_SEED = 42
@@ -183,10 +187,12 @@ def read_dataset(args, mode):
         if mode == tf.estimator.ModeKeys.TRAIN:
             num_epochs = None  # indefinitely
             dataset = dataset.shuffle(buffer_size=10 * batch_size, reshuffle_each_iteration=True)
+            dataset = dataset.repeat(num_epochs).batch(batch_size)
         else:
             num_epochs = 1  # end-of-input after this
+            # This batching is super brittle
+            dataset = dataset.repeat(num_epochs).batch(args['num_train_examples'])
 
-        dataset = dataset.repeat(num_epochs).batch(batch_size)
         return dataset.make_one_shot_iterator().get_next()
 
     return _input_fn
@@ -222,11 +228,60 @@ def train_and_evaluate(args):
 def additional_metrics(labels, predictions):
     precision, precision_op = tf.metrics.precision(labels, predictions['class_ids'])
     recall, recall_op = tf.metrics.recall(labels, predictions['class_ids'])
+
+    true_positives, true_positives_op = tf.metrics.true_positives(labels, predictions['class_ids'])
+    true_negatives, true_negatives_op = tf.metrics.true_negatives(labels, predictions['class_ids'])
+    false_positives, false_positives_op = tf.metrics.false_positives(labels, predictions['class_ids'])
+    false_negatives, false_negatives_op = tf.metrics.false_negatives(labels, predictions['class_ids'])
+
     f1 = 2. / ((1. / precision) + (1. / recall))
+
+    # positive_support = math_ops.equal(labels, True)
+    # negative_support = math_ops.equal(labels, False)
+    #
+    positive_precision, positive_precision_op = tf.metrics.precision(labels, predictions['class_ids'], labels)
+    positive_recall, positive_recall_op = tf.metrics.recall(labels, predictions['class_ids'], labels)
+    #
+    # negative_precision, negative_precision_op = tf.metrics.precision(labels, predictions['class_ids'],
+    #                                                                  math_ops.cast(
+    #                                                                      math_ops.logical_not(
+    #                                                                          math_ops.cast(labels, dtypes.bool)
+    #                                                                      ),
+    #                                                                      dtypes.int32)
+    #                                                                  )
+    # negative_recall, negative_recall_op = tf.metrics.recall(labels, predictions['class_ids'],
+    #                                                         math_ops.cast(
+    #                                                             math_ops.logical_not(
+    #                                                                 math_ops.cast(labels, dtypes.bool)
+    #                                                             ),
+    #                                                             dtypes.int32)
+    #                                                         )
+
+    # positive_precision = (1. * true_positives) / (true_positives + false_positives)
+    # positive_recall = (1. * true_positives) / (true_positives + false_negatives)
+    # positive_f1 = 2. / ((1. / positive_precision) + (1. / positive_recall))
+    #
+    # negative_precision = (1. * true_negatives) / (true_negatives + false_negatives)
+    # negative_recall = (1. * true_negatives) / (true_negatives + false_positives)
+    # negative_f1 = 2. / ((1. / negative_precision) + (1. / negative_recall))
+
+    # weighted_f1 = (positive_f1 * ((1. * positive_support) / (positive_support + negative_support))) + (
+    #             negative_f1 * ((1. * negative_support) / (positive_support + negative_support)))
+
+    # tf.logging.info('***** predictions["class_ids"]:')
+    # tf.logging.info(predictions['class_ids'])
+
     return {
         'f1_score': (f1, tf.group(precision_op, recall_op)),
-        'true_positives': tf.metrics.true_positives(labels, predictions['class_ids']),
-        'true_negatives': tf.metrics.true_negatives(labels, predictions['class_ids']),
-        'false_positives': tf.metrics.false_positives(labels, predictions['class_ids']),
-        'false_negatives': tf.metrics.false_negatives(labels, predictions['class_ids'])
+        'true_positives': (true_positives, true_positives_op),
+        'true_negatives': (true_negatives, true_negatives_op),
+        'false_positives': (false_positives, false_positives_op),
+        'false_negatives': (false_negatives, false_negatives_op),
+        # 'positive_precision': (positive_precision, positive_precision_op),
+        # 'positive_recall': (positive_recall, positive_recall_op),
+        # 'f1_score_positive': positive_f1,
+        # 'negative_precision': (negative_precision, negative_precision_op),
+        # 'negative_recall': (negative_recall, negative_recall_op)
+        # 'f1_score_negative': negative_f1,
+        # 'f1_score_weighted': weighted_f1
     }
