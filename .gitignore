@@ -1,5 +1,7 @@
 eim-muse-78daa688d77f.json
 **/model_trained*
+**/train_and_evaluate.qsub.e*
+**/train_and_evaluate.qsub.o*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
