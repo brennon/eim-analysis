@@ -3,9 +3,12 @@ import shutil
 from .model import train_and_evaluate
 from skopt.space import Integer, Real, Categorical
 from skopt.utils import use_named_args
-from skopt import gp_minimize
 from skopt.callbacks import VerboseCallback
-
+from skopt import Optimizer
+from math import ceil
+from sklearn.externals.joblib import Parallel, delayed
+from datetime import datetime
+import os
 
 class CustomCallback(object):
     def __init__(self, base_output_dir):
@@ -16,7 +19,6 @@ class CustomCallback(object):
         self.no_iters += 1
 
     def get_output_dir(self):
-        import os
         return os.path.join(self.base_ouput_dir, str(self.no_iters))
 
 
@@ -44,27 +46,44 @@ def optimize(arguments):
 
     @use_named_args(space)
     def wrapped_train_and_evaluate(**args):
-        args['output_dir'] = output_dir_callback.get_output_dir()
+        # Determine new output dir
+        now = datetime.now()
+        new_dir = '{:04}{:02}{:02}{:02}{:02}{:02}{:06}'.format(now.year,
+                                                               now.month,
+                                                               now.day,
+                                                               now.hour,
+                                                               now.minute,
+                                                               now.second,
+                                                               now.microsecond)
+
+        args['output_dir'] = os.path.join(arguments['output_dir'], new_dir)
         merged_args = {**arguments, **args}
 
         result = train_and_evaluate(merged_args)
 
         eps = 10**-10
 
+        beta = 0.5
+
         positive_support = result['true_positives'] + result['false_negatives']
         negative_support = result['true_negatives'] + result['false_positives']
 
         positive_recall = result['true_positives'] / (1. * positive_support + eps)
         positive_precision = result['true_positives'] / (1. * (result['true_positives'] + result['false_positives']) + eps)
-        f1_positive = 2. / ((1. / (positive_recall + eps)) + (1. / (positive_precision + eps)))
+        f1_positive = (1. + beta) * (
+                    (positive_recall * positive_precision) / ((beta * positive_precision) + positive_recall + eps))
 
         negative_recall = result['true_negatives'] / (1. * negative_support + eps)
         negative_precision = result['true_negatives'] / (1. * (result['true_negatives'] + result['false_negatives']) + eps)
-        f1_negative = 2. / ((1. / (negative_recall + eps)) + (1. / (negative_precision + eps)))
+        f1_negative = (1. + beta) * (
+                    (negative_recall * negative_precision) / ((beta * negative_precision) + negative_recall + eps))
 
         f1_weighted = (f1_positive * (1. * positive_support) / (positive_support + negative_support + eps)) + \
                       (f1_negative * (1. * negative_support) / (positive_support + negative_support + eps))
         result['f1_weighted'] = f1_weighted
+
+        print('***** args *****')
+        print(args)
 
         print('***** result *****')
         print(result)
@@ -74,13 +93,22 @@ def optimize(arguments):
         else:
             return result[tuning_parameters['metric']]
 
-    # TODO: Unify random state
-    res = gp_minimize(wrapped_train_and_evaluate,
-                      space,
-                      n_calls=trials,
-                      random_state=42,
-                      callback=callbacks)
-    print(res)
+    optimizer = Optimizer(space, random_state=42)
+    n_procs = 8
+    iters = ceil(trials / (1. * n_procs))
+    for i in range(iters):
+        x = optimizer.ask(n_points=n_procs)
+        y = Parallel()(delayed(wrapped_train_and_evaluate)(v) for v in x)
+        optimizer.tell(x, y)
+
+    print('***** min value *****')
+    print(min(optimizer.yi))
+
+    print('***** all values *****')
+    print(optimizer.yi)
+
+    print('***** x inputs *****')
+    print(min(optimizer.Xi))
 
 
 def parse_config():
@@ -98,6 +126,8 @@ def parse_config():
 
 
 def parse_param(param):
+    p = None
+
     if param['type'] == 'INTEGER':
         p = Integer(
             param['minValue'],
