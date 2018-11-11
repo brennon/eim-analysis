@@ -49,6 +49,26 @@ def optimize(arguments):
 
         result = train_and_evaluate(merged_args)
 
+        eps = 10**-10
+
+        positive_support = result['true_positives'] + result['false_negatives']
+        negative_support = result['true_negatives'] + result['false_positives']
+
+        positive_recall = result['true_positives'] / (1. * positive_support + eps)
+        positive_precision = result['true_positives'] / (1. * (result['true_positives'] + result['false_positives']) + eps)
+        f1_positive = 2. / ((1. / (positive_recall + eps)) + (1. / (positive_precision + eps)))
+
+        negative_recall = result['true_negatives'] / (1. * negative_support + eps)
+        negative_precision = result['true_negatives'] / (1. * (result['true_negatives'] + result['false_negatives']) + eps)
+        f1_negative = 2. / ((1. / (negative_recall + eps)) + (1. / (negative_precision + eps)))
+
+        f1_weighted = (f1_positive * (1. * positive_support) / (positive_support + negative_support + eps)) + \
+                      (f1_negative * (1. * negative_support) / (positive_support + negative_support + eps))
+        result['f1_weighted'] = f1_weighted
+
+        print('***** result *****')
+        print(result)
+
         if tuning_parameters['goal'] == 'MAXIMIZE':
             return -1. * result[tuning_parameters['metric']]
         else:
