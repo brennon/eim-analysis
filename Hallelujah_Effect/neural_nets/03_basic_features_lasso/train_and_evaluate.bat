@@ -23,10 +23,10 @@ python ^
 --eval_data_paths=%cd%\..\sample\eval* ^
 --output_dir=%MODEL_DIR% ^
 --num_train_examples=303 ^
---train_batch_size=101 ^
---train_steps=30 ^
+--train_batch_size=303 ^
+--train_steps=1000 ^
 --job-dir=C:\Windows\Temp
---optimize=false
+REM --optimize=false
 
 REM ECHO ********************************************************************************
 REM ECHO * Training %MODEL_NAME% locally (with ml-engine)

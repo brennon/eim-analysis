@@ -110,12 +110,12 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
     learning_rate = 0.1
     optimizer = tf.train.FtrlOptimizer(
         learning_rate, 
-        l1_regularization_strength = 0.01,
-        name = 'Optimizer',
-        accum_name = 'accum_name',
-        linear_name = 'linear_name'
+        l1_regularization_strength=10.,
+        name='Optimizer',
+        accum_name='accum_name',
+        linear_name='linear_name'
     )
-    
+
     estimator = tf.estimator.LinearClassifier(
         model_dir=model_dir,
         feature_columns=deep_columns,
@@ -165,6 +165,7 @@ def read_dataset(args, mode):
 
 # Create estimator train and evaluate function
 def train_and_evaluate(args):
+
     # Calculate number of training steps required
     # Here, we treat train_steps as epochs
     total_training_steps = ceil(((args['num_train_examples'] * 1.0) / args['train_batch_size']) * args['train_steps'])
@@ -183,6 +184,10 @@ def train_and_evaluate(args):
         start_delay_secs=5,
         throttle_secs=5)
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
+
+    tf.logging.info('Variable values:')
+    for name in [var for var in estimator.get_variable_names()]:
+        tf.logging.info('{}: {};'.format(name, estimator.get_variable_value(name)))
 
     if args['optimize']:
         return estimator.evaluate(read_dataset(args, tf.estimator.ModeKeys.EVAL), steps=1)

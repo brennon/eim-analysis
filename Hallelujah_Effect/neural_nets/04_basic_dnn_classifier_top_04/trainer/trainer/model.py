@@ -93,10 +93,10 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
         # Embedding columns
 
         # Numeric columns
-        # language, 
-        # location, 
-        nationality, 
-        # sex, 
+        language,
+        location,
+        nationality,
+        sex,
         # activity, 
         # artistic, 
         # age,
@@ -104,7 +104,7 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
         # engagement,
         # familiarity,
         # fault,
-        # hearing_impairments,
+        hearing_impairments,
         # imagination,
         # lazy,
         # like_dislike,
@@ -116,16 +116,16 @@ def build_estimator(model_dir, nbuckets, hidden_units, learning_rate=0.001, beta
         # music_pref_jazz,
         music_pref_none,
         # music_pref_pop,
-        # music_pref_rock,
+        music_pref_rock,
         # music_pref_traditional_irish,
-        # music_pref_world,
+        music_pref_world,
         # nervous,
         # outgoing,
         # positivity,
         # reserved,
-        stress,
+        # stress,
         # tension,
-        thorough
+        # thorough
         # trusting
     ]
     
