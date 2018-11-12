@@ -49,6 +49,30 @@ def optimize(arguments):
 
         result = train_and_evaluate(merged_args)
 
+        eps = 10 ** -10
+
+        beta = 0.5
+
+        positive_support = result['true_positives'] + result['false_negatives']
+        negative_support = result['true_negatives'] + result['false_positives']
+
+        positive_recall = result['true_positives'] / (1. * positive_support + eps)
+        positive_precision = result['true_positives'] / (1. * (result['true_positives'] + result['false_positives']) + eps)
+        f1_positive = (1. + beta) * (
+                    (positive_recall * positive_precision) / ((beta * positive_precision) + positive_recall + eps))
+
+        negative_recall = result['true_negatives'] / (1. * negative_support + eps)
+        negative_precision = result['true_negatives'] / (1. * (result['true_negatives'] + result['false_negatives']) + eps)
+        f1_negative = (1. + beta) * (
+                    (negative_recall * negative_precision) / ((beta * negative_precision) + negative_recall + eps))
+
+        f1_weighted = (f1_positive * (1. * positive_support) / (positive_support + negative_support + eps)) + \
+                      (f1_negative * (1. * negative_support) / (positive_support + negative_support + eps))
+        result['f1_weighted'] = f1_weighted
+
+        print('***** result *****')
+        print(result)
+
         if tuning_parameters['goal'] == 'MAXIMIZE':
             return -1. * result[tuning_parameters['metric']]
         else:
@@ -78,6 +102,8 @@ def parse_config():
 
 
 def parse_param(param):
+    p = None
+
     if param['type'] == 'INTEGER':
         p = Integer(
             param['minValue'],
