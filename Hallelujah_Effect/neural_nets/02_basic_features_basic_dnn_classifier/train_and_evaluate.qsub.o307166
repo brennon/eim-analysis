@@ -1,0 +1,1796 @@
+Iteration No: 1 started. Searching for the next optimal point.
+Iteration No: 1 ended. Search finished for the next optimal point.
+Time taken: 87.0646
+Function value obtained: -0.3044
+Current minimum: -0.3044
+Iteration No: 2 ended. Search finished for the next optimal point.
+Time taken: 157.1048
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 3 ended. Search finished for the next optimal point.
+Time taken: 382.2222
+Function value obtained: -0.2825
+Current minimum: -0.6639
+Iteration No: 4 ended. Search finished for the next optimal point.
+Time taken: 1124.4757
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 5 ended. Search finished for the next optimal point.
+Time taken: 1482.9112
+Function value obtained: -0.5514
+Current minimum: -0.6639
+Iteration No: 6 ended. Search finished for the next optimal point.
+Time taken: 1498.4652
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 7 ended. Search finished for the next optimal point.
+Time taken: 1706.1539
+Function value obtained: -0.2267
+Current minimum: -0.6639
+Iteration No: 8 ended. Search finished for the next optimal point.
+Time taken: 2414.4925
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 9 ended. Search finished for the next optimal point.
+Time taken: 2625.7691
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 10 ended. Search finished for the next optimal point.
+Time taken: 2840.3568
+Function value obtained: -0.2785
+Current minimum: -0.6639
+Iteration No: 11 ended. Search finished for the next optimal point.
+Time taken: 2850.3723
+Function value obtained: -0.3027
+Current minimum: -0.6639
+Iteration No: 12 ended. Search finished for the next optimal point.
+Time taken: 2859.0931
+Function value obtained: -0.3565
+Current minimum: -0.6639
+Iteration No: 13 ended. Search finished for the next optimal point.
+Time taken: 3342.2354
+Function value obtained: -0.1639
+Current minimum: -0.6639
+Iteration No: 14 ended. Search finished for the next optimal point.
+Time taken: 3684.2969
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 15 ended. Search finished for the next optimal point.
+Time taken: 3902.6931
+Function value obtained: -0.1665
+Current minimum: -0.6639
+Iteration No: 16 ended. Search finished for the next optimal point.
+Time taken: 4400.1040
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 17 ended. Search finished for the next optimal point.
+Time taken: 5203.7494
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 18 ended. Search finished for the next optimal point.
+Time taken: 5217.8833
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 19 ended. Search finished for the next optimal point.
+Time taken: 5270.6237
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 20 ended. Search finished for the next optimal point.
+Time taken: 5597.5021
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 21 ended. Search finished for the next optimal point.
+Time taken: 5869.9882
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 22 ended. Search finished for the next optimal point.
+Time taken: 5880.4156
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 23 ended. Search finished for the next optimal point.
+Time taken: 5891.5388
+Function value obtained: -0.3135
+Current minimum: -0.6639
+Iteration No: 24 ended. Search finished for the next optimal point.
+Time taken: 6268.8027
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 25 ended. Search finished for the next optimal point.
+Time taken: 6399.9780
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 26 ended. Search finished for the next optimal point.
+Time taken: 6779.8233
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 27 ended. Search finished for the next optimal point.
+Time taken: 7084.8305
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 28 ended. Search finished for the next optimal point.
+Time taken: 7468.5806
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 29 ended. Search finished for the next optimal point.
+Time taken: 7966.9282
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 30 ended. Search finished for the next optimal point.
+Time taken: 8340.5143
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 31 ended. Search finished for the next optimal point.
+Time taken: 8746.8328
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 32 ended. Search finished for the next optimal point.
+Time taken: 8758.8068
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 33 ended. Search finished for the next optimal point.
+Time taken: 9081.1788
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 34 ended. Search finished for the next optimal point.
+Time taken: 9414.5013
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 35 ended. Search finished for the next optimal point.
+Time taken: 9768.3981
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 36 ended. Search finished for the next optimal point.
+Time taken: 9779.1239
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 37 ended. Search finished for the next optimal point.
+Time taken: 10043.7296
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 38 ended. Search finished for the next optimal point.
+Time taken: 10446.3432
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 39 ended. Search finished for the next optimal point.
+Time taken: 10825.0420
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 40 ended. Search finished for the next optimal point.
+Time taken: 11072.7652
+Function value obtained: -0.2484
+Current minimum: -0.6639
+Iteration No: 41 ended. Search finished for the next optimal point.
+Time taken: 11395.5025
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 42 ended. Search finished for the next optimal point.
+Time taken: 12123.0211
+Function value obtained: -0.5294
+Current minimum: -0.6639
+Iteration No: 43 ended. Search finished for the next optimal point.
+Time taken: 12139.4683
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 44 ended. Search finished for the next optimal point.
+Time taken: 12588.5247
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 45 ended. Search finished for the next optimal point.
+Time taken: 13708.6110
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 46 ended. Search finished for the next optimal point.
+Time taken: 13721.2599
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 47 ended. Search finished for the next optimal point.
+Time taken: 14109.9789
+Function value obtained: -0.5006
+Current minimum: -0.6639
+Iteration No: 48 ended. Search finished for the next optimal point.
+Time taken: 14415.4912
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 49 ended. Search finished for the next optimal point.
+Time taken: 14617.1982
+Function value obtained: -0.3087
+Current minimum: -0.6639
+Iteration No: 50 ended. Search finished for the next optimal point.
+Time taken: 14760.1137
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 51 ended. Search finished for the next optimal point.
+Time taken: 15017.8841
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 52 ended. Search finished for the next optimal point.
+Time taken: 15282.3855
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 53 ended. Search finished for the next optimal point.
+Time taken: 15291.0974
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 54 ended. Search finished for the next optimal point.
+Time taken: 15624.5555
+Function value obtained: -0.1639
+Current minimum: -0.6639
+Iteration No: 55 ended. Search finished for the next optimal point.
+Time taken: 16019.4254
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 56 ended. Search finished for the next optimal point.
+Time taken: 16201.9824
+Function value obtained: -0.2669
+Current minimum: -0.6639
+Iteration No: 57 ended. Search finished for the next optimal point.
+Time taken: 16472.1246
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 58 ended. Search finished for the next optimal point.
+Time taken: 16869.0026
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 59 ended. Search finished for the next optimal point.
+Time taken: 17154.2467
+Function value obtained: -0.1639
+Current minimum: -0.6639
+Iteration No: 60 ended. Search finished for the next optimal point.
+Time taken: 17172.9258
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 61 ended. Search finished for the next optimal point.
+Time taken: 17609.0672
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 62 ended. Search finished for the next optimal point.
+Time taken: 17805.6975
+Function value obtained: -0.6216
+Current minimum: -0.6639
+Iteration No: 63 ended. Search finished for the next optimal point.
+Time taken: 17886.2292
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 64 ended. Search finished for the next optimal point.
+Time taken: 18249.8931
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 65 ended. Search finished for the next optimal point.
+Time taken: 18521.9667
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 66 ended. Search finished for the next optimal point.
+Time taken: 19287.2698
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 67 ended. Search finished for the next optimal point.
+Time taken: 19589.6822
+Function value obtained: -0.2231
+Current minimum: -0.6639
+Iteration No: 68 ended. Search finished for the next optimal point.
+Time taken: 19822.2272
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 69 ended. Search finished for the next optimal point.
+Time taken: 20078.9690
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 70 ended. Search finished for the next optimal point.
+Time taken: 20334.0083
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 71 ended. Search finished for the next optimal point.
+Time taken: 20578.1035
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 72 ended. Search finished for the next optimal point.
+Time taken: 21213.6926
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 73 ended. Search finished for the next optimal point.
+Time taken: 21523.4159
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 74 ended. Search finished for the next optimal point.
+Time taken: 21907.5844
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 75 ended. Search finished for the next optimal point.
+Time taken: 22158.5060
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 76 ended. Search finished for the next optimal point.
+Time taken: 22358.9838
+Function value obtained: -0.2485
+Current minimum: -0.6639
+Iteration No: 77 ended. Search finished for the next optimal point.
+Time taken: 22686.6562
+Function value obtained: -0.2990
+Current minimum: -0.6639
+Iteration No: 78 ended. Search finished for the next optimal point.
+Time taken: 22895.4557
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 79 ended. Search finished for the next optimal point.
+Time taken: 23196.1831
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 80 ended. Search finished for the next optimal point.
+Time taken: 23498.5545
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 81 ended. Search finished for the next optimal point.
+Time taken: 23804.0946
+Function value obtained: -0.3026
+Current minimum: -0.6639
+Iteration No: 82 ended. Search finished for the next optimal point.
+Time taken: 24026.9680
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 83 ended. Search finished for the next optimal point.
+Time taken: 24227.1162
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 84 ended. Search finished for the next optimal point.
+Time taken: 24299.8853
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 85 ended. Search finished for the next optimal point.
+Time taken: 24374.8494
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 86 ended. Search finished for the next optimal point.
+Time taken: 24408.9421
+Function value obtained: -0.1639
+Current minimum: -0.6639
+Iteration No: 87 ended. Search finished for the next optimal point.
+Time taken: 24591.6640
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 88 ended. Search finished for the next optimal point.
+Time taken: 25267.8885
+Function value obtained: -0.1639
+Current minimum: -0.6639
+Iteration No: 89 ended. Search finished for the next optimal point.
+Time taken: 25575.8631
+Function value obtained: -0.3224
+Current minimum: -0.6639
+Iteration No: 90 ended. Search finished for the next optimal point.
+Time taken: 25941.4339
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 91 ended. Search finished for the next optimal point.
+Time taken: 26125.2215
+Function value obtained: -0.3507
+Current minimum: -0.6639
+Iteration No: 92 ended. Search finished for the next optimal point.
+Time taken: 26708.2442
+Function value obtained: -0.6667
+Current minimum: -0.6667
+Iteration No: 93 ended. Search finished for the next optimal point.
+Time taken: 27043.9751
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 94 ended. Search finished for the next optimal point.
+Time taken: 27303.7751
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 95 ended. Search finished for the next optimal point.
+Time taken: 27434.2208
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 96 ended. Search finished for the next optimal point.
+Time taken: 27450.5471
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 97 ended. Search finished for the next optimal point.
+Time taken: 28103.3063
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 98 ended. Search finished for the next optimal point.
+Time taken: 28451.0289
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 99 ended. Search finished for the next optimal point.
+Time taken: 28928.6923
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 100 ended. Search finished for the next optimal point.
+Time taken: 29022.3082
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 101 ended. Search finished for the next optimal point.
+Time taken: 29375.8560
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 102 ended. Search finished for the next optimal point.
+Time taken: 29452.4389
+Function value obtained: -0.2018
+Current minimum: -0.6667
+Iteration No: 103 ended. Search finished for the next optimal point.
+Time taken: 29758.1714
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 104 ended. Search finished for the next optimal point.
+Time taken: 30012.1292
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 105 ended. Search finished for the next optimal point.
+Time taken: 30299.9789
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 106 ended. Search finished for the next optimal point.
+Time taken: 30409.7752
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 107 ended. Search finished for the next optimal point.
+Time taken: 30712.6506
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 108 ended. Search finished for the next optimal point.
+Time taken: 30973.3709
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 109 ended. Search finished for the next optimal point.
+Time taken: 31162.3349
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 110 ended. Search finished for the next optimal point.
+Time taken: 31426.5408
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 111 ended. Search finished for the next optimal point.
+Time taken: 31705.9185
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 112 ended. Search finished for the next optimal point.
+Time taken: 31891.2918
+Function value obtained: -0.6667
+Current minimum: -0.6667
+Iteration No: 113 ended. Search finished for the next optimal point.
+Time taken: 32145.3021
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 114 ended. Search finished for the next optimal point.
+Time taken: 32200.5502
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 115 ended. Search finished for the next optimal point.
+Time taken: 32483.2406
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 116 ended. Search finished for the next optimal point.
+Time taken: 32537.5982
+Function value obtained: -0.2984
+Current minimum: -0.6667
+Iteration No: 117 ended. Search finished for the next optimal point.
+Time taken: 32611.8303
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 118 ended. Search finished for the next optimal point.
+Time taken: 32881.1732
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 119 ended. Search finished for the next optimal point.
+Time taken: 33159.5442
+Function value obtained: -0.3033
+Current minimum: -0.6667
+Iteration No: 120 ended. Search finished for the next optimal point.
+Time taken: 33408.8101
+Function value obtained: -0.6243
+Current minimum: -0.6667
+Iteration No: 121 ended. Search finished for the next optimal point.
+Time taken: 33814.2828
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 122 ended. Search finished for the next optimal point.
+Time taken: 34113.9052
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 123 ended. Search finished for the next optimal point.
+Time taken: 34123.0834
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 124 ended. Search finished for the next optimal point.
+Time taken: 34412.4979
+Function value obtained: -0.3380
+Current minimum: -0.6667
+Iteration No: 125 ended. Search finished for the next optimal point.
+Time taken: 34486.7775
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 126 ended. Search finished for the next optimal point.
+Time taken: 34610.0528
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 127 ended. Search finished for the next optimal point.
+Time taken: 34619.4719
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 128 ended. Search finished for the next optimal point.
+Time taken: 34812.1206
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 129 ended. Search finished for the next optimal point.
+Time taken: 34894.2576
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 130 ended. Search finished for the next optimal point.
+Time taken: 35183.6496
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 131 ended. Search finished for the next optimal point.
+Time taken: 35350.7386
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 132 ended. Search finished for the next optimal point.
+Time taken: 35669.6096
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 133 ended. Search finished for the next optimal point.
+Time taken: 35756.6731
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 134 ended. Search finished for the next optimal point.
+Time taken: 36238.1732
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 135 ended. Search finished for the next optimal point.
+Time taken: 36246.6998
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 136 ended. Search finished for the next optimal point.
+Time taken: 36257.7021
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 137 ended. Search finished for the next optimal point.
+Time taken: 36825.0733
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 138 ended. Search finished for the next optimal point.
+Time taken: 36945.7924
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 139 ended. Search finished for the next optimal point.
+Time taken: 37245.7768
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 140 ended. Search finished for the next optimal point.
+Time taken: 37518.4887
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 141 ended. Search finished for the next optimal point.
+Time taken: 37909.5207
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 142 ended. Search finished for the next optimal point.
+Time taken: 38141.7184
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 143 ended. Search finished for the next optimal point.
+Time taken: 38598.0562
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 144 ended. Search finished for the next optimal point.
+Time taken: 38992.6150
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 145 ended. Search finished for the next optimal point.
+Time taken: 39230.2370
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 146 ended. Search finished for the next optimal point.
+Time taken: 39396.8582
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 147 ended. Search finished for the next optimal point.
+Time taken: 39407.0688
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 148 ended. Search finished for the next optimal point.
+Time taken: 39533.9893
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 149 ended. Search finished for the next optimal point.
+Time taken: 40438.8497
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 150 ended. Search finished for the next optimal point.
+Time taken: 40557.8262
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 151 ended. Search finished for the next optimal point.
+Time taken: 40873.8203
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 152 ended. Search finished for the next optimal point.
+Time taken: 40903.4422
+Function value obtained: -0.3120
+Current minimum: -0.6667
+Iteration No: 153 ended. Search finished for the next optimal point.
+Time taken: 41246.5040
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 154 ended. Search finished for the next optimal point.
+Time taken: 41571.4115
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 155 ended. Search finished for the next optimal point.
+Time taken: 41580.9834
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 156 ended. Search finished for the next optimal point.
+Time taken: 41849.4125
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 157 ended. Search finished for the next optimal point.
+Time taken: 42363.8450
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 158 ended. Search finished for the next optimal point.
+Time taken: 42473.4773
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 159 ended. Search finished for the next optimal point.
+Time taken: 43024.3207
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 160 ended. Search finished for the next optimal point.
+Time taken: 43219.9282
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 161 ended. Search finished for the next optimal point.
+Time taken: 43270.2824
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 162 ended. Search finished for the next optimal point.
+Time taken: 43450.3321
+Function value obtained: -0.3768
+Current minimum: -0.6667
+Iteration No: 163 ended. Search finished for the next optimal point.
+Time taken: 43612.1360
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 164 ended. Search finished for the next optimal point.
+Time taken: 43867.1889
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 165 ended. Search finished for the next optimal point.
+Time taken: 44358.2223
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 166 ended. Search finished for the next optimal point.
+Time taken: 45164.1228
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 167 ended. Search finished for the next optimal point.
+Time taken: 45474.7357
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 168 ended. Search finished for the next optimal point.
+Time taken: 45783.0290
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 169 ended. Search finished for the next optimal point.
+Time taken: 46352.6046
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 170 ended. Search finished for the next optimal point.
+Time taken: 46671.4994
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 171 ended. Search finished for the next optimal point.
+Time taken: 46820.0768
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 172 ended. Search finished for the next optimal point.
+Time taken: 47114.3219
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 173 ended. Search finished for the next optimal point.
+Time taken: 47418.7090
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 174 ended. Search finished for the next optimal point.
+Time taken: 47766.6807
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 175 ended. Search finished for the next optimal point.
+Time taken: 48061.3103
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 176 ended. Search finished for the next optimal point.
+Time taken: 48375.1937
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 177 ended. Search finished for the next optimal point.
+Time taken: 49237.3283
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 178 ended. Search finished for the next optimal point.
+Time taken: 49627.4739
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 179 ended. Search finished for the next optimal point.
+Time taken: 49949.8887
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 180 ended. Search finished for the next optimal point.
+Time taken: 51030.5337
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 181 ended. Search finished for the next optimal point.
+Time taken: 51323.4878
+Function value obtained: -0.6639
+Current minimum: -0.6667
+Iteration No: 182 ended. Search finished for the next optimal point.
+Time taken: 51896.4287
+Function value obtained: -0.6807
+Current minimum: -0.6807
+Iteration No: 183 ended. Search finished for the next optimal point.
+Time taken: 52974.1816
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 184 ended. Search finished for the next optimal point.
+Time taken: 53866.9387
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 185 ended. Search finished for the next optimal point.
+Time taken: 53880.5631
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 186 ended. Search finished for the next optimal point.
+Time taken: 54181.4273
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 187 ended. Search finished for the next optimal point.
+Time taken: 54485.1422
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 188 ended. Search finished for the next optimal point.
+Time taken: 54793.0733
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 189 ended. Search finished for the next optimal point.
+Time taken: 55066.3192
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 190 ended. Search finished for the next optimal point.
+Time taken: 55747.1422
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 191 ended. Search finished for the next optimal point.
+Time taken: 55756.8446
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 192 ended. Search finished for the next optimal point.
+Time taken: 56069.7689
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 193 ended. Search finished for the next optimal point.
+Time taken: 56363.4977
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 194 ended. Search finished for the next optimal point.
+Time taken: 56728.1439
+Function value obtained: -0.3975
+Current minimum: -0.6807
+Iteration No: 195 ended. Search finished for the next optimal point.
+Time taken: 57027.6998
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 196 ended. Search finished for the next optimal point.
+Time taken: 57335.5812
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 197 ended. Search finished for the next optimal point.
+Time taken: 57638.6299
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 198 ended. Search finished for the next optimal point.
+Time taken: 57817.7864
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 199 ended. Search finished for the next optimal point.
+Time taken: 58094.0480
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 200 ended. Search finished for the next optimal point.
+Time taken: 58266.6887
+Function value obtained: -0.2756
+Current minimum: -0.6807
+Iteration No: 201 ended. Search finished for the next optimal point.
+Time taken: 58522.0212
+Function value obtained: -0.3038
+Current minimum: -0.6807
+Iteration No: 202 ended. Search finished for the next optimal point.
+Time taken: 58834.6451
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 203 ended. Search finished for the next optimal point.
+Time taken: 59107.6520
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 204 ended. Search finished for the next optimal point.
+Time taken: 59333.1719
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 205 ended. Search finished for the next optimal point.
+Time taken: 59604.3423
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 206 ended. Search finished for the next optimal point.
+Time taken: 59899.9984
+Function value obtained: -0.3057
+Current minimum: -0.6807
+Iteration No: 207 ended. Search finished for the next optimal point.
+Time taken: 60231.2991
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 208 ended. Search finished for the next optimal point.
+Time taken: 60516.0336
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 209 ended. Search finished for the next optimal point.
+Time taken: 60693.6006
+Function value obtained: -0.3476
+Current minimum: -0.6807
+Iteration No: 210 ended. Search finished for the next optimal point.
+Time taken: 60982.2278
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 211 ended. Search finished for the next optimal point.
+Time taken: 61262.6738
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 212 ended. Search finished for the next optimal point.
+Time taken: 61927.9721
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 213 ended. Search finished for the next optimal point.
+Time taken: 62406.6388
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 214 ended. Search finished for the next optimal point.
+Time taken: 62813.6670
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 215 ended. Search finished for the next optimal point.
+Time taken: 63345.7579
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 216 ended. Search finished for the next optimal point.
+Time taken: 63655.3237
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 217 ended. Search finished for the next optimal point.
+Time taken: 63925.5207
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 218 ended. Search finished for the next optimal point.
+Time taken: 64410.2633
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 219 ended. Search finished for the next optimal point.
+Time taken: 64683.5969
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 220 ended. Search finished for the next optimal point.
+Time taken: 64724.5271
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 221 ended. Search finished for the next optimal point.
+Time taken: 65048.1575
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 222 ended. Search finished for the next optimal point.
+Time taken: 66093.9151
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 223 ended. Search finished for the next optimal point.
+Time taken: 66368.1455
+Function value obtained: -0.4028
+Current minimum: -0.6807
+Iteration No: 224 ended. Search finished for the next optimal point.
+Time taken: 66548.4845
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 225 ended. Search finished for the next optimal point.
+Time taken: 66671.6660
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 226 ended. Search finished for the next optimal point.
+Time taken: 66942.5144
+Function value obtained: -0.3029
+Current minimum: -0.6807
+Iteration No: 227 ended. Search finished for the next optimal point.
+Time taken: 67159.1541
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 228 ended. Search finished for the next optimal point.
+Time taken: 67731.8165
+Function value obtained: -0.1639
+Current minimum: -0.6807
+Iteration No: 229 ended. Search finished for the next optimal point.
+Time taken: 68324.9346
+Function value obtained: -0.1639
+Current minimum: -0.6807
+Iteration No: 230 ended. Search finished for the next optimal point.
+Time taken: 68631.9312
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 231 ended. Search finished for the next optimal point.
+Time taken: 68804.0289
+Function value obtained: -0.3786
+Current minimum: -0.6807
+Iteration No: 232 ended. Search finished for the next optimal point.
+Time taken: 68817.1899
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 233 ended. Search finished for the next optimal point.
+Time taken: 68827.6721
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 234 ended. Search finished for the next optimal point.
+Time taken: 69008.3622
+Function value obtained: -0.1639
+Current minimum: -0.6807
+Iteration No: 235 ended. Search finished for the next optimal point.
+Time taken: 69030.5406
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 236 ended. Search finished for the next optimal point.
+Time taken: 69058.0569
+Function value obtained: -0.3324
+Current minimum: -0.6807
+Iteration No: 237 ended. Search finished for the next optimal point.
+Time taken: 69951.8172
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 238 ended. Search finished for the next optimal point.
+Time taken: 70262.8960
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 239 ended. Search finished for the next optimal point.
+Time taken: 70539.9374
+Function value obtained: -0.3725
+Current minimum: -0.6807
+Iteration No: 240 ended. Search finished for the next optimal point.
+Time taken: 70812.2076
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 241 ended. Search finished for the next optimal point.
+Time taken: 71367.7424
+Function value obtained: -0.1639
+Current minimum: -0.6807
+Iteration No: 242 ended. Search finished for the next optimal point.
+Time taken: 71548.0021
+Function value obtained: -0.5123
+Current minimum: -0.6807
+Iteration No: 243 ended. Search finished for the next optimal point.
+Time taken: 71728.7818
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 244 ended. Search finished for the next optimal point.
+Time taken: 72181.2024
+Function value obtained: -0.1639
+Current minimum: -0.6807
+Iteration No: 245 ended. Search finished for the next optimal point.
+Time taken: 72488.8313
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 246 ended. Search finished for the next optimal point.
+Time taken: 72716.0435
+Function value obtained: -0.4537
+Current minimum: -0.6807
+Iteration No: 247 ended. Search finished for the next optimal point.
+Time taken: 73004.2722
+Function value obtained: -0.6639
+Current minimum: -0.6807
+Iteration No: 248 ended. Search finished for the next optimal point.
+Time taken: 73125.5223
+Function value obtained: -0.4432
+Current minimum: -0.6807
+Iteration No: 249 ended. Search finished for the next optimal point.
+Time taken: 73349.4927
+Function value obtained: -0.5866
+Current minimum: -0.6807
+Iteration No: 250 ended. Search finished for the next optimal point.
+Time taken: 73894.8306
+Function value obtained: -0.6639
+Current minimum: -0.6807
+          fun: -0.6807377338409424
+    func_vals: array([-0.30443916, -0.66393441, -0.28250638, -0.66393441, -0.55135423,
+       -0.66393441, -0.22669734, -0.66393441, -0.66393441, -0.27853614,
+       -0.30272767, -0.35651794, -0.16393493, -0.66393441, -0.16653031,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.31353879, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.24844609,
+       -0.66393441, -0.52944249, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.50056541, -0.66393441, -0.3086521 , -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.16393493, -0.66393441,
+       -0.266909  , -0.66393441, -0.66393441, -0.16393493, -0.66393441,
+       -0.66393441, -0.62156588, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.22309884, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.24853547, -0.29897428, -0.66393441, -0.66393441, -0.66393441,
+       -0.30258945, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.16393493, -0.66393441, -0.16393453, -0.32243785, -0.66393441,
+       -0.35070792, -0.66666663, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.20182155, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66666663, -0.66393441, -0.66393441, -0.66393441,
+       -0.2984339 , -0.66393441, -0.66393441, -0.30330044, -0.6242882 ,
+       -0.66393441, -0.66393441, -0.66393441, -0.33802086, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.31202418, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.37676278, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.68073773, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.39754105, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.27561897,
+       -0.30383146, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.30573779, -0.66393441, -0.66393441, -0.34758949, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.66393441, -0.66393441, -0.66393441,
+       -0.66393441, -0.66393441, -0.40275532, -0.66393441, -0.66393441,
+       -0.30285057, -0.66393441, -0.16393468, -0.16393493, -0.66393441,
+       -0.37857181, -0.66393441, -0.66393441, -0.16393468, -0.66393441,
+       -0.33241087, -0.66393441, -0.66393441, -0.37249798, -0.66393441,
+       -0.16393493, -0.51231879, -0.66393441, -0.16393493, -0.66393441,
+       -0.45373562, -0.66393441, -0.44323778, -0.58663303, -0.66393441])
+       models: [GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542)]
+ random_state: <mtrand.RandomState object at 0x7f064cbdc1b0>
+        space: Space([Integer(low=16, high=303),
+       Integer(low=100, high=15000),
+       Integer(low=1, high=5),
+       Integer(low=1, high=37),
+       Real(low=0, high=0.75, prior='uniform', transform='normalize'),
+       Real(low=0.001, high=0.5, prior='uniform', transform='normalize'),
+       Categorical(categories=('relu', 'leaky_relu', 'elu'), prior=None)])
+        specs: {'args': {'n_jobs': 1, 'kappa': 1.96, 'xi': 0.01, 'n_restarts_optimizer': 5, 'n_points': 10000, 'callback': [<trainer.trainer.optimize.CustomCallback object at 0x7f0639327b38>, <trainer.trainer.optimize.BetterVerboseCallback object at 0x7f063628d048>], 'verbose': False, 'random_state': <mtrand.RandomState object at 0x7f064cbdc1b0>, 'y0': None, 'x0': None, 'acq_optimizer': 'auto', 'acq_func': 'gp_hedge', 'n_random_starts': 10, 'n_calls': 250, 'base_estimator': GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5),
+             n_restarts_optimizer=2, noise='gaussian', normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1608637542), 'dimensions': Space([Integer(low=16, high=303),
+       Integer(low=100, high=15000),
+       Integer(low=1, high=5),
+       Integer(low=1, high=37),
+       Real(low=0, high=0.75, prior='uniform', transform='normalize'),
+       Real(low=0.001, high=0.5, prior='uniform', transform='normalize'),
+       Categorical(categories=('relu', 'leaky_relu', 'elu'), prior=None)]), 'func': <function optimize.<locals>.wrapped_train_and_evaluate at 0x7f0636304d90>}, 'function': 'base_minimize'}
+            x: [32, 15000, 1, 17, 0.0, 0.2046492166905067, 'relu']
+      x_iters: [[245, 2833, 4, 22, 0.33437456464019344, 0.05088748299318346, 'leaky_relu'], [112, 2229, 4, 3, 0.5414990792001186, 0.4693378017988594, 'relu'], [301, 9300, 3, 1, 0.01729681878106182, 0.2628625554689362, 'leaky_relu'], [29, 14609, 2, 4, 0.4637895069998156, 0.19184853364231427, 'elu'], [150, 12913, 4, 17, 0.0099487208698999, 0.4711586760867416, 'leaky_relu'], [127, 338, 2, 10, 0.5124476391190937, 0.3053883322335279, 'elu'], [66, 5927, 2, 28, 0.3188669058684336, 0.10476288977122625, 'leaky_relu'], [25, 12650, 3, 15, 0.6949941493453458, 0.36390872593235407, 'relu'], [180, 7860, 5, 31, 0.5604900826030357, 0.27030637406215086, 'leaky_relu'], [293, 9145, 2, 12, 0.1239502042972519, 0.008802566963855774, 'leaky_relu'], [303, 100, 5, 18, 0.3262119107817179, 0.001, 'elu'], [303, 100, 1, 37, 0.0, 0.001, 'relu'], [16, 6984, 1, 1, 0.6653366178532103, 0.001, 'relu'], [18, 5330, 1, 32, 0.0, 0.2951030064058106, 'elu'], [293, 8864, 5, 37, 0.75, 0.38878603508217574, 'leaky_relu'], [76, 15000, 5, 2, 0.607136629554736, 0.2434622338049919, 'relu'], [25, 15000, 2, 3, 0.46095590105512757, 0.21036693871426118, 'elu'], [22, 100, 4, 1, 0.7090629974897882, 0.47879426532004876, 'relu'], [107, 1541, 5, 8, 0.75, 0.32867898876369445, 'relu'], [66, 9446, 3, 36, 0.6169383255509951, 0.4245953647474727, 'relu'], [114, 9566, 3, 1, 0.5647482605154202, 0.3145585094033339, 'elu'], [113, 100, 1, 37, 0.06238375849755354, 0.3173680450727388, 'relu'], [110, 100, 4, 18, 0.6441302148063661, 0.3172831649389655, 'leaky_relu'], [178, 15000, 1, 4, 0.22906065866275357, 0.4465670655806646, 'elu'], [46, 3354, 1, 37, 0.04395914758358751, 0.24675447505107065, 'elu'], [155, 15000, 1, 37, 0.0, 0.4067560715031435, 'relu'], [189, 11492, 5, 28, 0.029995337652912346, 0.27974932940407465, 'leaky_relu'], [199, 15000, 3, 1, 0.75, 0.2645217409609489, 'relu'], [74, 15000, 4, 1, 0.26955411882514013, 0.31053591163373456, 'relu'], [162, 15000, 1, 37, 0.0, 0.13404923346573905, 'relu'], [161, 15000, 5, 1, 0.7493862471902151, 0.2132154598811122, 'relu'], [233, 100, 1, 37, 0.0, 0.5, 'relu'], [303, 15000, 1, 37, 0.0, 0.4041050117749922, 'relu'], [303, 15000, 1, 1, 0.75, 0.5, 'elu'], [269, 15000, 1, 37, 0.0, 0.43549021618257844, 'relu'], [303, 100, 1, 37, 0.0, 0.5, 'relu'], [160, 9693, 5, 34, 0.44653477334992653, 0.256287131126847, 'leaky_relu'], [173, 15000, 5, 22, 0.0, 0.2548955449559209, 'leaky_relu'], [181, 15000, 1, 31, 0.0, 0.337964197144787, 'relu'], [178, 9708, 2, 37, 0.18568131938882879, 0.30892280221353013, 'leaky_relu'], [268, 14058, 1, 37, 0.0, 0.150052667358225, 'relu'], [16, 9680, 3, 25, 0.0, 0.5, 'leaky_relu'], [16, 100, 4, 37, 0.0, 0.1803408586534876, 'relu'], [16, 6206, 3, 37, 0.0, 0.17955472134828337, 'elu'], [16, 15000, 5, 37, 0.0, 0.41312936333762784, 'elu'], [16, 100, 4, 37, 0.0, 0.21552026612328803, 'relu'], [115, 15000, 5, 18, 0.0, 0.266784940876532, 'leaky_relu'], [303, 15000, 5, 37, 0.0, 0.5, 'elu'], [165, 8313, 5, 28, 0.45796801754445926, 0.2594804426897533, 'leaky_relu'], [303, 7279, 1, 37, 0.0, 0.19671277880268165, 'relu'], [303, 13274, 1, 37, 0.0, 0.1962084718445752, 'relu'], [303, 13498, 1, 37, 0.01823413726314418, 0.1955770201420851, 'relu'], [303, 100, 5, 28, 0.75, 0.3793035196417327, 'elu'], [192, 15000, 5, 30, 0.0, 0.2964397899786535, 'leaky_relu'], [85, 13522, 5, 27, 0.1764535457602309, 0.3091154372101059, 'leaky_relu'], [179, 8085, 3, 32, 0.39589237272829536, 0.2720990089060239, 'leaky_relu'], [194, 12128, 4, 28, 0.47699375184973425, 0.28534975669878065, 'leaky_relu'], [85, 14811, 2, 4, 0.5672982579514665, 0.319157057601869, 'elu'], [199, 12522, 4, 28, 0.0019351410939507097, 0.27980298048027447, 'leaky_relu'], [227, 638, 1, 37, 0.06860936114719868, 0.4050698213624425, 'relu'], [61, 14802, 2, 4, 0.48602520315544584, 0.2275005486509783, 'elu'], [63, 6688, 1, 37, 0.007522536429771096, 0.28382922980396885, 'relu'], [169, 3258, 5, 27, 0.0, 0.28973379015945777, 'leaky_relu'], [70, 11369, 5, 28, 0.02111196799772344, 0.28477414070743884, 'leaky_relu'], [169, 11610, 5, 28, 0.0219179513325791, 0.2805176483558829, 'leaky_relu'], [20, 11726, 5, 28, 0.7114782518341974, 0.3149128746352636, 'leaky_relu'], [107, 11879, 2, 28, 0.14438290328120545, 0.199370218242557, 'leaky_relu'], [143, 9604, 5, 1, 0.16480250753920334, 0.321930918949938, 'relu'], [250, 12065, 4, 28, 0.43956803081549944, 0.28860726186587404, 'leaky_relu'], [302, 12059, 5, 28, 0.3270480938161831, 0.3230128625405438, 'leaky_relu'], [282, 11699, 2, 28, 0.7082581040782888, 0.3311668147941507, 'elu'], [29, 14934, 2, 4, 0.6311247544631352, 0.29105066156817005, 'elu'], [226, 14684, 1, 4, 0.4496763930010926, 0.2234757433482191, 'relu'], [91, 14930, 1, 4, 0.6179940137680673, 0.32494122402621095, 'relu'], [256, 12088, 3, 28, 0.22270947087490234, 0.31686893962877166, 'leaky_relu'], [270, 9691, 2, 34, 0.35387293375769696, 0.24780466593832187, 'leaky_relu'], [92, 12108, 3, 28, 0.381808952691743, 0.3429137228656952, 'leaky_relu'], [303, 10249, 5, 3, 0.4797825249797394, 0.5, 'relu'], [303, 15000, 3, 37, 0.0, 0.2527088745915869, 'relu'], [303, 15000, 3, 37, 0.0, 0.2516544684743472, 'relu'], [153, 12914, 3, 28, 0.10670292140509607, 0.28181745196033603, 'leaky_relu'], [250, 10597, 4, 1, 0.42852370882456114, 0.3526269542984435, 'elu'], [46, 5047, 5, 28, 0.3031158914850929, 0.3343882689192009, 'leaky_relu'], [49, 2171, 1, 4, 0.5582317179876484, 0.31773643340991087, 'relu'], [64, 2244, 5, 28, 0.02278114837860127, 0.2837789786079334, 'elu'], [272, 1309, 5, 32, 0.5659268193082196, 0.27624808364525905, 'leaky_relu'], [24, 3116, 5, 27, 0.08837266148000981, 0.2989640077774146, 'leaky_relu'], [35, 15000, 5, 36, 0.0016095792964348034, 0.21875088487213948, 'leaky_relu'], [213, 14085, 4, 30, 0.43358480051566783, 0.2943949092149543, 'leaky_relu'], [63, 12198, 3, 1, 0.6601793862265016, 0.31153202147288156, 'relu'], [145, 7934, 1, 37, 0.078068560521938, 0.24822002526556466, 'leaky_relu'], [30, 11664, 5, 28, 0.2972408352444634, 0.3366123100218097, 'leaky_relu'], [63, 11803, 1, 4, 0.5421057852977864, 0.28604957044870005, 'relu'], [194, 11583, 4, 1, 0.6871002567652903, 0.22234786692243158, 'relu'], [245, 6016, 4, 1, 0.6943472561771159, 0.3348765621635906, 'relu'], [95, 341, 4, 28, 0.75, 0.38087159739428267, 'leaky_relu'], [24, 13656, 2, 37, 0.11252035105069745, 0.32324157841312384, 'relu'], [127, 13989, 5, 1, 0.658348333519971, 0.27790400812100885, 'relu'], [53, 14881, 2, 4, 0.4329985055207758, 0.24821499852400516, 'elu'], [30, 1999, 3, 28, 0.23089461294471297, 0.33947638900800764, 'leaky_relu'], [100, 14225, 1, 37, 0.10486430470892294, 0.3023118313227901, 'relu'], [234, 3288, 5, 28, 0.7455826918742023, 0.33170911686118, 'leaky_relu'], [178, 12907, 5, 26, 0.19228241298916376, 0.3142226862141731, 'leaky_relu'], [245, 11820, 4, 28, 0.45545794275902995, 0.28574461172070353, 'leaky_relu'], [243, 13361, 4, 26, 0.4228172344799017, 0.32815686532937743, 'leaky_relu'], [263, 4808, 5, 28, 0.2654787758725638, 0.3574249327446577, 'leaky_relu'], [157, 13210, 4, 2, 0.48350347807249605, 0.37614039286773154, 'relu'], [249, 12243, 4, 27, 0.44112281465759734, 0.2943401074593747, 'leaky_relu'], [117, 7968, 1, 37, 0.0, 0.1287142000772549, 'relu'], [243, 12941, 1, 4, 0.5286279497147068, 0.308663493358097, 'relu'], [176, 12185, 4, 28, 0.443903354215203, 0.29439409455048243, 'leaky_relu'], [228, 8296, 5, 32, 0.5562219028927735, 0.26949703655279644, 'leaky_relu'], [230, 11626, 5, 27, 0.02791686512339932, 0.2782303444196177, 'leaky_relu'], [110, 1986, 4, 3, 0.6526057444762164, 0.43792545408477257, 'relu'], [186, 12293, 5, 28, 0.26318861875265376, 0.3537718368996522, 'leaky_relu'], [51, 1431, 3, 28, 0.20158243135224158, 0.39621753632322027, 'leaky_relu'], [59, 2154, 3, 28, 0.23874119513890688, 0.3242982628277306, 'leaky_relu'], [81, 8804, 5, 31, 0.5644878684652634, 0.27162598889615835, 'leaky_relu'], [197, 12345, 3, 28, 0.22919916245558253, 0.33248370373426855, 'leaky_relu'], [271, 12033, 3, 28, 0.22461688012612963, 0.3131009196178618, 'leaky_relu'], [53, 12083, 3, 28, 0.18548562366555188, 0.3203237373627146, 'leaky_relu'], [144, 12154, 4, 27, 0.48835421134837886, 0.30281498121840894, 'leaky_relu'], [206, 127, 1, 37, 0.14553257890806032, 0.5, 'relu'], [133, 11815, 3, 28, 0.09791965564442616, 0.29016445630371634, 'leaky_relu'], [120, 2818, 3, 27, 0.27741913113448335, 0.35348495327141477, 'relu'], [53, 3659, 3, 37, 0.06349627387025122, 0.292262393564411, 'relu'], [144, 100, 5, 17, 0.0, 0.4584055275414595, 'elu'], [112, 7785, 3, 10, 0.0, 0.5, 'relu'], [297, 3912, 1, 3, 0.75, 0.5, 'elu'], [178, 12324, 4, 17, 0.19719787571666342, 0.3181783938786752, 'leaky_relu'], [277, 8169, 1, 28, 0.3428314622489379, 0.5, 'elu'], [86, 11729, 3, 32, 0.11884864691386837, 0.23903409083527105, 'elu'], [253, 4000, 3, 18, 0.3485135133200018, 0.4300790118263183, 'elu'], [62, 15000, 5, 28, 0.75, 0.5, 'elu'], [270, 100, 1, 13, 0.75, 0.41381462186819823, 'elu'], [36, 100, 5, 16, 0.0, 0.35630782202978173, 'relu'], [33, 13772, 3, 7, 0.3323931239980303, 0.27305022866671336, 'relu'], [16, 1760, 3, 13, 0.38230148680031883, 0.390470962552901, 'elu'], [16, 4521, 4, 35, 0.0, 0.2736633851596036, 'relu'], [110, 11066, 2, 6, 0.0, 0.23021620785135663, 'relu'], [91, 14821, 3, 27, 0.4014936525109739, 0.2740371447129343, 'relu'], [303, 11597, 3, 37, 0.3445642416623927, 0.4630927194084831, 'elu'], [62, 15000, 5, 11, 0.0, 0.17914591082074657, 'elu'], [56, 12912, 2, 26, 0.0, 0.2139329800038899, 'elu'], [86, 8062, 5, 26, 0.1194195548117769, 0.33795959846010337, 'leaky_relu'], [269, 7854, 4, 24, 0.0, 0.24483922220885246, 'elu'], [47, 100, 3, 23, 0.37744601925545773, 0.3990533338201288, 'relu'], [275, 5920, 5, 14, 0.0, 0.5, 'relu'], [16, 15000, 2, 6, 0.0, 0.2085741658376137, 'elu'], [275, 5637, 2, 12, 0.3571942740582986, 0.467872625618502, 'relu'], [284, 15000, 4, 36, 0.39702639203515644, 0.2608757789861158, 'elu'], [73, 822, 4, 28, 0.0, 0.2850615555404136, 'elu'], [181, 15000, 5, 2, 0.75, 0.40280963605210746, 'relu'], [16, 5317, 1, 36, 0.4330514227305883, 0.40661919676611474, 'relu'], [200, 100, 5, 33, 0.3097673969766066, 0.5, 'relu'], [138, 11666, 2, 24, 0.0, 0.20726324284069253, 'elu'], [16, 7363, 4, 37, 0.29205990839845875, 0.44691396614253476, 'relu'], [267, 5102, 1, 37, 0.4733292731330089, 0.39262541245632054, 'relu'], [28, 12146, 3, 35, 0.2176206444381072, 0.23241102545046577, 'relu'], [107, 7227, 5, 3, 0.47163200048308396, 0.42344421679076355, 'relu'], [243, 2102, 2, 2, 0.35874251679528, 0.4516542779946566, 'relu'], [180, 7810, 3, 24, 0.3286907345049882, 0.2699864183976945, 'leaky_relu'], [148, 6408, 5, 18, 0.03188652740723027, 0.33483037061920345, 'leaky_relu'], [144, 11028, 3, 37, 0.0, 0.201478496485126, 'relu'], [16, 6296, 5, 11, 0.03425732308440014, 0.33444838900668517, 'leaky_relu'], [16, 11790, 4, 7, 0.3480559466437869, 0.24971581762678433, 'relu'], [68, 9488, 5, 26, 0.21203899905657253, 0.32297861974837544, 'leaky_relu'], [252, 15000, 1, 31, 0.0, 0.5, 'relu'], [16, 8914, 2, 14, 0.08794836111329607, 0.44203311201495404, 'relu'], [190, 15000, 1, 35, 0.75, 0.42392811796390134, 'relu'], [56, 4662, 2, 37, 0.7388466127890809, 0.37811608829793036, 'relu'], [303, 15000, 1, 9, 0.0, 0.2066347252229015, 'relu'], [293, 15000, 1, 37, 0.1797635266186589, 0.22294022073785547, 'relu'], [121, 15000, 1, 37, 0.0, 0.20608685672317476, 'relu'], [303, 15000, 1, 21, 0.24840153695993844, 0.2321060589220442, 'relu'], [303, 15000, 5, 30, 0.75, 0.29935663511264027, 'relu'], [17, 15000, 1, 31, 0.24009465419697196, 0.2309262726482382, 'relu'], [84, 15000, 1, 21, 0.0, 0.20504551306265165, 'relu'], [259, 15000, 5, 21, 0.75, 0.29775931370643516, 'relu'], [16, 15000, 5, 37, 0.3145202910376376, 0.5, 'relu'], [303, 15000, 1, 1, 0.39113887493795474, 0.4430832049240558, 'relu'], [32, 15000, 1, 17, 0.0, 0.2046492166905067, 'relu'], [16, 15000, 5, 37, 0.75, 0.5, 'relu'], [16, 15000, 1, 37, 0.75, 0.5, 'relu'], [16, 100, 5, 1, 0.0, 0.5, 'relu'], [303, 15000, 1, 37, 0.75, 0.2828111588033409, 'relu'], [303, 15000, 5, 1, 0.75, 0.42309105433844657, 'relu'], [303, 15000, 5, 37, 0.75, 0.17269209210788444, 'relu'], [192, 12039, 4, 37, 0.4339152009137504, 0.28188639802601473, 'leaky_relu'], [16, 11458, 1, 1, 0.75, 0.18667125898946582, 'relu'], [303, 100, 5, 5, 0.75, 0.1737204968092396, 'relu'], [303, 15000, 5, 9, 0.75, 0.1751187007179044, 'relu'], [303, 15000, 1, 1, 0.75, 0.37140890199623205, 'relu'], [159, 15000, 5, 17, 0.06567096108022918, 0.21649103393410277, 'leaky_relu'], [303, 15000, 1, 1, 0.75, 0.18805514254434355, 'relu'], [303, 15000, 5, 1, 0.75, 0.18594393155735262, 'relu'], [303, 15000, 5, 1, 0.75, 0.4231159229829948, 'relu'], [181, 7804, 3, 32, 0.22150826123641765, 0.2690181239169528, 'leaky_relu'], [183, 12242, 3, 28, 0.7239036204513997, 0.3739025554964801, 'leaky_relu'], [182, 7691, 2, 22, 0.1832834653891803, 0.2668634536266982, 'leaky_relu'], [185, 11392, 3, 6, 0.43425910740740026, 0.2727660901733797, 'leaky_relu'], [303, 15000, 5, 1, 0.75, 0.43206851292245974, 'relu'], [192, 12051, 4, 29, 0.6635382715028249, 0.2197964921401626, 'leaky_relu'], [155, 9688, 3, 33, 0.3793221648557768, 0.24541667564478192, 'leaky_relu'], [182, 11568, 4, 33, 0.16224973627079903, 0.2886595981298798, 'leaky_relu'], [177, 12317, 5, 26, 0.2990503310474213, 0.11232218547709194, 'leaky_relu'], [174, 15000, 2, 32, 0.6914394857158307, 0.36870332368783787, 'elu'], [176, 12154, 3, 29, 0.655778513175004, 0.30801744163540135, 'leaky_relu'], [181, 7710, 2, 30, 0.6839126982138974, 0.2707663521847211, 'leaky_relu'], [179, 12303, 4, 15, 0.1762132734792492, 0.43347760995842777, 'leaky_relu'], [180, 12122, 3, 22, 0.34216997055652904, 0.4424763032608344, 'leaky_relu'], [29, 15000, 3, 20, 0.1139322072103764, 0.2311439826996385, 'relu'], [63, 14893, 5, 8, 0.7221853731931713, 0.319818023800244, 'elu'], [88, 14906, 3, 17, 0.6795862298470554, 0.3718768437842905, 'relu'], [51, 14898, 5, 18, 0.7392107492441528, 0.3125152216982753, 'elu'], [262, 15000, 3, 29, 0.5222309158096089, 0.39541643108545294, 'relu'], [186, 12249, 2, 28, 0.27007372516574735, 0.4549508009403615, 'leaky_relu'], [57, 14914, 4, 15, 0.28926531527181804, 0.3275008671477699, 'elu'], [192, 12057, 4, 28, 0.3222093408183599, 0.2336132552091178, 'leaky_relu'], [242, 1669, 2, 10, 0.36020377950469995, 0.39345854748271253, 'elu'], [209, 15000, 1, 1, 0.75, 0.5, 'elu'], [16, 15000, 5, 1, 0.75, 0.5, 'relu'], [174, 12178, 2, 23, 0.31453714720809567, 0.3804579517654847, 'leaky_relu'], [182, 7832, 4, 33, 0.34692603897381646, 0.4083653988396922, 'leaky_relu'], [275, 5779, 2, 13, 0.6920817223204588, 0.470797927458907, 'relu'], [183, 12097, 2, 22, 0.12358917813330564, 0.4642344171764826, 'leaky_relu'], [274, 10153, 5, 36, 0.44711301410821447, 0.25551357760713334, 'leaky_relu'], [24, 9953, 5, 36, 0.22189498346625325, 0.3949891795780155, 'leaky_relu'], [31, 15000, 1, 19, 0.21818986332134915, 0.14830958717514173, 'relu'], [303, 15000, 5, 1, 0.75, 0.5, 'relu'], [182, 7715, 1, 32, 0.16619770219848515, 0.2665093029986188, 'leaky_relu'], [16, 100, 1, 1, 0.0, 0.5, 'elu'], [303, 100, 5, 37, 0.75, 0.5, 'relu'], [117, 6975, 3, 37, 0.05835216460671092, 0.44222713879651787, 'leaky_relu'], [56, 393, 5, 17, 0.75, 0.33186456664750835, 'leaky_relu'], [182, 875, 3, 33, 0.16022258041731585, 0.29425589391312706, 'leaky_relu'], [16, 15000, 1, 37, 0.75, 0.5, 'relu'], [303, 15000, 5, 37, 0.75, 0.5, 'elu'], [179, 12131, 3, 22, 0.5757133297525713, 0.3548931572162933, 'leaky_relu'], [181, 12022, 3, 28, 0.22006109761943374, 0.3124732042918133, 'leaky_relu'], [30, 11225, 5, 29, 0.29650033910736034, 0.49966884960161956, 'leaky_relu'], [183, 7825, 4, 5, 0.3527570558660051, 0.4567018787133972, 'leaky_relu'], [228, 8257, 4, 24, 0.5643999574647719, 0.3652889113581148, 'elu'], [46, 12069, 4, 28, 0.21552580117635226, 0.3165605445701638, 'leaky_relu'], [267, 14836, 2, 3, 0.46411662261278874, 0.1078703470998463, 'elu'], [226, 10036, 5, 32, 0.5538711468596969, 0.15454298770910455, 'leaky_relu'], [70, 8831, 5, 28, 0.30004610457354874, 0.3374468299509975, 'leaky_relu'], [66, 3715, 3, 28, 0.2221729619734808, 0.10749935280100456, 'leaky_relu'], [188, 9490, 4, 5, 0.43493699135182495, 0.2829252898297078, 'leaky_relu'], [31, 11221, 5, 31, 0.29819576261119957, 0.1897774945890055, 'leaky_relu']]

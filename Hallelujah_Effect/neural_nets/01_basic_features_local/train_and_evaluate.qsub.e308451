@@ -1,0 +1,18 @@
+/home/brennon/.conda/envs/eim-analysis/lib/python3.6/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+Traceback (most recent call last):
+  File "/home/brennon/eim-analysis/Hallelujah_Effect/neural_nets/01_basic_features_local/trainer/trainer/task.py", line 198, in <module>
+    optimize(arguments)
+  File "/home/brennon/eim-analysis/Hallelujah_Effect/neural_nets/01_basic_features_local/trainer/trainer/optimize.py", line 101, in optimize
+    y = Parallel()(delayed(wrapped_train_and_evaluate)(v) for v in x)
+  File "/home/brennon/.conda/envs/eim-analysis/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 779, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/brennon/.conda/envs/eim-analysis/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 620, in dispatch_one_batch
+    tasks = BatchedCalls(itertools.islice(iterator, batch_size))
+  File "/home/brennon/.conda/envs/eim-analysis/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 127, in __init__
+    self.items = list(iterator_slice)
+  File "/home/brennon/eim-analysis/Hallelujah_Effect/neural_nets/01_basic_features_local/trainer/trainer/optimize.py", line 101, in <genexpr>
+    y = Parallel()(delayed(wrapped_train_and_evaluate)(v) for v in x)
+  File "/home/brennon/.conda/envs/eim-analysis/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 183, in delayed
+    pickle.dumps(function)
+AttributeError: Can't pickle local object 'optimize.<locals>.wrapped_train_and_evaluate'

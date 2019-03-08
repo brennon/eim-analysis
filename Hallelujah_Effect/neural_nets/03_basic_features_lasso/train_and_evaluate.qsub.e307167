@@ -1,0 +1,468 @@
+INFO:tensorflow:Using config: {'_model_dir': './model_trained_20181108175337', '_tf_random_seed': 42, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 90, '_session_config': allow_soft_placement: true
+, '_keep_checkpoint_max': 100, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f3b3559a6a0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+INFO:tensorflow:Using config: {'_model_dir': './model_trained_20181108175337', '_tf_random_seed': 42, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 90, '_session_config': allow_soft_placement: true
+, '_keep_checkpoint_max': 100, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f3b1a8612e8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+INFO:tensorflow:Running training and evaluation locally (non-distributed).
+INFO:tensorflow:Start train and evaluate loop. The evaluate will happen after every checkpoint. Checkpoint frequency is determined based on RunConfig arguments: save_checkpoints_steps None or save_checkpoints_secs 90.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2018-11-08 17:53:46.711115: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-11-08 17:53:47.100354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1411] Found device 0 with properties: 
+name: Tesla V100-PCIE-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.38
+pciBusID: 0000:d8:00.0
+totalMemory: 15.78GiB freeMemory: 15.37GiB
+2018-11-08 17:53:47.100394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-11-08 17:53:48.095179: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-08 17:53:48.095215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-11-08 17:53:48.095221: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-11-08 17:53:48.095483: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14871 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 0 into ./model_trained_20181108175337/model.ckpt.
+INFO:tensorflow:loss = 354.89136, step = 0
+INFO:tensorflow:global_step/sec: 22.6349
+INFO:tensorflow:loss = 260.0735, step = 100 (4.419 sec)
+INFO:tensorflow:global_step/sec: 24.9677
+INFO:tensorflow:loss = 253.57788, step = 200 (4.005 sec)
+INFO:tensorflow:global_step/sec: 24.7628
+INFO:tensorflow:loss = 252.9468, step = 300 (4.038 sec)
+INFO:tensorflow:global_step/sec: 24.9733
+INFO:tensorflow:loss = 251.52292, step = 400 (4.004 sec)
+INFO:tensorflow:global_step/sec: 25.0464
+INFO:tensorflow:loss = 251.11365, step = 500 (3.992 sec)
+INFO:tensorflow:global_step/sec: 24.4404
+INFO:tensorflow:loss = 262.85434, step = 600 (4.092 sec)
+INFO:tensorflow:global_step/sec: 24.6953
+INFO:tensorflow:loss = 251.10193, step = 700 (4.050 sec)
+INFO:tensorflow:global_step/sec: 25.1215
+INFO:tensorflow:loss = 264.51617, step = 800 (3.979 sec)
+INFO:tensorflow:global_step/sec: 25.2028
+INFO:tensorflow:loss = 252.62405, step = 900 (3.968 sec)
+INFO:tensorflow:global_step/sec: 25.0143
+INFO:tensorflow:loss = 239.13446, step = 1000 (3.998 sec)
+INFO:tensorflow:global_step/sec: 24.9957
+INFO:tensorflow:loss = 251.41592, step = 1100 (4.001 sec)
+INFO:tensorflow:global_step/sec: 24.6028
+INFO:tensorflow:loss = 257.53293, step = 1200 (4.065 sec)
+INFO:tensorflow:global_step/sec: 24.8633
+INFO:tensorflow:loss = 249.00388, step = 1300 (4.022 sec)
+INFO:tensorflow:global_step/sec: 24.9112
+INFO:tensorflow:loss = 258.20367, step = 1400 (4.013 sec)
+INFO:tensorflow:global_step/sec: 25.2596
+INFO:tensorflow:loss = 250.78235, step = 1500 (3.959 sec)
+INFO:tensorflow:global_step/sec: 25.1209
+INFO:tensorflow:loss = 244.75407, step = 1600 (3.982 sec)
+INFO:tensorflow:global_step/sec: 25.2193
+INFO:tensorflow:loss = 247.00539, step = 1700 (3.964 sec)
+INFO:tensorflow:global_step/sec: 25.0653
+INFO:tensorflow:loss = 244.34647, step = 1800 (3.990 sec)
+INFO:tensorflow:global_step/sec: 24.8515
+INFO:tensorflow:loss = 260.0993, step = 1900 (4.024 sec)
+INFO:tensorflow:global_step/sec: 24.54
+INFO:tensorflow:loss = 249.99754, step = 2000 (4.075 sec)
+INFO:tensorflow:global_step/sec: 24.484
+INFO:tensorflow:loss = 245.6091, step = 2100 (4.084 sec)
+INFO:tensorflow:global_step/sec: 25.0694
+INFO:tensorflow:loss = 251.73248, step = 2200 (3.989 sec)
+INFO:tensorflow:Saving checkpoints for 2214 into ./model_trained_20181108175337/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Calling model_fn.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-11-08-22:55:21
+INFO:tensorflow:Graph was finalized.
+2018-11-08 17:55:21.896690: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-11-08 17:55:21.896761: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-08 17:55:21.896767: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-11-08 17:55:21.896773: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-11-08 17:55:21.897037: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14871 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+INFO:tensorflow:Restoring parameters from ./model_trained_20181108175337/model.ckpt-2214
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2018-11-08-22:55:22
+INFO:tensorflow:Saving dict for global step 2214: accuracy = 0.6229508, accuracy_baseline = 0.6721312, auc = 0.452439, auc_precision_recall = 0.28252915, average_loss = 0.9784944, f1_score = 0.08, false_negatives = 19.0, false_positives = 4.0, global_step = 2214, label/mean = 0.32786885, loss = 59.68816, precision = 0.2, prediction/mean = 0.21007493, recall = 0.05, true_negatives = 37.0, true_positives = 1.0
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 2214: ./model_trained_20181108175337/model.ckpt-2214
+INFO:tensorflow:global_step/sec: 14.2236
+INFO:tensorflow:loss = 247.26384, step = 2300 (7.030 sec)
+INFO:tensorflow:global_step/sec: 25.3757
+INFO:tensorflow:loss = 249.44794, step = 2400 (3.941 sec)
+INFO:tensorflow:global_step/sec: 24.6846
+INFO:tensorflow:loss = 242.4832, step = 2500 (4.056 sec)
+INFO:tensorflow:global_step/sec: 25.5393
+INFO:tensorflow:loss = 245.72983, step = 2600 (3.911 sec)
+INFO:tensorflow:global_step/sec: 25.4585
+INFO:tensorflow:loss = 255.4384, step = 2700 (3.928 sec)
+INFO:tensorflow:global_step/sec: 25.1204
+INFO:tensorflow:loss = 240.75163, step = 2800 (3.982 sec)
+INFO:tensorflow:global_step/sec: 25.3298
+INFO:tensorflow:loss = 250.50168, step = 2900 (3.947 sec)
+INFO:tensorflow:global_step/sec: 25.5909
+INFO:tensorflow:loss = 250.16296, step = 3000 (3.909 sec)
+INFO:tensorflow:global_step/sec: 25.2953
+INFO:tensorflow:loss = 244.38889, step = 3100 (3.953 sec)
+INFO:tensorflow:global_step/sec: 25.439
+INFO:tensorflow:loss = 248.1107, step = 3200 (3.931 sec)
+INFO:tensorflow:global_step/sec: 25.2105
+INFO:tensorflow:loss = 248.54265, step = 3300 (3.967 sec)
+INFO:tensorflow:global_step/sec: 25.646
+INFO:tensorflow:loss = 239.28906, step = 3400 (3.899 sec)
+INFO:tensorflow:global_step/sec: 24.9011
+INFO:tensorflow:loss = 256.11255, step = 3500 (4.016 sec)
+INFO:tensorflow:global_step/sec: 25.3513
+INFO:tensorflow:loss = 243.74922, step = 3600 (3.945 sec)
+INFO:tensorflow:global_step/sec: 26.1205
+INFO:tensorflow:loss = 248.4704, step = 3700 (3.829 sec)
+INFO:tensorflow:global_step/sec: 26.1188
+INFO:tensorflow:loss = 246.43217, step = 3800 (3.828 sec)
+INFO:tensorflow:global_step/sec: 25.1153
+INFO:tensorflow:loss = 251.52693, step = 3900 (3.981 sec)
+INFO:tensorflow:global_step/sec: 25.4752
+INFO:tensorflow:loss = 252.39388, step = 4000 (3.926 sec)
+INFO:tensorflow:global_step/sec: 25.3081
+INFO:tensorflow:loss = 245.71124, step = 4100 (3.951 sec)
+INFO:tensorflow:global_step/sec: 24.652
+INFO:tensorflow:loss = 245.39484, step = 4200 (4.057 sec)
+INFO:tensorflow:global_step/sec: 25.3652
+INFO:tensorflow:loss = 251.68188, step = 4300 (3.942 sec)
+INFO:tensorflow:global_step/sec: 25.1549
+INFO:tensorflow:loss = 249.01645, step = 4400 (3.975 sec)
+INFO:tensorflow:Saving checkpoints for 4417 into ./model_trained_20181108175337/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Calling model_fn.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-11-08-22:56:51
+INFO:tensorflow:Graph was finalized.
+2018-11-08 17:56:51.911279: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-11-08 17:56:51.911329: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-08 17:56:51.911335: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-11-08 17:56:51.911341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-11-08 17:56:51.911564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14871 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+INFO:tensorflow:Restoring parameters from ./model_trained_20181108175337/model.ckpt-4417
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2018-11-08-22:56:52
+INFO:tensorflow:Saving dict for global step 4417: accuracy = 0.60655737, accuracy_baseline = 0.6721312, auc = 0.44878048, auc_precision_recall = 0.28116205, average_loss = 1.0229264, f1_score = 0.07692308, false_negatives = 19.0, false_positives = 5.0, global_step = 4417, label/mean = 0.32786885, loss = 62.398514, precision = 0.16666667, prediction/mean = 0.21147005, recall = 0.05, true_negatives = 36.0, true_positives = 1.0
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 4417: ./model_trained_20181108175337/model.ckpt-4417
+INFO:tensorflow:global_step/sec: 14.8841
+INFO:tensorflow:loss = 242.94077, step = 4500 (6.719 sec)
+INFO:tensorflow:global_step/sec: 24.6891
+INFO:tensorflow:loss = 249.89279, step = 4600 (4.050 sec)
+INFO:tensorflow:global_step/sec: 25.1764
+INFO:tensorflow:loss = 247.47047, step = 4700 (3.972 sec)
+INFO:tensorflow:global_step/sec: 26.3232
+INFO:tensorflow:loss = 239.34688, step = 4800 (3.799 sec)
+INFO:tensorflow:global_step/sec: 24.098
+INFO:tensorflow:loss = 239.98604, step = 4900 (4.150 sec)
+INFO:tensorflow:global_step/sec: 25.2729
+INFO:tensorflow:loss = 247.75217, step = 5000 (3.958 sec)
+INFO:tensorflow:global_step/sec: 24.4922
+INFO:tensorflow:loss = 240.5721, step = 5100 (4.082 sec)
+INFO:tensorflow:global_step/sec: 25.0557
+INFO:tensorflow:loss = 249.75731, step = 5200 (3.990 sec)
+INFO:tensorflow:global_step/sec: 25.7503
+INFO:tensorflow:loss = 250.26634, step = 5300 (3.884 sec)
+INFO:tensorflow:global_step/sec: 24.6999
+INFO:tensorflow:loss = 245.68997, step = 5400 (4.048 sec)
+INFO:tensorflow:global_step/sec: 25.3205
+INFO:tensorflow:loss = 246.33237, step = 5500 (3.950 sec)
+INFO:tensorflow:global_step/sec: 25.0029
+INFO:tensorflow:loss = 238.12831, step = 5600 (4.001 sec)
+INFO:tensorflow:global_step/sec: 25.2479
+INFO:tensorflow:loss = 248.57443, step = 5700 (3.959 sec)
+INFO:tensorflow:global_step/sec: 25.2247
+INFO:tensorflow:loss = 237.12968, step = 5800 (3.965 sec)
+INFO:tensorflow:global_step/sec: 25.2859
+INFO:tensorflow:loss = 260.95795, step = 5900 (3.954 sec)
+INFO:tensorflow:global_step/sec: 25.4278
+INFO:tensorflow:loss = 246.23218, step = 6000 (3.933 sec)
+INFO:tensorflow:global_step/sec: 25.2143
+INFO:tensorflow:loss = 249.95517, step = 6100 (3.966 sec)
+INFO:tensorflow:global_step/sec: 25.3725
+INFO:tensorflow:loss = 239.94139, step = 6200 (3.942 sec)
+INFO:tensorflow:global_step/sec: 25.6758
+INFO:tensorflow:loss = 241.77441, step = 6300 (3.894 sec)
+INFO:tensorflow:global_step/sec: 25.0142
+INFO:tensorflow:loss = 254.29391, step = 6400 (3.998 sec)
+INFO:tensorflow:global_step/sec: 26.1105
+INFO:tensorflow:loss = 242.49516, step = 6500 (3.830 sec)
+INFO:tensorflow:global_step/sec: 25.8242
+INFO:tensorflow:loss = 256.04034, step = 6600 (3.873 sec)
+INFO:tensorflow:Saving checkpoints for 6620 into ./model_trained_20181108175337/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Calling model_fn.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-11-08-22:58:21
+INFO:tensorflow:Graph was finalized.
+2018-11-08 17:58:21.877564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-11-08 17:58:21.877642: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-08 17:58:21.877649: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-11-08 17:58:21.877655: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-11-08 17:58:21.877879: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14871 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+INFO:tensorflow:Restoring parameters from ./model_trained_20181108175337/model.ckpt-6620
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2018-11-08-22:58:22
+INFO:tensorflow:Saving dict for global step 6620: accuracy = 0.60655737, accuracy_baseline = 0.6721312, auc = 0.4469512, auc_precision_recall = 0.28012535, average_loss = 1.0475955, f1_score = 0.07692308, false_negatives = 19.0, false_positives = 5.0, global_step = 6620, label/mean = 0.32786885, loss = 63.903328, precision = 0.16666667, prediction/mean = 0.21421726, recall = 0.05, true_negatives = 36.0, true_positives = 1.0
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 6620: ./model_trained_20181108175337/model.ckpt-6620
+INFO:tensorflow:global_step/sec: 14.8594
+INFO:tensorflow:loss = 248.47165, step = 6700 (6.730 sec)
+INFO:tensorflow:global_step/sec: 25.3084
+INFO:tensorflow:loss = 246.63687, step = 6800 (3.951 sec)
+INFO:tensorflow:global_step/sec: 25.0123
+INFO:tensorflow:loss = 243.25952, step = 6900 (3.998 sec)
+INFO:tensorflow:global_step/sec: 26.2456
+INFO:tensorflow:loss = 248.30052, step = 7000 (3.810 sec)
+INFO:tensorflow:global_step/sec: 24.6368
+INFO:tensorflow:loss = 246.6857, step = 7100 (4.059 sec)
+INFO:tensorflow:global_step/sec: 25.8298
+INFO:tensorflow:loss = 247.38284, step = 7200 (3.873 sec)
+INFO:tensorflow:global_step/sec: 24.6611
+INFO:tensorflow:loss = 241.73965, step = 7300 (4.054 sec)
+INFO:tensorflow:global_step/sec: 24.3231
+INFO:tensorflow:loss = 241.7682, step = 7400 (4.111 sec)
+INFO:tensorflow:global_step/sec: 25.4678
+INFO:tensorflow:loss = 247.19664, step = 7500 (3.926 sec)
+INFO:tensorflow:global_step/sec: 25.7472
+INFO:tensorflow:loss = 236.48923, step = 7600 (3.884 sec)
+INFO:tensorflow:global_step/sec: 24.7921
+INFO:tensorflow:loss = 238.53503, step = 7700 (4.033 sec)
+INFO:tensorflow:global_step/sec: 25.8219
+INFO:tensorflow:loss = 239.33362, step = 7800 (3.873 sec)
+INFO:tensorflow:global_step/sec: 25.2472
+INFO:tensorflow:loss = 249.58012, step = 7900 (3.961 sec)
+INFO:tensorflow:global_step/sec: 25.7677
+INFO:tensorflow:loss = 237.87881, step = 8000 (3.881 sec)
+INFO:tensorflow:global_step/sec: 25.1027
+INFO:tensorflow:loss = 247.16718, step = 8100 (3.983 sec)
+INFO:tensorflow:global_step/sec: 26.3131
+INFO:tensorflow:loss = 249.29741, step = 8200 (3.801 sec)
+INFO:tensorflow:global_step/sec: 25.1191
+INFO:tensorflow:loss = 260.4165, step = 8300 (3.981 sec)
+INFO:tensorflow:global_step/sec: 25.4869
+INFO:tensorflow:loss = 249.20175, step = 8400 (3.924 sec)
+INFO:tensorflow:global_step/sec: 24.1824
+INFO:tensorflow:loss = 256.4593, step = 8500 (4.135 sec)
+INFO:tensorflow:global_step/sec: 25.7456
+INFO:tensorflow:loss = 244.0176, step = 8600 (3.885 sec)
+INFO:tensorflow:global_step/sec: 25.8942
+INFO:tensorflow:loss = 244.87328, step = 8700 (3.861 sec)
+INFO:tensorflow:global_step/sec: 25.9733
+INFO:tensorflow:loss = 248.14667, step = 8800 (3.852 sec)
+INFO:tensorflow:Saving checkpoints for 8830 into ./model_trained_20181108175337/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Calling model_fn.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-11-08-22:59:51
+INFO:tensorflow:Graph was finalized.
+2018-11-08 17:59:52.075418: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-11-08 17:59:52.075476: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-08 17:59:52.075483: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-11-08 17:59:52.075488: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-11-08 17:59:52.075709: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14871 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+INFO:tensorflow:Restoring parameters from ./model_trained_20181108175337/model.ckpt-8830
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2018-11-08-22:59:52
+INFO:tensorflow:Saving dict for global step 8830: accuracy = 0.59016395, accuracy_baseline = 0.6721312, auc = 0.4439024, auc_precision_recall = 0.2792361, average_loss = 1.0625023, f1_score = 0.074074075, false_negatives = 19.0, false_positives = 6.0, global_step = 8830, label/mean = 0.32786885, loss = 64.81264, precision = 0.14285715, prediction/mean = 0.2197258, recall = 0.05, true_negatives = 35.0, true_positives = 1.0
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 8830: ./model_trained_20181108175337/model.ckpt-8830
+INFO:tensorflow:global_step/sec: 14.4199
+INFO:tensorflow:loss = 254.13051, step = 8900 (6.934 sec)
+INFO:tensorflow:global_step/sec: 25.4406
+INFO:tensorflow:loss = 252.24168, step = 9000 (3.930 sec)
+INFO:tensorflow:global_step/sec: 25.4489
+INFO:tensorflow:loss = 244.34628, step = 9100 (3.929 sec)
+INFO:tensorflow:global_step/sec: 25.5159
+INFO:tensorflow:loss = 244.08743, step = 9200 (3.919 sec)
+INFO:tensorflow:global_step/sec: 24.7207
+INFO:tensorflow:loss = 247.14398, step = 9300 (4.045 sec)
+INFO:tensorflow:global_step/sec: 25.7197
+INFO:tensorflow:loss = 236.45105, step = 9400 (3.888 sec)
+INFO:tensorflow:global_step/sec: 25.0816
+INFO:tensorflow:loss = 239.3923, step = 9500 (3.987 sec)
+INFO:tensorflow:global_step/sec: 25
+INFO:tensorflow:loss = 247.81503, step = 9600 (4.000 sec)
+INFO:tensorflow:global_step/sec: 25.4393
+INFO:tensorflow:loss = 248.10571, step = 9700 (3.931 sec)
+INFO:tensorflow:global_step/sec: 24.7532
+INFO:tensorflow:loss = 244.55716, step = 9800 (4.040 sec)
+INFO:tensorflow:global_step/sec: 24.7959
+INFO:tensorflow:loss = 246.45096, step = 9900 (4.033 sec)
+INFO:tensorflow:global_step/sec: 25.3368
+INFO:tensorflow:loss = 252.93294, step = 10000 (3.946 sec)
+INFO:tensorflow:global_step/sec: 25.4707
+INFO:tensorflow:loss = 244.66177, step = 10100 (3.927 sec)
+INFO:tensorflow:global_step/sec: 24.8775
+INFO:tensorflow:loss = 252.8918, step = 10200 (4.019 sec)
+INFO:tensorflow:global_step/sec: 24.794
+INFO:tensorflow:loss = 251.36717, step = 10300 (4.034 sec)
+INFO:tensorflow:global_step/sec: 25.092
+INFO:tensorflow:loss = 247.85893, step = 10400 (3.985 sec)
+INFO:tensorflow:global_step/sec: 25.5527
+INFO:tensorflow:loss = 240.80824, step = 10500 (3.914 sec)
+INFO:tensorflow:global_step/sec: 24.9824
+INFO:tensorflow:loss = 246.59116, step = 10600 (4.002 sec)
+INFO:tensorflow:global_step/sec: 25.6779
+INFO:tensorflow:loss = 245.8711, step = 10700 (3.894 sec)
+INFO:tensorflow:global_step/sec: 25.8504
+INFO:tensorflow:loss = 245.9315, step = 10800 (3.869 sec)
+INFO:tensorflow:global_step/sec: 25.1308
+INFO:tensorflow:loss = 246.97647, step = 10900 (3.979 sec)
+INFO:tensorflow:global_step/sec: 25.5644
+INFO:tensorflow:loss = 247.76254, step = 11000 (3.912 sec)
+INFO:tensorflow:Saving checkpoints for 11028 into ./model_trained_20181108175337/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Calling model_fn.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-11-08-23:01:21
+INFO:tensorflow:Graph was finalized.
+2018-11-08 18:01:22.037217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-11-08 18:01:22.037289: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-08 18:01:22.037295: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-11-08 18:01:22.037301: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-11-08 18:01:22.037646: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14871 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+INFO:tensorflow:Restoring parameters from ./model_trained_20181108175337/model.ckpt-11028
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2018-11-08-23:01:22
+INFO:tensorflow:Saving dict for global step 11028: accuracy = 0.60655737, accuracy_baseline = 0.6721312, auc = 0.44695118, auc_precision_recall = 0.28017214, average_loss = 1.0821923, f1_score = 0.07692308, false_negatives = 19.0, false_positives = 5.0, global_step = 11028, label/mean = 0.32786885, loss = 66.01373, precision = 0.16666667, prediction/mean = 0.21351387, recall = 0.05, true_negatives = 36.0, true_positives = 1.0
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 11028: ./model_trained_20181108175337/model.ckpt-11028
+INFO:tensorflow:global_step/sec: 14.7425
+INFO:tensorflow:loss = 255.59802, step = 11100 (6.783 sec)
+INFO:tensorflow:global_step/sec: 24.6542
+INFO:tensorflow:loss = 237.32335, step = 11200 (4.056 sec)
+INFO:tensorflow:global_step/sec: 25.2139
+INFO:tensorflow:loss = 242.41957, step = 11300 (3.965 sec)
+INFO:tensorflow:global_step/sec: 24.9828
+INFO:tensorflow:loss = 241.18092, step = 11400 (4.003 sec)
+INFO:tensorflow:global_step/sec: 25.5418
+INFO:tensorflow:loss = 249.88095, step = 11500 (3.915 sec)
+INFO:tensorflow:global_step/sec: 25.1641
+INFO:tensorflow:loss = 237.19154, step = 11600 (3.974 sec)
+INFO:tensorflow:global_step/sec: 25.1652
+INFO:tensorflow:loss = 247.79895, step = 11700 (3.974 sec)
+INFO:tensorflow:global_step/sec: 24.9348
+INFO:tensorflow:loss = 246.34032, step = 11800 (4.010 sec)
+INFO:tensorflow:global_step/sec: 25.0041
+INFO:tensorflow:loss = 241.55675, step = 11900 (3.999 sec)
+INFO:tensorflow:global_step/sec: 25.5874
+INFO:tensorflow:loss = 245.76186, step = 12000 (3.908 sec)
+INFO:tensorflow:global_step/sec: 25.2483
+INFO:tensorflow:loss = 237.97282, step = 12100 (3.961 sec)
+INFO:tensorflow:global_step/sec: 24.5927
+INFO:tensorflow:loss = 247.37073, step = 12200 (4.066 sec)
+INFO:tensorflow:global_step/sec: 25.5667
+INFO:tensorflow:loss = 249.57626, step = 12300 (3.911 sec)
+INFO:tensorflow:global_step/sec: 25.8686
+INFO:tensorflow:loss = 253.71646, step = 12400 (3.867 sec)
+INFO:tensorflow:global_step/sec: 24.8969
+INFO:tensorflow:loss = 251.07411, step = 12500 (4.015 sec)
+INFO:tensorflow:global_step/sec: 25.4346
+INFO:tensorflow:loss = 245.88516, step = 12600 (3.932 sec)
+INFO:tensorflow:global_step/sec: 26.0143
+INFO:tensorflow:loss = 239.57536, step = 12700 (3.843 sec)
+INFO:tensorflow:global_step/sec: 25.5325
+INFO:tensorflow:loss = 254.08142, step = 12800 (3.917 sec)
+INFO:tensorflow:global_step/sec: 25.7159
+INFO:tensorflow:loss = 245.607, step = 12900 (3.888 sec)
+INFO:tensorflow:global_step/sec: 26.1997
+INFO:tensorflow:loss = 248.67606, step = 13000 (3.817 sec)
+INFO:tensorflow:global_step/sec: 25.0737
+INFO:tensorflow:loss = 244.18494, step = 13100 (3.989 sec)
+INFO:tensorflow:global_step/sec: 25.7092
+INFO:tensorflow:loss = 246.44069, step = 13200 (3.889 sec)
+INFO:tensorflow:Saving checkpoints for 13236 into ./model_trained_20181108175337/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Calling model_fn.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-11-08-23:02:51
+INFO:tensorflow:Graph was finalized.
+2018-11-08 18:02:52.122165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-11-08 18:02:52.122215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-08 18:02:52.122221: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-11-08 18:02:52.122226: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-11-08 18:02:52.122446: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14871 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+INFO:tensorflow:Restoring parameters from ./model_trained_20181108175337/model.ckpt-13236
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2018-11-08-23:02:52
+INFO:tensorflow:Saving dict for global step 13236: accuracy = 0.59016395, accuracy_baseline = 0.6721312, auc = 0.44451216, auc_precision_recall = 0.27943373, average_loss = 1.0901164, f1_score = 0.074074075, false_negatives = 19.0, false_positives = 6.0, global_step = 13236, label/mean = 0.32786885, loss = 66.4971, precision = 0.14285715, prediction/mean = 0.21898597, recall = 0.05, true_negatives = 35.0, true_positives = 1.0
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 13236: ./model_trained_20181108175337/model.ckpt-13236
+INFO:tensorflow:global_step/sec: 14.5348
+INFO:tensorflow:loss = 244.17703, step = 13300 (6.880 sec)
+INFO:tensorflow:global_step/sec: 25.825
+INFO:tensorflow:loss = 244.30283, step = 13400 (3.872 sec)
+INFO:tensorflow:global_step/sec: 25.7277
+INFO:tensorflow:loss = 245.93863, step = 13500 (3.888 sec)
+INFO:tensorflow:global_step/sec: 25.5597
+INFO:tensorflow:loss = 242.11143, step = 13600 (3.912 sec)
+INFO:tensorflow:global_step/sec: 25.4361
+INFO:tensorflow:loss = 244.605, step = 13700 (3.931 sec)
+INFO:tensorflow:global_step/sec: 25.2819
+INFO:tensorflow:loss = 250.04546, step = 13800 (3.955 sec)
+INFO:tensorflow:global_step/sec: 25.6487
+INFO:tensorflow:loss = 254.33565, step = 13900 (3.899 sec)
+INFO:tensorflow:global_step/sec: 25.4114
+INFO:tensorflow:loss = 245.64256, step = 14000 (3.935 sec)
+INFO:tensorflow:global_step/sec: 25.6385
+INFO:tensorflow:loss = 248.32518, step = 14100 (3.900 sec)
+INFO:tensorflow:global_step/sec: 25.5051
+INFO:tensorflow:loss = 245.78502, step = 14200 (3.920 sec)
+INFO:tensorflow:global_step/sec: 24.7658
+INFO:tensorflow:loss = 246.48631, step = 14300 (4.038 sec)
+INFO:tensorflow:global_step/sec: 25.5257
+INFO:tensorflow:loss = 247.6178, step = 14400 (3.918 sec)
+INFO:tensorflow:global_step/sec: 25.4565
+INFO:tensorflow:loss = 254.79356, step = 14500 (3.928 sec)
+INFO:tensorflow:global_step/sec: 25.3263
+INFO:tensorflow:loss = 251.97484, step = 14600 (3.950 sec)
+INFO:tensorflow:global_step/sec: 25.5605
+INFO:tensorflow:loss = 243.38078, step = 14700 (3.911 sec)
+INFO:tensorflow:Saving checkpoints for 14795 into ./model_trained_20181108175337/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Calling model_fn.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+WARNING:tensorflow:Trapezoidal rule is known to produce incorrect PR-AUCs; please switch to "careful_interpolation" instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-11-08-23:03:55
+INFO:tensorflow:Graph was finalized.
+2018-11-08 18:03:56.290059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-11-08 18:03:56.290111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-08 18:03:56.290117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-11-08 18:03:56.290122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-11-08 18:03:56.290453: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14871 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+INFO:tensorflow:Restoring parameters from ./model_trained_20181108175337/model.ckpt-14795
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2018-11-08-23:03:57
+INFO:tensorflow:Saving dict for global step 14795: accuracy = 0.60655737, accuracy_baseline = 0.6721312, auc = 0.44634143, auc_precision_recall = 0.28011125, average_loss = 1.0999866, f1_score = 0.07692308, false_negatives = 19.0, false_positives = 5.0, global_step = 14795, label/mean = 0.32786885, loss = 67.09918, precision = 0.16666667, prediction/mean = 0.21590954, recall = 0.05, true_negatives = 36.0, true_positives = 1.0
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 14795: ./model_trained_20181108175337/model.ckpt-14795
+INFO:tensorflow:Loss for final step: 245.92499.

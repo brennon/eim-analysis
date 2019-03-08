@@ -1,0 +1,1095 @@
+Iteration No: 1 started. Searching for the next optimal point.
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.41280487, 'auc_precision_recall': 0.26368114, 'average_loss': 10.982987, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 6.0, 'label/mean': 0.32786885, 'loss': 669.9622, 'precision': 0.0, 'prediction/mean': 0.21829721, 'recall': 0.0, 'true_negatives': 35.0, 'true_positives': 0.0, 'global_step': 3504, 'f1_weighted': 0.46737596348029736}
+Iteration No: 1 ended. Search finished for the next optimal point.
+Time taken: 81.0554
+Function value obtained: -0.4674
+Current minimum: -0.4674
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.6373072, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 38.87574, 'precision': 0.0, 'prediction/mean': 0.28376967, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 6031, 'f1_weighted': 0.5071909885954942}
+Iteration No: 2 ended. Search finished for the next optimal point.
+Time taken: 150.5914
+Function value obtained: -0.5072
+Current minimum: -0.5072
+***** result *****
+{'accuracy': 0.6557377, 'accuracy_baseline': 0.6721312, 'auc': 0.45, 'auc_precision_recall': 0.28734127, 'average_loss': 1.3127444, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 1.0, 'label/mean': 0.32786885, 'loss': 80.07741, 'precision': 0.0, 'prediction/mean': 0.19211191, 'recall': 0.0, 'true_negatives': 40.0, 'true_positives': 0.0, 'global_step': 9362, 'f1_weighted': 0.5009673148973516}
+Iteration No: 3 ended. Search finished for the next optimal point.
+Time taken: 373.7740
+Function value obtained: -0.5010
+Current minimum: -0.5072
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.69850945, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 42.609077, 'precision': 0.0, 'prediction/mean': 0.17715515, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 152639, 'f1_weighted': 0.5071909885954942}
+Iteration No: 4 ended. Search finished for the next optimal point.
+Time taken: 1086.0936
+Function value obtained: -0.5072
+Current minimum: -0.5072
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 3196.791, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 195004.25, 'precision': 0.0, 'prediction/mean': 0.0, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 26085, 'f1_weighted': 0.5071909885954942}
+Iteration No: 5 ended. Search finished for the next optimal point.
+Time taken: 1444.2129
+Function value obtained: -0.5072
+Current minimum: -0.5072
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.63376415, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 38.659615, 'precision': 0.0, 'prediction/mean': 0.30606472, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 807, 'f1_weighted': 0.5071909885954942}
+Iteration No: 6 ended. Search finished for the next optimal point.
+Time taken: 1458.7555
+Function value obtained: -0.5072
+Current minimum: -0.5072
+***** result *****
+{'accuracy': 0.6557377, 'accuracy_baseline': 0.6721312, 'auc': 0.45121953, 'auc_precision_recall': 0.27821338, 'average_loss': 14.18783, 'f1_score': 0.22222222, 'false_negatives': 17.0, 'false_positives': 4.0, 'label/mean': 0.32786885, 'loss': 865.45764, 'precision': 0.42857143, 'prediction/mean': 0.12223181, 'recall': 0.15, 'true_negatives': 37.0, 'true_positives': 3.0, 'global_step': 27211, 'f1_weighted': 0.5875039640009699}
+Iteration No: 7 ended. Search finished for the next optimal point.
+Time taken: 1659.6923
+Function value obtained: -0.5875
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.64166343, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 39.141468, 'precision': 0.0, 'prediction/mean': 0.26719308, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 153318, 'f1_weighted': 0.5071909885954942}
+Iteration No: 8 ended. Search finished for the next optimal point.
+Time taken: 2346.5605
+Function value obtained: -0.5072
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 2337.2576, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 142572.72, 'precision': 0.0, 'prediction/mean': 0.0, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 13231, 'f1_weighted': 0.5071909885954942}
+Iteration No: 9 ended. Search finished for the next optimal point.
+Time taken: 2566.4661
+Function value obtained: -0.5072
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.46707314, 'auc_precision_recall': 0.3408289, 'average_loss': 5.168139, 'f1_score': 0.2, 'false_negatives': 17.0, 'false_positives': 7.0, 'label/mean': 0.32786885, 'loss': 315.25647, 'precision': 0.3, 'prediction/mean': 0.18470863, 'recall': 0.15, 'true_negatives': 34.0, 'true_positives': 3.0, 'global_step': 9458, 'f1_weighted': 0.5531927088621207}
+Iteration No: 10 ended. Search finished for the next optimal point.
+Time taken: 2783.9499
+Function value obtained: -0.5532
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.2993903, 'auc_precision_recall': 0.20431477, 'average_loss': 3.1840034, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 194.2242, 'precision': 0.0, 'prediction/mean': 0.03529028, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 1894, 'f1_weighted': 0.5071909885954942}
+Iteration No: 11 ended. Search finished for the next optimal point.
+Time taken: 2796.6009
+Function value obtained: -0.5072
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.48170727, 'auc_precision_recall': 0.34441048, 'average_loss': 3.6581342, 'f1_score': 0.35, 'false_negatives': 13.0, 'false_positives': 13.0, 'label/mean': 0.32786885, 'loss': 223.1462, 'precision': 0.35, 'prediction/mean': 0.32001677, 'recall': 0.35, 'true_negatives': 28.0, 'true_positives': 7.0, 'global_step': 5465, 'f1_weighted': 0.5737704917339781}
+Iteration No: 12 ended. Search finished for the next optimal point.
+Time taken: 2928.0289
+Function value obtained: -0.5738
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 1.7591418, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 107.30765, 'precision': 0.0, 'prediction/mean': 0.0047212546, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 158337, 'f1_weighted': 0.5071909885954942}
+Iteration No: 13 ended. Search finished for the next optimal point.
+Time taken: 3577.8374
+Function value obtained: -0.5072
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.6367253, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 38.840244, 'precision': 0.0, 'prediction/mean': 0.37105256, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 284063, 'f1_weighted': 0.5071909885954942}
+Iteration No: 14 ended. Search finished for the next optimal point.
+Time taken: 4609.5561
+Function value obtained: -0.5072
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4621951, 'auc_precision_recall': 0.29570788, 'average_loss': 11.329047, 'f1_score': 0.23529412, 'false_negatives': 16.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 691.0719, 'precision': 0.2857143, 'prediction/mean': 0.1848939, 'recall': 0.2, 'true_negatives': 31.0, 'true_positives': 4.0, 'global_step': 1941, 'f1_weighted': 0.5449908924628941}
+Iteration No: 15 ended. Search finished for the next optimal point.
+Time taken: 4659.1216
+Function value obtained: -0.5450
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.51158535, 'auc_precision_recall': 0.4495152, 'average_loss': 8.781398, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 535.6653, 'precision': 0.0, 'prediction/mean': 0.14398934, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 63313, 'f1_weighted': 0.5071909885954942}
+Iteration No: 16 ended. Search finished for the next optimal point.
+Time taken: 5084.2028
+Function value obtained: -0.5072
+Current minimum: -0.5875
+***** result *****
+{'accuracy': 0.6557377, 'accuracy_baseline': 0.6721312, 'auc': 0.53780484, 'auc_precision_recall': 0.42322862, 'average_loss': 8.022163, 'f1_score': 0.27586207, 'false_negatives': 16.0, 'false_positives': 5.0, 'label/mean': 0.32786885, 'loss': 489.352, 'precision': 0.44444445, 'prediction/mean': 0.15438199, 'recall': 0.2, 'true_negatives': 36.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.6041593525246417}
+Iteration No: 17 ended. Search finished for the next optimal point.
+Time taken: 6201.3387
+Function value obtained: -0.6042
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.47500002, 'auc_precision_recall': 0.64153004, 'average_loss': 3.1255283, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 190.65723, 'precision': 0.0, 'prediction/mean': 0.251073, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 9469, 'f1_weighted': 0.5071909885954942}
+Iteration No: 18 ended. Search finished for the next optimal point.
+Time taken: 6252.3627
+Function value obtained: -0.5072
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.44146338, 'auc_precision_recall': 0.31549639, 'average_loss': 20.416424, 'f1_score': 0.2, 'false_negatives': 17.0, 'false_positives': 7.0, 'label/mean': 0.32786885, 'loss': 1245.4019, 'precision': 0.3, 'prediction/mean': 0.17567438, 'recall': 0.15, 'true_negatives': 34.0, 'true_positives': 3.0, 'global_step': 23145, 'f1_weighted': 0.5531927088621207}
+Iteration No: 19 ended. Search finished for the next optimal point.
+Time taken: 6571.9879
+Function value obtained: -0.5532
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.4975609, 'auc_precision_recall': 0.3499471, 'average_loss': 2.3478587, 'f1_score': 0.12903225, 'false_negatives': 18.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 143.21938, 'precision': 0.18181819, 'prediction/mean': 0.23000026, 'recall': 0.1, 'true_negatives': 32.0, 'true_positives': 2.0, 'global_step': 4445, 'f1_weighted': 0.5044596142623065}
+Iteration No: 20 ended. Search finished for the next optimal point.
+Time taken: 6658.2524
+Function value obtained: -0.5045
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.6471525, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 39.476303, 'precision': 0.0, 'prediction/mean': 0.25178316, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 284063, 'f1_weighted': 0.5071909885954942}
+Iteration No: 21 ended. Search finished for the next optimal point.
+Time taken: 7727.5798
+Function value obtained: -0.5072
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.4359756, 'auc_precision_recall': 0.28172857, 'average_loss': 0.9502929, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 2.0, 'label/mean': 0.32786885, 'loss': 57.967865, 'precision': 0.0, 'prediction/mean': 0.23745146, 'recall': 0.0, 'true_negatives': 39.0, 'true_positives': 0.0, 'global_step': 26423, 'f1_weighted': 0.494587070791713}
+Iteration No: 22 ended. Search finished for the next optimal point.
+Time taken: 7919.0405
+Function value obtained: -0.4946
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.69114614, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 42.159916, 'precision': 0.0, 'prediction/mean': 0.18457416, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 275863, 'f1_weighted': 0.5071909885954942}
+Iteration No: 23 ended. Search finished for the next optimal point.
+Time taken: 9027.9135
+Function value obtained: -0.5072
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.69125104, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 42.166313, 'precision': 0.0, 'prediction/mean': 0.49722373, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 6290, 'f1_weighted': 0.5071909885954942}
+Iteration No: 24 ended. Search finished for the next optimal point.
+Time taken: 9157.8261
+Function value obtained: -0.5072
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.6380015, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 38.91809, 'precision': 0.0, 'prediction/mean': 0.2806884, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 20180, 'f1_weighted': 0.5071909885954942}
+Iteration No: 25 ended. Search finished for the next optimal point.
+Time taken: 9491.8147
+Function value obtained: -0.5072
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.48597562, 'auc_precision_recall': 0.32587275, 'average_loss': 1.0421462, 'f1_score': 0.083333336, 'false_negatives': 19.0, 'false_positives': 3.0, 'label/mean': 0.32786885, 'loss': 63.57092, 'precision': 0.25, 'prediction/mean': 0.20243494, 'recall': 0.05, 'true_negatives': 38.0, 'true_positives': 1.0, 'global_step': 15000, 'f1_weighted': 0.5294704237505388}
+Iteration No: 26 ended. Search finished for the next optimal point.
+Time taken: 9833.2629
+Function value obtained: -0.5295
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.47195122, 'auc_precision_recall': 0.29700068, 'average_loss': 0.75691134, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 3.0, 'label/mean': 0.32786885, 'loss': 46.171593, 'precision': 0.0, 'prediction/mean': 0.22953203, 'recall': 0.0, 'true_negatives': 38.0, 'true_positives': 0.0, 'global_step': 828, 'f1_weighted': 0.4880442726961264}
+Iteration No: 27 ended. Search finished for the next optimal point.
+Time taken: 9854.2869
+Function value obtained: -0.4880
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.5081967, 'accuracy_baseline': 0.6721312, 'auc': 0.42500007, 'auc_precision_recall': 0.2920066, 'average_loss': 22.410295, 'f1_score': 0.11764706, 'false_negatives': 18.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 1367.0281, 'precision': 0.14285715, 'prediction/mean': 0.23458035, 'recall': 0.1, 'true_negatives': 29.0, 'true_positives': 2.0, 'global_step': 284063, 'f1_weighted': 0.47413479045968976}
+Iteration No: 28 ended. Search finished for the next optimal point.
+Time taken: 10969.4892
+Function value obtained: -0.4741
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.67804253, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 41.360596, 'precision': 0.0, 'prediction/mean': 0.47646964, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 100, 'f1_weighted': 0.5071909885954942}
+Iteration No: 29 ended. Search finished for the next optimal point.
+Time taken: 10978.7671
+Function value obtained: -0.5072
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.5317073, 'auc_precision_recall': 0.3909766, 'average_loss': 6.976772, 'f1_score': 0.3157895, 'false_negatives': 14.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 425.58307, 'precision': 0.33333334, 'prediction/mean': 0.29933736, 'recall': 0.3, 'true_negatives': 29.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5658227147143595}
+Iteration No: 30 ended. Search finished for the next optimal point.
+Time taken: 12024.6735
+Function value obtained: -0.5658
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.4109756, 'auc_precision_recall': 0.26806682, 'average_loss': 0.86371523, 'f1_score': 0.08, 'false_negatives': 19.0, 'false_positives': 4.0, 'label/mean': 0.32786885, 'loss': 52.68663, 'precision': 0.2, 'prediction/mean': 0.27398852, 'recall': 0.05, 'true_negatives': 37.0, 'true_positives': 1.0, 'global_step': 31991, 'f1_weighted': 0.5204114432022815}
+Iteration No: 31 ended. Search finished for the next optimal point.
+Time taken: 12193.5627
+Function value obtained: -0.5204
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.4506098, 'auc_precision_recall': 0.28640828, 'average_loss': 2.6354587, 'f1_score': 0.083333336, 'false_negatives': 19.0, 'false_positives': 3.0, 'label/mean': 0.32786885, 'loss': 160.76299, 'precision': 0.25, 'prediction/mean': 0.16003007, 'recall': 0.05, 'true_negatives': 38.0, 'true_positives': 1.0, 'global_step': 284063, 'f1_weighted': 0.5294704237505388}
+Iteration No: 32 ended. Search finished for the next optimal point.
+Time taken: 13197.6087
+Function value obtained: -0.5295
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.49390244, 'auc_precision_recall': 0.406805, 'average_loss': 37.281273, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 2274.1577, 'precision': 0.0, 'prediction/mean': 0.117066205, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 9033, 'f1_weighted': 0.5071909885954942}
+Iteration No: 33 ended. Search finished for the next optimal point.
+Time taken: 13402.9989
+Function value obtained: -0.5072
+Current minimum: -0.6042
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.793289, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.3906, 'precision': 0.45454547, 'prediction/mean': 0.35885292, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 34 ended. Search finished for the next optimal point.
+Time taken: 14385.5488
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5067073, 'auc_precision_recall': 0.43289062, 'average_loss': 2.753503, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 167.96368, 'precision': 0.0, 'prediction/mean': 0.2023367, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 177, 'f1_weighted': 0.5071909885954942}
+Iteration No: 35 ended. Search finished for the next optimal point.
+Time taken: 14397.0700
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.65446794, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 39.922543, 'precision': 0.0, 'prediction/mean': 0.23576277, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 32216, 'f1_weighted': 0.5071909885954942}
+Iteration No: 36 ended. Search finished for the next optimal point.
+Time taken: 14788.9378
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.792417, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.3374, 'precision': 0.45454547, 'prediction/mean': 0.3588841, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 37 ended. Search finished for the next optimal point.
+Time taken: 15766.9402
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.5409836, 'accuracy_baseline': 0.6721312, 'auc': 0.5091463, 'auc_precision_recall': 0.36130884, 'average_loss': 2.615268, 'f1_score': 0.2631579, 'false_negatives': 15.0, 'false_positives': 13.0, 'label/mean': 0.32786885, 'loss': 159.53134, 'precision': 0.2777778, 'prediction/mean': 0.27549452, 'recall': 0.25, 'true_negatives': 28.0, 'true_positives': 5.0, 'global_step': 986, 'f1_weighted': 0.5323811981828006}
+Iteration No: 38 ended. Search finished for the next optimal point.
+Time taken: 15784.1222
+Function value obtained: -0.5324
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.788002, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.0681, 'precision': 0.45454547, 'prediction/mean': 0.35888454, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 39 ended. Search finished for the next optimal point.
+Time taken: 16770.0359
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.6367253, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 38.840244, 'precision': 0.0, 'prediction/mean': 0.37105256, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 284063, 'f1_weighted': 0.5071909885954942}
+Iteration No: 40 ended. Search finished for the next optimal point.
+Time taken: 17764.9016
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.47500002, 'auc_precision_recall': 0.64153004, 'average_loss': 1.0595685, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 64.63368, 'precision': 0.0, 'prediction/mean': 0.34500873, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 15000, 'f1_weighted': 0.5071909885954942}
+Iteration No: 41 ended. Search finished for the next optimal point.
+Time taken: 18089.8969
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.6479911, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 39.52746, 'precision': 0.0, 'prediction/mean': 0.24973968, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 760, 'f1_weighted': 0.5071909885954942}
+Iteration No: 42 ended. Search finished for the next optimal point.
+Time taken: 18112.9213
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.78895, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.126, 'precision': 0.45454547, 'prediction/mean': 0.3588033, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 43 ended. Search finished for the next optimal point.
+Time taken: 19095.5234
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.53902435, 'auc_precision_recall': 0.4217553, 'average_loss': 6.362691, 'f1_score': 0.3783784, 'false_negatives': 13.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 388.12415, 'precision': 0.4117647, 'prediction/mean': 0.2684378, 'recall': 0.35, 'true_negatives': 31.0, 'true_positives': 7.0, 'global_step': 284063, 'f1_weighted': 0.6120642181708582}
+Iteration No: 44 ended. Search finished for the next optimal point.
+Time taken: 20156.7690
+Function value obtained: -0.6121
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 2038.7683, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 124364.87, 'precision': 0.0, 'prediction/mean': 0.0, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 100, 'f1_weighted': 0.5071909885954942}
+Iteration No: 45 ended. Search finished for the next optimal point.
+Time taken: 20170.0944
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.5518293, 'auc_precision_recall': 0.46256793, 'average_loss': 8.004398, 'f1_score': 0.41025642, 'false_negatives': 12.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 488.2683, 'precision': 0.42105263, 'prediction/mean': 0.31187063, 'recall': 0.4, 'true_negatives': 30.0, 'true_positives': 8.0, 'global_step': 284063, 'f1_weighted': 0.6196042961430042}
+Iteration No: 46 ended. Search finished for the next optimal point.
+Time taken: 21185.4979
+Function value obtained: -0.6196
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4987805, 'auc_precision_recall': 0.36274654, 'average_loss': 6.7227254, 'f1_score': 0.3157895, 'false_negatives': 14.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 410.08624, 'precision': 0.33333334, 'prediction/mean': 0.2618768, 'recall': 0.3, 'true_negatives': 29.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5658227147143595}
+Iteration No: 47 ended. Search finished for the next optimal point.
+Time taken: 22187.3343
+Function value obtained: -0.5658
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.791467, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.2795, 'precision': 0.45454547, 'prediction/mean': 0.35892016, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 48 ended. Search finished for the next optimal point.
+Time taken: 23180.9197
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.45731702, 'auc_precision_recall': 0.32791364, 'average_loss': 4.4228864, 'f1_score': 0.12903225, 'false_negatives': 18.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 269.79608, 'precision': 0.18181819, 'prediction/mean': 0.19432718, 'recall': 0.1, 'true_negatives': 32.0, 'true_positives': 2.0, 'global_step': 1894, 'f1_weighted': 0.5044596142623065}
+Iteration No: 49 ended. Search finished for the next optimal point.
+Time taken: 23198.5655
+Function value obtained: -0.5045
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.7913885, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.2747, 'precision': 0.45454547, 'prediction/mean': 0.35892838, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 50 ended. Search finished for the next optimal point.
+Time taken: 24188.3096
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.789603, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.1658, 'precision': 0.45454547, 'prediction/mean': 0.35886395, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 51 ended. Search finished for the next optimal point.
+Time taken: 25173.5240
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.43719506, 'auc_precision_recall': 0.36317337, 'average_loss': 6.477154, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 395.10638, 'precision': 0.33333334, 'prediction/mean': 0.25008494, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 52 ended. Search finished for the next optimal point.
+Time taken: 26163.0614
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.4963414, 'auc_precision_recall': 0.34931716, 'average_loss': 3.8076499, 'f1_score': 0.3125, 'false_negatives': 15.0, 'false_positives': 7.0, 'label/mean': 0.32786885, 'loss': 232.26665, 'precision': 0.41666666, 'prediction/mean': 0.20892014, 'recall': 0.25, 'true_negatives': 34.0, 'true_positives': 5.0, 'global_step': 1894, 'f1_weighted': 0.6049920122822325}
+Iteration No: 53 ended. Search finished for the next optimal point.
+Time taken: 26180.0410
+Function value obtained: -0.6050
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.52459013, 'accuracy_baseline': 0.6721312, 'auc': 0.38963413, 'auc_precision_recall': 0.29015335, 'average_loss': 9.168734, 'f1_score': 0.121212125, 'false_negatives': 18.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 559.2927, 'precision': 0.15384616, 'prediction/mean': 0.23112965, 'recall': 0.1, 'true_negatives': 30.0, 'true_positives': 2.0, 'global_step': 284063, 'f1_weighted': 0.4843115117596503}
+Iteration No: 54 ended. Search finished for the next optimal point.
+Time taken: 27183.6937
+Function value obtained: -0.4843
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.7884, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.0924, 'precision': 0.45454547, 'prediction/mean': 0.35880762, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 55 ended. Search finished for the next optimal point.
+Time taken: 28185.8280
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.5652439, 'auc_precision_recall': 0.37157565, 'average_loss': 2.158567, 'f1_score': 0.22857143, 'false_negatives': 16.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 131.67258, 'precision': 0.26666668, 'prediction/mean': 0.27167886, 'recall': 0.2, 'true_negatives': 30.0, 'true_positives': 4.0, 'global_step': 1894, 'f1_weighted': 0.5335141130827551}
+Iteration No: 56 ended. Search finished for the next optimal point.
+Time taken: 28204.1963
+Function value obtained: -0.5335
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.5420732, 'auc_precision_recall': 0.50266385, 'average_loss': 2458.3706, 'f1_score': 0.40909088, 'false_negatives': 11.0, 'false_positives': 15.0, 'label/mean': 0.32786885, 'loss': 149960.61, 'precision': 0.375, 'prediction/mean': 0.39344263, 'recall': 0.45, 'true_negatives': 26.0, 'true_positives': 9.0, 'global_step': 284063, 'f1_weighted': 0.5860634773529261}
+Iteration No: 57 ended. Search finished for the next optimal point.
+Time taken: 29218.3779
+Function value obtained: -0.5861
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.5409836, 'accuracy_baseline': 0.6721312, 'auc': 0.4670732, 'auc_precision_recall': 0.3753227, 'average_loss': 8.604081, 'f1_score': 0.22222222, 'false_negatives': 16.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 524.84894, 'precision': 0.25, 'prediction/mean': 0.2921071, 'recall': 0.2, 'true_negatives': 29.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5220392171273166}
+Iteration No: 58 ended. Search finished for the next optimal point.
+Time taken: 30244.3537
+Function value obtained: -0.5220
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 1.8041924, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 110.05574, 'precision': 0.0, 'prediction/mean': 0.0041099493, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 15000, 'f1_weighted': 0.5071909885954942}
+Iteration No: 59 ended. Search finished for the next optimal point.
+Time taken: 30594.9951
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.47317076, 'auc_precision_recall': 0.37114754, 'average_loss': 12.790631, 'f1_score': 0.23529412, 'false_negatives': 16.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 780.2285, 'precision': 0.2857143, 'prediction/mean': 0.22612591, 'recall': 0.2, 'true_negatives': 31.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5449908924628941}
+Iteration No: 60 ended. Search finished for the next optimal point.
+Time taken: 31652.4752
+Function value obtained: -0.5450
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.5409836, 'accuracy_baseline': 0.6721312, 'auc': 0.47926825, 'auc_precision_recall': 0.4147541, 'average_loss': 4683.9736, 'f1_score': 0.3, 'false_negatives': 14.0, 'false_positives': 14.0, 'label/mean': 0.32786885, 'loss': 285722.4, 'precision': 0.3, 'prediction/mean': 0.32786885, 'recall': 0.3, 'true_negatives': 27.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5409836064882521}
+Iteration No: 61 ended. Search finished for the next optimal point.
+Time taken: 32668.1096
+Function value obtained: -0.5410
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.790542, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.223, 'precision': 0.45454547, 'prediction/mean': 0.35871813, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 62 ended. Search finished for the next optimal point.
+Time taken: 33662.6445
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.40975612, 'auc_precision_recall': 0.27484336, 'average_loss': 0.692429, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 42.23817, 'precision': 0.0, 'prediction/mean': 0.2521656, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 15000, 'f1_weighted': 0.5071909885954942}
+Iteration No: 63 ended. Search finished for the next optimal point.
+Time taken: 34019.8033
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.49146342, 'auc_precision_recall': 0.3771808, 'average_loss': 6.585563, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 401.71936, 'precision': 0.33333334, 'prediction/mean': 0.25720972, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 64 ended. Search finished for the next optimal point.
+Time taken: 35030.0050
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.787996, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.06775, 'precision': 0.45454547, 'prediction/mean': 0.35879207, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 65 ended. Search finished for the next optimal point.
+Time taken: 36028.4701
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.787206, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.01953, 'precision': 0.45454547, 'prediction/mean': 0.35893273, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 66 ended. Search finished for the next optimal point.
+Time taken: 37014.7607
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.79033, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.21014, 'precision': 0.45454547, 'prediction/mean': 0.35886133, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 67 ended. Search finished for the next optimal point.
+Time taken: 38008.5912
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.52459013, 'accuracy_baseline': 0.6721312, 'auc': 0.51280487, 'auc_precision_recall': 0.30776668, 'average_loss': 3.0049403, 'f1_score': 0.32558137, 'false_negatives': 13.0, 'false_positives': 16.0, 'label/mean': 0.32786885, 'loss': 183.30136, 'precision': 0.3043478, 'prediction/mean': 0.3751498, 'recall': 0.35, 'true_negatives': 25.0, 'true_positives': 7.0, 'global_step': 1894, 'f1_weighted': 0.5351752072372257}
+Iteration No: 68 ended. Search finished for the next optimal point.
+Time taken: 38027.0591
+Function value obtained: -0.5352
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6557377, 'accuracy_baseline': 0.6721312, 'auc': 0.51280487, 'auc_precision_recall': 0.31825235, 'average_loss': 0.8274162, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 1.0, 'label/mean': 0.32786885, 'loss': 50.472385, 'precision': 0.0, 'prediction/mean': 0.23746943, 'recall': 0.0, 'true_negatives': 40.0, 'true_positives': 0.0, 'global_step': 100, 'f1_weighted': 0.5009673148973516}
+Iteration No: 69 ended. Search finished for the next optimal point.
+Time taken: 38039.2875
+Function value obtained: -0.5010
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.793503, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.4037, 'precision': 0.45454547, 'prediction/mean': 0.35880297, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 70 ended. Search finished for the next optimal point.
+Time taken: 39044.8597
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.5409836, 'accuracy_baseline': 0.6721312, 'auc': 0.3695122, 'auc_precision_recall': 0.251709, 'average_loss': 1.3618544, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 83.07312, 'precision': 0.0, 'prediction/mean': 0.24361186, 'recall': 0.0, 'true_negatives': 33.0, 'true_positives': 0.0, 'global_step': 1894, 'f1_weighted': 0.4526597523833408}
+Iteration No: 71 ended. Search finished for the next optimal point.
+Time taken: 39066.0718
+Function value obtained: -0.4527
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.48414633, 'auc_precision_recall': 0.37136585, 'average_loss': 6.429885, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 392.223, 'precision': 0.4, 'prediction/mean': 0.25880772, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 72 ended. Search finished for the next optimal point.
+Time taken: 40069.8493
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.786748, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 718.99164, 'precision': 0.45454547, 'prediction/mean': 0.3588575, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 73 ended. Search finished for the next optimal point.
+Time taken: 41077.0378
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.5963415, 'auc_precision_recall': 0.5201802, 'average_loss': 9.984733, 'f1_score': 0.3783784, 'false_negatives': 13.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 609.06866, 'precision': 0.4117647, 'prediction/mean': 0.27216768, 'recall': 0.35, 'true_negatives': 31.0, 'true_positives': 7.0, 'global_step': 15000, 'f1_weighted': 0.6120642181708582}
+Iteration No: 74 ended. Search finished for the next optimal point.
+Time taken: 41413.7730
+Function value obtained: -0.6121
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.47926828, 'auc_precision_recall': 0.30208617, 'average_loss': 3.011189, 'f1_score': 0.08, 'false_negatives': 19.0, 'false_positives': 4.0, 'label/mean': 0.32786885, 'loss': 183.68253, 'precision': 0.2, 'prediction/mean': 0.16550356, 'recall': 0.05, 'true_negatives': 37.0, 'true_positives': 1.0, 'global_step': 15000, 'f1_weighted': 0.5204114432022815}
+Iteration No: 75 ended. Search finished for the next optimal point.
+Time taken: 41753.2328
+Function value obtained: -0.5204
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.644882, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 39.337803, 'precision': 0.0, 'prediction/mean': 0.25767553, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 100, 'f1_weighted': 0.5071909885954942}
+Iteration No: 76 ended. Search finished for the next optimal point.
+Time taken: 41765.9678
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.788902, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.12305, 'precision': 0.45454547, 'prediction/mean': 0.3588485, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 77 ended. Search finished for the next optimal point.
+Time taken: 42747.0361
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.5097561, 'auc_precision_recall': 0.38490802, 'average_loss': 7.8166475, 'f1_score': 0.25, 'false_negatives': 16.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 476.8155, 'precision': 0.33333334, 'prediction/mean': 0.21800035, 'recall': 0.2, 'true_negatives': 33.0, 'true_positives': 4.0, 'global_step': 15000, 'f1_weighted': 0.5681308901518651}
+Iteration No: 78 ended. Search finished for the next optimal point.
+Time taken: 43091.5813
+Function value obtained: -0.5681
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.790611, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.2273, 'precision': 0.45454547, 'prediction/mean': 0.35883346, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 79 ended. Search finished for the next optimal point.
+Time taken: 44085.7761
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.78813, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.0759, 'precision': 0.45454547, 'prediction/mean': 0.35888985, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 80 ended. Search finished for the next optimal point.
+Time taken: 45078.5919
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.53597564, 'auc_precision_recall': 0.44208175, 'average_loss': 6.0651903, 'f1_score': 0.3529412, 'false_negatives': 14.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 369.97662, 'precision': 0.42857143, 'prediction/mean': 0.2332506, 'recall': 0.3, 'true_negatives': 33.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.6158469944660985}
+Iteration No: 81 ended. Search finished for the next optimal point.
+Time taken: 45410.7737
+Function value obtained: -0.6158
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4756097, 'auc_precision_recall': 0.3765862, 'average_loss': 11.136471, 'f1_score': 0.3157895, 'false_negatives': 14.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 679.3247, 'precision': 0.33333334, 'prediction/mean': 0.29588664, 'recall': 0.3, 'true_negatives': 29.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.5658227147143595}
+Iteration No: 82 ended. Search finished for the next optimal point.
+Time taken: 45752.8956
+Function value obtained: -0.5658
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.790069, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.1942, 'precision': 0.45454547, 'prediction/mean': 0.3588513, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 83 ended. Search finished for the next optimal point.
+Time taken: 46740.5243
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.787829, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.0576, 'precision': 0.45454547, 'prediction/mean': 0.35882273, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 84 ended. Search finished for the next optimal point.
+Time taken: 47725.4193
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.789372, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.15173, 'precision': 0.45454547, 'prediction/mean': 0.35890585, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 85 ended. Search finished for the next optimal point.
+Time taken: 48708.1180
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.789148, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.13806, 'precision': 0.45454547, 'prediction/mean': 0.35879523, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 86 ended. Search finished for the next optimal point.
+Time taken: 49688.7138
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.49939027, 'auc_precision_recall': 0.64698976, 'average_loss': 3.3952386, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 207.10956, 'precision': 0.0, 'prediction/mean': 0.24642697, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 15000, 'f1_weighted': 0.5071909885954942}
+Iteration No: 87 ended. Search finished for the next optimal point.
+Time taken: 50024.4466
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4304878, 'auc_precision_recall': 0.30386513, 'average_loss': 8.357392, 'f1_score': 0.23529412, 'false_negatives': 16.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 509.80093, 'precision': 0.2857143, 'prediction/mean': 0.22845308, 'recall': 0.2, 'true_negatives': 31.0, 'true_positives': 4.0, 'global_step': 15000, 'f1_weighted': 0.5449908924628941}
+Iteration No: 88 ended. Search finished for the next optimal point.
+Time taken: 50369.4313
+Function value obtained: -0.5450
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.48414636, 'auc_precision_recall': 0.36298415, 'average_loss': 10.266035, 'f1_score': 0.18750001, 'false_negatives': 17.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 626.22815, 'precision': 0.25, 'prediction/mean': 0.20009114, 'recall': 0.15, 'true_negatives': 32.0, 'true_positives': 3.0, 'global_step': 44559, 'f1_weighted': 0.5312697680214978}
+Iteration No: 89 ended. Search finished for the next optimal point.
+Time taken: 50791.5513
+Function value obtained: -0.5313
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.50731707, 'auc_precision_recall': 0.40211362, 'average_loss': 9.665724, 'f1_score': 0.25, 'false_negatives': 16.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 589.60913, 'precision': 0.33333334, 'prediction/mean': 0.20464084, 'recall': 0.2, 'true_negatives': 33.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5681308901518651}
+Iteration No: 90 ended. Search finished for the next optimal point.
+Time taken: 51796.2597
+Function value obtained: -0.5681
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.4652439, 'auc_precision_recall': 0.36036, 'average_loss': 6.5323424, 'f1_score': 0.33333334, 'false_negatives': 14.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 398.4729, 'precision': 0.375, 'prediction/mean': 0.24969812, 'recall': 0.3, 'true_negatives': 31.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5906548712762949}
+Iteration No: 91 ended. Search finished for the next optimal point.
+Time taken: 52803.9328
+Function value obtained: -0.5907
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.45853662, 'auc_precision_recall': 0.3550916, 'average_loss': 6.7733464, 'f1_score': 0.29411763, 'false_negatives': 15.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 413.17413, 'precision': 0.35714287, 'prediction/mean': 0.24641855, 'recall': 0.25, 'true_negatives': 32.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5804189434644964}
+Iteration No: 92 ended. Search finished for the next optimal point.
+Time taken: 53806.2342
+Function value obtained: -0.5804
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.38472742, 'average_loss': 6.6430545, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 405.22632, 'precision': 0.3125, 'prediction/mean': 0.2631544, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}
+Iteration No: 93 ended. Search finished for the next optimal point.
+Time taken: 54817.8016
+Function value obtained: -0.5563
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.4878049, 'auc_precision_recall': 0.37372327, 'average_loss': 6.2967353, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 384.10086, 'precision': 0.4, 'prediction/mean': 0.24716613, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 94 ended. Search finished for the next optimal point.
+Time taken: 55831.7739
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.46768293, 'auc_precision_recall': 0.36342776, 'average_loss': 6.2297716, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 380.01608, 'precision': 0.4, 'prediction/mean': 0.2602483, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 95 ended. Search finished for the next optimal point.
+Time taken: 56845.9404
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.4603659, 'auc_precision_recall': 0.34379905, 'average_loss': 7.500089, 'f1_score': 0.25, 'false_negatives': 16.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 457.50543, 'precision': 0.33333334, 'prediction/mean': 0.20691301, 'recall': 0.2, 'true_negatives': 33.0, 'true_positives': 4.0, 'global_step': 15000, 'f1_weighted': 0.5681308901518651}
+Iteration No: 96 ended. Search finished for the next optimal point.
+Time taken: 57193.8139
+Function value obtained: -0.5681
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.49634147, 'auc_precision_recall': 0.36072448, 'average_loss': 6.682672, 'f1_score': 0.2702703, 'false_negatives': 15.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 407.643, 'precision': 0.29411766, 'prediction/mean': 0.26014832, 'recall': 0.25, 'true_negatives': 29.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5443724318366826}
+Iteration No: 97 ended. Search finished for the next optimal point.
+Time taken: 58206.7785
+Function value obtained: -0.5444
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.5060976, 'auc_precision_recall': 0.34677237, 'average_loss': 1.057164, 'f1_score': 0.13793103, 'false_negatives': 18.0, 'false_positives': 7.0, 'label/mean': 0.32786885, 'loss': 64.487, 'precision': 0.22222222, 'prediction/mean': 0.22533526, 'recall': 0.1, 'true_negatives': 34.0, 'true_positives': 2.0, 'global_step': 1894, 'f1_weighted': 0.5245782630009757}
+Iteration No: 98 ended. Search finished for the next optimal point.
+Time taken: 58222.2835
+Function value obtained: -0.5246
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.789463, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.1572, 'precision': 0.45454547, 'prediction/mean': 0.35881934, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 99 ended. Search finished for the next optimal point.
+Time taken: 59211.2981
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.791312, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.27, 'precision': 0.45454547, 'prediction/mean': 0.3588909, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 100 ended. Search finished for the next optimal point.
+Time taken: 60149.4861
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.78683, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 718.99664, 'precision': 0.45454547, 'prediction/mean': 0.35879073, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 101 ended. Search finished for the next optimal point.
+Time taken: 60989.8333
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.46707317, 'auc_precision_recall': 0.36222145, 'average_loss': 6.4468246, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 393.2563, 'precision': 0.4, 'prediction/mean': 0.24981305, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 102 ended. Search finished for the next optimal point.
+Time taken: 61987.5699
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.791952, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.3091, 'precision': 0.45454547, 'prediction/mean': 0.3588221, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 103 ended. Search finished for the next optimal point.
+Time taken: 62974.8554
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.6469188, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 39.462044, 'precision': 0.0, 'prediction/mean': 0.2523647, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 15000, 'f1_weighted': 0.5071909885954942}
+Iteration No: 104 ended. Search finished for the next optimal point.
+Time taken: 63317.9925
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.789605, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.1659, 'precision': 0.45454547, 'prediction/mean': 0.3587806, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 105 ended. Search finished for the next optimal point.
+Time taken: 64311.6361
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.50487804, 'auc_precision_recall': 0.381694, 'average_loss': 0.65780646, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 40.126194, 'precision': 0.0, 'prediction/mean': 0.43698257, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 100, 'f1_weighted': 0.5071909885954942}
+Iteration No: 106 ended. Search finished for the next optimal point.
+Time taken: 64326.7706
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.47560978, 'auc_precision_recall': 0.3668204, 'average_loss': 6.4191275, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 391.56677, 'precision': 0.4, 'prediction/mean': 0.2600348, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 107 ended. Search finished for the next optimal point.
+Time taken: 65339.0833
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.45121956, 'auc_precision_recall': 0.32380953, 'average_loss': 0.63876265, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 38.964523, 'precision': 0.0, 'prediction/mean': 0.2804629, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 1894, 'f1_weighted': 0.5071909885954942}
+Iteration No: 108 ended. Search finished for the next optimal point.
+Time taken: 65358.8627
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.43963414, 'auc_precision_recall': 0.31106728, 'average_loss': 4.1068935, 'f1_score': 0.1935484, 'false_negatives': 17.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 250.52051, 'precision': 0.27272728, 'prediction/mean': 0.17254727, 'recall': 0.15, 'true_negatives': 33.0, 'true_positives': 3.0, 'global_step': 284063, 'f1_weighted': 0.5421794807227573}
+Iteration No: 109 ended. Search finished for the next optimal point.
+Time taken: 66391.1116
+Function value obtained: -0.5422
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.783629, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 718.8014, 'precision': 0.45454547, 'prediction/mean': 0.3589163, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 110 ended. Search finished for the next optimal point.
+Time taken: 67378.9891
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.49512196, 'auc_precision_recall': 0.35870427, 'average_loss': 6.6174307, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 403.66327, 'precision': 0.3125, 'prediction/mean': 0.25880975, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}
+Iteration No: 111 ended. Search finished for the next optimal point.
+Time taken: 68390.8988
+Function value obtained: -0.5563
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.791049, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.25397, 'precision': 0.45454547, 'prediction/mean': 0.35891354, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 112 ended. Search finished for the next optimal point.
+Time taken: 69381.9959
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.52682924, 'auc_precision_recall': 0.4221412, 'average_loss': 6.3304553, 'f1_score': 0.3157895, 'false_negatives': 14.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 386.15778, 'precision': 0.33333334, 'prediction/mean': 0.27361274, 'recall': 0.3, 'true_negatives': 29.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5658227147143595}
+Iteration No: 113 ended. Search finished for the next optimal point.
+Time taken: 70389.7953
+Function value obtained: -0.5658
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.5081967, 'accuracy_baseline': 0.6721312, 'auc': 0.41951215, 'auc_precision_recall': 0.3114136, 'average_loss': 5.6065063, 'f1_score': 0.16666667, 'false_negatives': 17.0, 'false_positives': 13.0, 'label/mean': 0.32786885, 'loss': 341.9969, 'precision': 0.1875, 'prediction/mean': 0.24201794, 'recall': 0.15, 'true_negatives': 28.0, 'true_positives': 3.0, 'global_step': 284063, 'f1_weighted': 0.48773139005282745}
+Iteration No: 114 ended. Search finished for the next optimal point.
+Time taken: 71406.1854
+Function value obtained: -0.4877
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.5085366, 'auc_precision_recall': 0.3673209, 'average_loss': 17.630295, 'f1_score': 0.2, 'false_negatives': 17.0, 'false_positives': 7.0, 'label/mean': 0.32786885, 'loss': 1075.448, 'precision': 0.3, 'prediction/mean': 0.16075477, 'recall': 0.15, 'true_negatives': 34.0, 'true_positives': 3.0, 'global_step': 15000, 'f1_weighted': 0.5531927088621207}
+Iteration No: 115 ended. Search finished for the next optimal point.
+Time taken: 71753.8849
+Function value obtained: -0.5532
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.4658537, 'auc_precision_recall': 0.34618086, 'average_loss': 10.375568, 'f1_score': 0.22857143, 'false_negatives': 16.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 632.90967, 'precision': 0.26666668, 'prediction/mean': 0.23709242, 'recall': 0.2, 'true_negatives': 30.0, 'true_positives': 4.0, 'global_step': 15000, 'f1_weighted': 0.5335141130827551}
+Iteration No: 116 ended. Search finished for the next optimal point.
+Time taken: 72094.1138
+Function value obtained: -0.5335
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 839931.44, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 51235816.0, 'precision': 0.0, 'prediction/mean': 0.0, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 1894, 'f1_weighted': 0.5071909885954942}
+Iteration No: 117 ended. Search finished for the next optimal point.
+Time taken: 72115.4570
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.42682928, 'auc_precision_recall': 0.27372903, 'average_loss': 0.6675843, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 40.72264, 'precision': 0.0, 'prediction/mean': 0.23667231, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 15000, 'f1_weighted': 0.5071909885954942}
+Iteration No: 118 ended. Search finished for the next optimal point.
+Time taken: 72476.8347
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.4292683, 'auc_precision_recall': 0.2919389, 'average_loss': 20.117504, 'f1_score': 0.24242425, 'false_negatives': 16.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 1227.1677, 'precision': 0.30769232, 'prediction/mean': 0.24602349, 'recall': 0.2, 'true_negatives': 32.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5565134148760758}
+Iteration No: 119 ended. Search finished for the next optimal point.
+Time taken: 73679.3997
+Function value obtained: -0.5565
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.6451179, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 39.352192, 'precision': 0.0, 'prediction/mean': 0.25703627, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 284063, 'f1_weighted': 0.5071909885954942}
+Iteration No: 120 ended. Search finished for the next optimal point.
+Time taken: 74855.5068
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.46341467, 'auc_precision_recall': 0.33041745, 'average_loss': 1.4510739, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 88.51551, 'precision': 0.0, 'prediction/mean': 0.21556076, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 15000, 'f1_weighted': 0.5071909885954942}
+Iteration No: 121 ended. Search finished for the next optimal point.
+Time taken: 75185.6784
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.47804883, 'auc_precision_recall': 0.29538837, 'average_loss': 0.8937233, 'f1_score': 0.08, 'false_negatives': 19.0, 'false_positives': 4.0, 'label/mean': 0.32786885, 'loss': 54.51712, 'precision': 0.2, 'prediction/mean': 0.21682599, 'recall': 0.05, 'true_negatives': 37.0, 'true_positives': 1.0, 'global_step': 1894, 'f1_weighted': 0.5204114432022815}
+Iteration No: 122 ended. Search finished for the next optimal point.
+Time taken: 75206.7176
+Function value obtained: -0.5204
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4487805, 'auc_precision_recall': 0.27949113, 'average_loss': 5.9427824, 'f1_score': 0.13333334, 'false_negatives': 18.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 362.50974, 'precision': 0.2, 'prediction/mean': 0.18065324, 'recall': 0.1, 'true_negatives': 33.0, 'true_positives': 2.0, 'global_step': 284063, 'f1_weighted': 0.5145018914830561}
+Iteration No: 123 ended. Search finished for the next optimal point.
+Time taken: 76288.5784
+Function value obtained: -0.5145
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.50548774, 'auc_precision_recall': 0.33603692, 'average_loss': 7.265262, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 443.181, 'precision': 0.3529412, 'prediction/mean': 0.27427328, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.5782183250037705}
+Iteration No: 124 ended. Search finished for the next optimal point.
+Time taken: 76634.4544
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.47560975, 'auc_precision_recall': 0.37796032, 'average_loss': 9.731885, 'f1_score': 0.23529412, 'false_negatives': 16.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 593.64496, 'precision': 0.2857143, 'prediction/mean': 0.23492041, 'recall': 0.2, 'true_negatives': 31.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5449908924628941}
+Iteration No: 125 ended. Search finished for the next optimal point.
+Time taken: 77618.2104
+Function value obtained: -0.5450
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.48109758, 'auc_precision_recall': 0.37094787, 'average_loss': 6.547108, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 399.3736, 'precision': 0.33333334, 'prediction/mean': 0.2553028, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 126 ended. Search finished for the next optimal point.
+Time taken: 78629.9865
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.46463412, 'auc_precision_recall': 0.35952666, 'average_loss': 6.5646133, 'f1_score': 0.33333334, 'false_negatives': 14.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 400.4414, 'precision': 0.375, 'prediction/mean': 0.24853368, 'recall': 0.3, 'true_negatives': 31.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5906548712762949}
+Iteration No: 127 ended. Search finished for the next optimal point.
+Time taken: 79642.0864
+Function value obtained: -0.5907
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.47439024, 'auc_precision_recall': 0.36507794, 'average_loss': 6.43251, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 392.38312, 'precision': 0.3529412, 'prediction/mean': 0.26595244, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5782183250037705}
+Iteration No: 128 ended. Search finished for the next optimal point.
+Time taken: 80649.5654
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4993902, 'auc_precision_recall': 0.38400188, 'average_loss': 6.6612954, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 406.33902, 'precision': 0.3125, 'prediction/mean': 0.2626385, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}
+Iteration No: 129 ended. Search finished for the next optimal point.
+Time taken: 81658.6255
+Function value obtained: -0.5563
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.790722, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.234, 'precision': 0.45454547, 'prediction/mean': 0.35876277, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 130 ended. Search finished for the next optimal point.
+Time taken: 82662.5270
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 1.4034166, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 85.60841, 'precision': 0.0, 'prediction/mean': 0.014250001, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 100, 'f1_weighted': 0.5071909885954942}
+Iteration No: 131 ended. Search finished for the next optimal point.
+Time taken: 82679.4084
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.49024388, 'auc_precision_recall': 0.37534887, 'average_loss': 6.5319157, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 398.44687, 'precision': 0.33333334, 'prediction/mean': 0.25506672, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 132 ended. Search finished for the next optimal point.
+Time taken: 83687.6184
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.49634147, 'auc_precision_recall': 0.36022845, 'average_loss': 6.671478, 'f1_score': 0.2702703, 'false_negatives': 15.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 406.96014, 'precision': 0.29411766, 'prediction/mean': 0.26033598, 'recall': 0.25, 'true_negatives': 29.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5443724318366826}
+Iteration No: 133 ended. Search finished for the next optimal point.
+Time taken: 84686.2029
+Function value obtained: -0.5444
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.47926837, 'auc_precision_recall': 0.36782286, 'average_loss': 6.7902865, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 414.2075, 'precision': 0.33333334, 'prediction/mean': 0.24459475, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 134 ended. Search finished for the next optimal point.
+Time taken: 85698.7748
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.4695122, 'auc_precision_recall': 0.3597004, 'average_loss': 6.37215, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 388.70114, 'precision': 0.4, 'prediction/mean': 0.25176275, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 135 ended. Search finished for the next optimal point.
+Time taken: 86707.6466
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4914634, 'auc_precision_recall': 0.35332868, 'average_loss': 6.64263, 'f1_score': 0.23529412, 'false_negatives': 16.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 405.20044, 'precision': 0.2857143, 'prediction/mean': 0.23271348, 'recall': 0.2, 'true_negatives': 31.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5449908924628941}
+Iteration No: 136 ended. Search finished for the next optimal point.
+Time taken: 87719.7695
+Function value obtained: -0.5450
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.38472742, 'average_loss': 6.666106, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 406.63248, 'precision': 0.3125, 'prediction/mean': 0.26261276, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}
+Iteration No: 137 ended. Search finished for the next optimal point.
+Time taken: 88724.0496
+Function value obtained: -0.5563
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.38472742, 'average_loss': 6.639103, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 404.9853, 'precision': 0.3125, 'prediction/mean': 0.2608097, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}
+Iteration No: 138 ended. Search finished for the next optimal point.
+Time taken: 89728.0500
+Function value obtained: -0.5563
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.41097564, 'auc_precision_recall': 0.34613428, 'average_loss': 0.7226855, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 44.083817, 'precision': 0.0, 'prediction/mean': 0.18705876, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 100, 'f1_weighted': 0.5071909885954942}
+Iteration No: 139 ended. Search finished for the next optimal point.
+Time taken: 89741.9005
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.790018, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.1911, 'precision': 0.45454547, 'prediction/mean': 0.3588568, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 140 ended. Search finished for the next optimal point.
+Time taken: 90718.1164
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4865854, 'auc_precision_recall': 0.37576836, 'average_loss': 6.7749705, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 413.2732, 'precision': 0.3125, 'prediction/mean': 0.25765032, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}
+Iteration No: 141 ended. Search finished for the next optimal point.
+Time taken: 91713.9134
+Function value obtained: -0.5563
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.46890244, 'auc_precision_recall': 0.3657952, 'average_loss': 6.264459, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 382.13202, 'precision': 0.4, 'prediction/mean': 0.24951231, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 142 ended. Search finished for the next optimal point.
+Time taken: 92731.4175
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.48597562, 'auc_precision_recall': 0.37079954, 'average_loss': 6.6465173, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 405.43756, 'precision': 0.33333334, 'prediction/mean': 0.24765055, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 143 ended. Search finished for the next optimal point.
+Time taken: 93741.7175
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.49695122, 'auc_precision_recall': 0.36296806, 'average_loss': 6.6436396, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 405.26202, 'precision': 0.33333334, 'prediction/mean': 0.25827047, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 144 ended. Search finished for the next optimal point.
+Time taken: 94747.8666
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.49390247, 'auc_precision_recall': 0.38271046, 'average_loss': 6.6774373, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 407.32367, 'precision': 0.3529412, 'prediction/mean': 0.26157978, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5782183250037705}
+Iteration No: 145 ended. Search finished for the next optimal point.
+Time taken: 95770.4494
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.51707315, 'auc_precision_recall': 0.4722737, 'average_loss': 8376.18, 'f1_score': 0.37209302, 'false_negatives': 12.0, 'false_positives': 15.0, 'label/mean': 0.32786885, 'loss': 510946.94, 'precision': 0.3478261, 'prediction/mean': 0.37704918, 'recall': 0.4, 'true_negatives': 26.0, 'true_positives': 8.0, 'global_step': 284063, 'f1_weighted': 0.5673124688825194}
+Iteration No: 146 ended. Search finished for the next optimal point.
+Time taken: 96782.1174
+Function value obtained: -0.5673
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.43719515, 'auc_precision_recall': 0.30616248, 'average_loss': 9.611611, 'f1_score': 0.14285715, 'false_negatives': 18.0, 'false_positives': 6.0, 'label/mean': 0.32786885, 'loss': 586.3083, 'precision': 0.25, 'prediction/mean': 0.14746088, 'recall': 0.1, 'true_negatives': 35.0, 'true_positives': 2.0, 'global_step': 59803, 'f1_weighted': 0.5347384854910057}
+Iteration No: 147 ended. Search finished for the next optimal point.
+Time taken: 97275.6014
+Function value obtained: -0.5347
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6721311, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.6639344, 'average_loss': 0.63356656, 'f1_score': 0.0, 'false_negatives': 20.0, 'false_positives': 0.0, 'label/mean': 0.32786885, 'loss': 38.64756, 'precision': 0.0, 'prediction/mean': 0.3480674, 'recall': 0.0, 'true_negatives': 41.0, 'true_positives': 0.0, 'global_step': 284063, 'f1_weighted': 0.5071909885954942}
+Iteration No: 148 ended. Search finished for the next optimal point.
+Time taken: 98262.7084
+Function value obtained: -0.5072
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.5030488, 'auc_precision_recall': 0.41494256, 'average_loss': 7.009606, 'f1_score': 0.30769232, 'false_negatives': 14.0, 'false_positives': 13.0, 'label/mean': 0.32786885, 'loss': 427.58597, 'precision': 0.31578946, 'prediction/mean': 0.2951877, 'recall': 0.3, 'true_negatives': 28.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.553424533565638}
+Iteration No: 149 ended. Search finished for the next optimal point.
+Time taken: 98590.5535
+Function value obtained: -0.5534
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.44939023, 'auc_precision_recall': 0.344461, 'average_loss': 7.3856893, 'f1_score': 0.2702703, 'false_negatives': 15.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 450.52704, 'precision': 0.29411766, 'prediction/mean': 0.27727962, 'recall': 0.25, 'true_negatives': 29.0, 'true_positives': 5.0, 'global_step': 15000, 'f1_weighted': 0.5443724318366826}
+Iteration No: 150 ended. Search finished for the next optimal point.
+Time taken: 98928.1905
+Function value obtained: -0.5444
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.49999997, 'auc_precision_recall': 0.41203225, 'average_loss': 7.0215526, 'f1_score': 0.30769232, 'false_negatives': 14.0, 'false_positives': 13.0, 'label/mean': 0.32786885, 'loss': 428.3147, 'precision': 0.31578946, 'prediction/mean': 0.29629534, 'recall': 0.3, 'true_negatives': 28.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.553424533565638}
+Iteration No: 151 ended. Search finished for the next optimal point.
+Time taken: 99271.5568
+Function value obtained: -0.5534
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.41196638, 'average_loss': 7.019178, 'f1_score': 0.30769232, 'false_negatives': 14.0, 'false_positives': 13.0, 'label/mean': 0.32786885, 'loss': 428.16986, 'precision': 0.31578946, 'prediction/mean': 0.29515445, 'recall': 0.3, 'true_negatives': 28.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.553424533565638}
+Iteration No: 152 ended. Search finished for the next optimal point.
+Time taken: 99619.2474
+Function value obtained: -0.5534
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.4695122, 'auc_precision_recall': 0.3767989, 'average_loss': 7.3839474, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 450.42078, 'precision': 0.3529412, 'prediction/mean': 0.27232036, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.5782183250037705}
+Iteration No: 153 ended. Search finished for the next optimal point.
+Time taken: 99957.0054
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.47195122, 'auc_precision_recall': 0.3798292, 'average_loss': 7.3654013, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 449.2895, 'precision': 0.3529412, 'prediction/mean': 0.27304086, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.5782183250037705}
+Iteration No: 154 ended. Search finished for the next optimal point.
+Time taken: 100293.8285
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.46097562, 'auc_precision_recall': 0.3726487, 'average_loss': 7.4289455, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 453.16568, 'precision': 0.3529412, 'prediction/mean': 0.27789637, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.5782183250037705}
+Iteration No: 155 ended. Search finished for the next optimal point.
+Time taken: 100640.5554
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.4695122, 'auc_precision_recall': 0.3767989, 'average_loss': 7.3756213, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 449.9129, 'precision': 0.3529412, 'prediction/mean': 0.27384683, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 15000, 'f1_weighted': 0.5782183250037705}
+Iteration No: 156 ended. Search finished for the next optimal point.
+Time taken: 100988.0964
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.52865857, 'auc_precision_recall': 0.388283, 'average_loss': 7.546516, 'f1_score': 0.35897434, 'false_negatives': 13.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 460.33746, 'precision': 0.36842105, 'prediction/mean': 0.30266166, 'recall': 0.35, 'true_negatives': 29.0, 'true_positives': 7.0, 'global_step': 15000, 'f1_weighted': 0.5865144148543211}
+Iteration No: 157 ended. Search finished for the next optimal point.
+Time taken: 101331.0484
+Function value obtained: -0.5865
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.49634144, 'auc_precision_recall': 0.37731767, 'average_loss': 6.6988153, 'f1_score': 0.23529412, 'false_negatives': 16.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 408.62775, 'precision': 0.2857143, 'prediction/mean': 0.2348191, 'recall': 0.2, 'true_negatives': 31.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5449908924628941}
+Iteration No: 158 ended. Search finished for the next optimal point.
+Time taken: 102339.2014
+Function value obtained: -0.5450
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.47195125, 'auc_precision_recall': 0.36223748, 'average_loss': 6.5604753, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 400.189, 'precision': 0.4, 'prediction/mean': 0.25022402, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 159 ended. Search finished for the next optimal point.
+Time taken: 103357.4924
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.5030488, 'auc_precision_recall': 0.40909928, 'average_loss': 6.5141726, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 397.36453, 'precision': 0.4, 'prediction/mean': 0.24602789, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 160 ended. Search finished for the next optimal point.
+Time taken: 104373.6384
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.51890236, 'auc_precision_recall': 0.42204347, 'average_loss': 6.5483036, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 399.44653, 'precision': 0.33333334, 'prediction/mean': 0.24250147, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 161 ended. Search finished for the next optimal point.
+Time taken: 105370.2214
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5067073, 'auc_precision_recall': 0.38579178, 'average_loss': 11.139741, 'f1_score': 0.26666668, 'false_negatives': 16.0, 'false_positives': 6.0, 'label/mean': 0.32786885, 'loss': 679.5242, 'precision': 0.4, 'prediction/mean': 0.17090791, 'recall': 0.2, 'true_negatives': 35.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5918835262411852}
+Iteration No: 162 ended. Search finished for the next optimal point.
+Time taken: 106373.0234
+Function value obtained: -0.5919
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.46829268, 'auc_precision_recall': 0.36468402, 'average_loss': 6.568904, 'f1_score': 0.33333334, 'false_negatives': 14.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 400.70312, 'precision': 0.375, 'prediction/mean': 0.25755426, 'recall': 0.3, 'true_negatives': 31.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5906548712762949}
+Iteration No: 163 ended. Search finished for the next optimal point.
+Time taken: 107389.6904
+Function value obtained: -0.5907
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.47926834, 'auc_precision_recall': 0.36778718, 'average_loss': 6.4661984, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 394.4381, 'precision': 0.33333334, 'prediction/mean': 0.2436782, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 164 ended. Search finished for the next optimal point.
+Time taken: 108393.5554
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.60655737, 'accuracy_baseline': 0.6721312, 'auc': 0.5121951, 'auc_precision_recall': 0.40487376, 'average_loss': 11.132478, 'f1_score': 0.29411763, 'false_negatives': 15.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 679.0811, 'precision': 0.35714287, 'prediction/mean': 0.2308194, 'recall': 0.25, 'true_negatives': 32.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5804189434644964}
+Iteration No: 165 ended. Search finished for the next optimal point.
+Time taken: 109394.8115
+Function value obtained: -0.5804
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.4871951, 'auc_precision_recall': 0.37161097, 'average_loss': 6.733615, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 410.75052, 'precision': 0.3125, 'prediction/mean': 0.25436088, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}
+Iteration No: 166 ended. Search finished for the next optimal point.
+Time taken: 110343.8474
+Function value obtained: -0.5563
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.5018292, 'auc_precision_recall': 0.38021985, 'average_loss': 6.6971583, 'f1_score': 0.23529412, 'false_negatives': 16.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 408.52667, 'precision': 0.2857143, 'prediction/mean': 0.23167631, 'recall': 0.2, 'true_negatives': 31.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5449908924628941}
+Iteration No: 167 ended. Search finished for the next optimal point.
+Time taken: 111211.9452
+Function value obtained: -0.5450
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.4780488, 'auc_precision_recall': 0.36980075, 'average_loss': 6.442134, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 392.97015, 'precision': 0.4, 'prediction/mean': 0.2578092, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 168 ended. Search finished for the next optimal point.
+Time taken: 112088.5778
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.557317, 'auc_precision_recall': 0.44576782, 'average_loss': 11.063392, 'f1_score': 0.3529412, 'false_negatives': 14.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 674.8669, 'precision': 0.42857143, 'prediction/mean': 0.22384909, 'recall': 0.3, 'true_negatives': 33.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6158469944660985}
+Iteration No: 169 ended. Search finished for the next optimal point.
+Time taken: 112941.7802
+Function value obtained: -0.6158
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.45731708, 'auc_precision_recall': 0.36665505, 'average_loss': 12.012762, 'f1_score': 0.2702703, 'false_negatives': 15.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 732.7785, 'precision': 0.29411766, 'prediction/mean': 0.27652666, 'recall': 0.25, 'true_negatives': 29.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5443724318366826}
+Iteration No: 170 ended. Search finished for the next optimal point.
+Time taken: 113801.0820
+Function value obtained: -0.5444
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.5409836, 'accuracy_baseline': 0.6721312, 'auc': 0.47621953, 'auc_precision_recall': 0.37541932, 'average_loss': 11.561345, 'f1_score': 0.22222222, 'false_negatives': 16.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 705.24207, 'precision': 0.25, 'prediction/mean': 0.26214463, 'recall': 0.2, 'true_negatives': 29.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5220392171273166}
+Iteration No: 171 ended. Search finished for the next optimal point.
+Time taken: 114655.4314
+Function value obtained: -0.5220
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.47926834, 'auc_precision_recall': 0.37271217, 'average_loss': 6.176866, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 376.78882, 'precision': 0.33333334, 'prediction/mean': 0.24522385, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 172 ended. Search finished for the next optimal point.
+Time taken: 115525.4463
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.5085366, 'auc_precision_recall': 0.41012764, 'average_loss': 6.3421025, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 386.86826, 'precision': 0.3529412, 'prediction/mean': 0.2729619, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5782183250037705}
+Iteration No: 173 ended. Search finished for the next optimal point.
+Time taken: 116379.9508
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.53353655, 'auc_precision_recall': 0.44341707, 'average_loss': 9.046827, 'f1_score': 0.3030303, 'false_negatives': 15.0, 'false_positives': 8.0, 'label/mean': 0.32786885, 'loss': 551.85645, 'precision': 0.3846154, 'prediction/mean': 0.21459809, 'recall': 0.25, 'true_negatives': 33.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5926143664342887}
+Iteration No: 174 ended. Search finished for the next optimal point.
+Time taken: 117231.1870
+Function value obtained: -0.5926
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.790059, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 719.1936, 'precision': 0.45454547, 'prediction/mean': 0.35881433, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 175 ended. Search finished for the next optimal point.
+Time taken: 118083.3981
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6393443, 'accuracy_baseline': 0.6721312, 'auc': 0.5676829, 'auc_precision_recall': 0.48702547, 'average_loss': 11.783407, 'f1_score': 0.4761905, 'false_negatives': 10.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 718.78784, 'precision': 0.45454547, 'prediction/mean': 0.35901055, 'recall': 0.5, 'true_negatives': 29.0, 'true_positives': 10.0, 'global_step': 284063, 'f1_weighted': 0.6450785231428782}
+Iteration No: 176 ended. Search finished for the next optimal point.
+Time taken: 118943.5868
+Function value obtained: -0.6451
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.5012195, 'auc_precision_recall': 0.3954469, 'average_loss': 11.884197, 'f1_score': 0.2857143, 'false_negatives': 15.0, 'false_positives': 10.0, 'label/mean': 0.32786885, 'loss': 724.93604, 'precision': 0.33333334, 'prediction/mean': 0.24937661, 'recall': 0.25, 'true_negatives': 31.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5683470971821389}
+Iteration No: 177 ended. Search finished for the next optimal point.
+Time taken: 119794.8410
+Function value obtained: -0.5683
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.5409836, 'accuracy_baseline': 0.6721312, 'auc': 0.5030488, 'auc_precision_recall': 0.3844359, 'average_loss': 7.011011, 'f1_score': 0.22222222, 'false_negatives': 16.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 427.6717, 'precision': 0.25, 'prediction/mean': 0.25245845, 'recall': 0.2, 'true_negatives': 29.0, 'true_positives': 4.0, 'global_step': 284063, 'f1_weighted': 0.5220392171273166}
+Iteration No: 178 ended. Search finished for the next optimal point.
+Time taken: 120666.0559
+Function value obtained: -0.5220
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.6229508, 'accuracy_baseline': 0.6721312, 'auc': 0.47439024, 'auc_precision_recall': 0.36523572, 'average_loss': 6.39423, 'f1_score': 0.34285715, 'false_negatives': 14.0, 'false_positives': 9.0, 'label/mean': 0.32786885, 'loss': 390.04803, 'precision': 0.4, 'prediction/mean': 0.25259644, 'recall': 0.3, 'true_negatives': 32.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.6031800812815227}
+Iteration No: 179 ended. Search finished for the next optimal point.
+Time taken: 121536.0043
+Function value obtained: -0.6032
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.59016395, 'accuracy_baseline': 0.6721312, 'auc': 0.5365854, 'auc_precision_recall': 0.44120497, 'average_loss': 10.236025, 'f1_score': 0.32432434, 'false_negatives': 14.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 624.3975, 'precision': 0.3529412, 'prediction/mean': 0.2778105, 'recall': 0.3, 'true_negatives': 30.0, 'true_positives': 6.0, 'global_step': 284063, 'f1_weighted': 0.5782183250037705}
+Iteration No: 180 ended. Search finished for the next optimal point.
+Time taken: 122388.4941
+Function value obtained: -0.5782
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.50060976, 'auc_precision_recall': 0.38556075, 'average_loss': 6.6754994, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 407.20547, 'precision': 0.3125, 'prediction/mean': 0.26594996, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}
+Iteration No: 181 ended. Search finished for the next optimal point.
+Time taken: 123256.7046
+Function value obtained: -0.5563
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.55737704, 'accuracy_baseline': 0.6721312, 'auc': 0.49634147, 'auc_precision_recall': 0.36072448, 'average_loss': 6.713193, 'f1_score': 0.2702703, 'false_negatives': 15.0, 'false_positives': 12.0, 'label/mean': 0.32786885, 'loss': 409.50476, 'precision': 0.29411766, 'prediction/mean': 0.26074904, 'recall': 0.25, 'true_negatives': 29.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5443724318366826}
+Iteration No: 182 ended. Search finished for the next optimal point.
+Time taken: 124124.3634
+Function value obtained: -0.5444
+Current minimum: -0.6451
+***** result *****
+{'accuracy': 0.57377046, 'accuracy_baseline': 0.6721312, 'auc': 0.5, 'auc_precision_recall': 0.3857339, 'average_loss': 6.829392, 'f1_score': 0.2777778, 'false_negatives': 15.0, 'false_positives': 11.0, 'label/mean': 0.32786885, 'loss': 416.5929, 'precision': 0.3125, 'prediction/mean': 0.25880516, 'recall': 0.25, 'true_negatives': 30.0, 'true_positives': 5.0, 'global_step': 284063, 'f1_weighted': 0.5563470442018057}

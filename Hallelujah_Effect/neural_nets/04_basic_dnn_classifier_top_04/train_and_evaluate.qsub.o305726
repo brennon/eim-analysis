@@ -1,0 +1,878 @@
+Iteration No: 1 started. Searching for the next optimal point.
+Iteration No: 1 ended. Search finished for the next optimal point.
+Time taken: 95.5484
+Function value obtained: -0.2978
+Current minimum: -0.2978
+Iteration No: 2 ended. Search finished for the next optimal point.
+Time taken: 176.0366
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 3 ended. Search finished for the next optimal point.
+Time taken: 450.4010
+Function value obtained: -0.3048
+Current minimum: -0.6639
+Iteration No: 4 ended. Search finished for the next optimal point.
+Time taken: 1243.7061
+Function value obtained: -0.6379
+Current minimum: -0.6639
+Iteration No: 5 ended. Search finished for the next optimal point.
+Time taken: 1717.3691
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 6 ended. Search finished for the next optimal point.
+Time taken: 1735.1827
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 7 ended. Search finished for the next optimal point.
+Time taken: 1992.5620
+Function value obtained: -0.2930
+Current minimum: -0.6639
+Iteration No: 8 ended. Search finished for the next optimal point.
+Time taken: 2833.8262
+Function value obtained: -0.6600
+Current minimum: -0.6639
+Iteration No: 9 ended. Search finished for the next optimal point.
+Time taken: 3115.7522
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 10 ended. Search finished for the next optimal point.
+Time taken: 3402.9782
+Function value obtained: -0.2999
+Current minimum: -0.6639
+Iteration No: 11 ended. Search finished for the next optimal point.
+Time taken: 3613.7249
+Function value obtained: -0.4904
+Current minimum: -0.6639
+Iteration No: 12 ended. Search finished for the next optimal point.
+Time taken: 3624.2138
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 13 ended. Search finished for the next optimal point.
+Time taken: 4798.7057
+Function value obtained: -0.2250
+Current minimum: -0.6639
+Iteration No: 14 ended. Search finished for the next optimal point.
+Time taken: 4867.6519
+Function value obtained: -0.3011
+Current minimum: -0.6639
+Iteration No: 15 ended. Search finished for the next optimal point.
+Time taken: 5207.7005
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 16 ended. Search finished for the next optimal point.
+Time taken: 5702.9554
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 17 ended. Search finished for the next optimal point.
+Time taken: 5774.1696
+Function value obtained: -0.6639
+Current minimum: -0.6639
+Iteration No: 18 ended. Search finished for the next optimal point.
+Time taken: 6299.2911
+Function value obtained: -0.6975
+Current minimum: -0.6975
+Iteration No: 19 ended. Search finished for the next optimal point.
+Time taken: 6750.7081
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 20 ended. Search finished for the next optimal point.
+Time taken: 7216.4142
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 21 ended. Search finished for the next optimal point.
+Time taken: 7228.0306
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 22 ended. Search finished for the next optimal point.
+Time taken: 7331.4448
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 23 ended. Search finished for the next optimal point.
+Time taken: 7753.3380
+Function value obtained: -0.6500
+Current minimum: -0.6975
+Iteration No: 24 ended. Search finished for the next optimal point.
+Time taken: 7813.3563
+Function value obtained: -0.4195
+Current minimum: -0.6975
+Iteration No: 25 ended. Search finished for the next optimal point.
+Time taken: 7825.3197
+Function value obtained: -0.3581
+Current minimum: -0.6975
+Iteration No: 26 ended. Search finished for the next optimal point.
+Time taken: 7840.8750
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 27 ended. Search finished for the next optimal point.
+Time taken: 8159.4477
+Function value obtained: -0.3060
+Current minimum: -0.6975
+Iteration No: 28 ended. Search finished for the next optimal point.
+Time taken: 8482.9890
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 29 ended. Search finished for the next optimal point.
+Time taken: 8929.2826
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 30 ended. Search finished for the next optimal point.
+Time taken: 8942.8782
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 31 ended. Search finished for the next optimal point.
+Time taken: 8995.4701
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 32 ended. Search finished for the next optimal point.
+Time taken: 9452.9923
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 33 ended. Search finished for the next optimal point.
+Time taken: 9465.6361
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 34 ended. Search finished for the next optimal point.
+Time taken: 9560.2078
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 35 ended. Search finished for the next optimal point.
+Time taken: 10053.5344
+Function value obtained: -0.6429
+Current minimum: -0.6975
+Iteration No: 36 ended. Search finished for the next optimal point.
+Time taken: 11203.3990
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 37 ended. Search finished for the next optimal point.
+Time taken: 11642.4695
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 38 ended. Search finished for the next optimal point.
+Time taken: 12052.7310
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 39 ended. Search finished for the next optimal point.
+Time taken: 12497.5812
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 40 ended. Search finished for the next optimal point.
+Time taken: 12966.1159
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 41 ended. Search finished for the next optimal point.
+Time taken: 13445.0593
+Function value obtained: -0.6607
+Current minimum: -0.6975
+Iteration No: 42 ended. Search finished for the next optimal point.
+Time taken: 14666.2059
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 43 ended. Search finished for the next optimal point.
+Time taken: 15137.1863
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 44 ended. Search finished for the next optimal point.
+Time taken: 15603.8785
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 45 ended. Search finished for the next optimal point.
+Time taken: 15765.8288
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 46 ended. Search finished for the next optimal point.
+Time taken: 16240.9459
+Function value obtained: -0.2968
+Current minimum: -0.6975
+Iteration No: 47 ended. Search finished for the next optimal point.
+Time taken: 16701.0735
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 48 ended. Search finished for the next optimal point.
+Time taken: 18061.3711
+Function value obtained: -0.1851
+Current minimum: -0.6975
+Iteration No: 49 ended. Search finished for the next optimal point.
+Time taken: 18455.9981
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 50 ended. Search finished for the next optimal point.
+Time taken: 18911.1854
+Function value obtained: -0.2938
+Current minimum: -0.6975
+Iteration No: 51 ended. Search finished for the next optimal point.
+Time taken: 19186.3734
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 52 ended. Search finished for the next optimal point.
+Time taken: 19912.1118
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 53 ended. Search finished for the next optimal point.
+Time taken: 20661.5598
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 54 ended. Search finished for the next optimal point.
+Time taken: 21194.6285
+Function value obtained: -0.6216
+Current minimum: -0.6975
+Iteration No: 55 ended. Search finished for the next optimal point.
+Time taken: 21213.5762
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 56 ended. Search finished for the next optimal point.
+Time taken: 21717.0063
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 57 ended. Search finished for the next optimal point.
+Time taken: 22166.7367
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 58 ended. Search finished for the next optimal point.
+Time taken: 22717.7618
+Function value obtained: -0.2996
+Current minimum: -0.6975
+Iteration No: 59 ended. Search finished for the next optimal point.
+Time taken: 23723.5088
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 60 ended. Search finished for the next optimal point.
+Time taken: 24934.3430
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 61 ended. Search finished for the next optimal point.
+Time taken: 24977.7183
+Function value obtained: -0.6809
+Current minimum: -0.6975
+Iteration No: 62 ended. Search finished for the next optimal point.
+Time taken: 25304.1241
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 63 ended. Search finished for the next optimal point.
+Time taken: 25644.9945
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 64 ended. Search finished for the next optimal point.
+Time taken: 26022.0951
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 65 ended. Search finished for the next optimal point.
+Time taken: 26075.0231
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 66 ended. Search finished for the next optimal point.
+Time taken: 26090.6824
+Function value obtained: -0.6515
+Current minimum: -0.6975
+Iteration No: 67 ended. Search finished for the next optimal point.
+Time taken: 26107.3510
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 68 ended. Search finished for the next optimal point.
+Time taken: 26127.6137
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 69 ended. Search finished for the next optimal point.
+Time taken: 26148.6538
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 70 ended. Search finished for the next optimal point.
+Time taken: 26169.1707
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 71 ended. Search finished for the next optimal point.
+Time taken: 26189.1714
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 72 ended. Search finished for the next optimal point.
+Time taken: 26477.1283
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 73 ended. Search finished for the next optimal point.
+Time taken: 26943.6875
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 74 ended. Search finished for the next optimal point.
+Time taken: 26961.5034
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 75 ended. Search finished for the next optimal point.
+Time taken: 26983.2359
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 76 ended. Search finished for the next optimal point.
+Time taken: 27023.7170
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 77 ended. Search finished for the next optimal point.
+Time taken: 27038.5521
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 78 ended. Search finished for the next optimal point.
+Time taken: 27171.4842
+Function value obtained: -0.2989
+Current minimum: -0.6975
+Iteration No: 79 ended. Search finished for the next optimal point.
+Time taken: 27543.8186
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 80 ended. Search finished for the next optimal point.
+Time taken: 28088.3792
+Function value obtained: -0.2965
+Current minimum: -0.6975
+Iteration No: 81 ended. Search finished for the next optimal point.
+Time taken: 28205.5544
+Function value obtained: -0.2972
+Current minimum: -0.6975
+Iteration No: 82 ended. Search finished for the next optimal point.
+Time taken: 28738.8678
+Function value obtained: -0.6807
+Current minimum: -0.6975
+Iteration No: 83 ended. Search finished for the next optimal point.
+Time taken: 29253.2903
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 84 ended. Search finished for the next optimal point.
+Time taken: 29873.7159
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 85 ended. Search finished for the next optimal point.
+Time taken: 29889.6699
+Function value obtained: -0.2994
+Current minimum: -0.6975
+Iteration No: 86 ended. Search finished for the next optimal point.
+Time taken: 29908.8647
+Function value obtained: -0.2958
+Current minimum: -0.6975
+Iteration No: 87 ended. Search finished for the next optimal point.
+Time taken: 30113.0739
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 88 ended. Search finished for the next optimal point.
+Time taken: 30131.5687
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 89 ended. Search finished for the next optimal point.
+Time taken: 30202.2937
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 90 ended. Search finished for the next optimal point.
+Time taken: 30322.5499
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 91 ended. Search finished for the next optimal point.
+Time taken: 30568.5062
+Function value obtained: -0.3520
+Current minimum: -0.6975
+Iteration No: 92 ended. Search finished for the next optimal point.
+Time taken: 30915.4966
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 93 ended. Search finished for the next optimal point.
+Time taken: 31377.0790
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 94 ended. Search finished for the next optimal point.
+Time taken: 31711.6340
+Function value obtained: -0.6210
+Current minimum: -0.6975
+Iteration No: 95 ended. Search finished for the next optimal point.
+Time taken: 31911.3236
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 96 ended. Search finished for the next optimal point.
+Time taken: 32341.8420
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 97 ended. Search finished for the next optimal point.
+Time taken: 32458.0701
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 98 ended. Search finished for the next optimal point.
+Time taken: 32479.8618
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 99 ended. Search finished for the next optimal point.
+Time taken: 32494.9614
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 100 ended. Search finished for the next optimal point.
+Time taken: 32850.4385
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 101 ended. Search finished for the next optimal point.
+Time taken: 32950.0156
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 102 ended. Search finished for the next optimal point.
+Time taken: 33082.8739
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 103 ended. Search finished for the next optimal point.
+Time taken: 33416.5610
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 104 ended. Search finished for the next optimal point.
+Time taken: 33456.0000
+Function value obtained: -0.6240
+Current minimum: -0.6975
+Iteration No: 105 ended. Search finished for the next optimal point.
+Time taken: 33547.1552
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 106 ended. Search finished for the next optimal point.
+Time taken: 33758.7345
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 107 ended. Search finished for the next optimal point.
+Time taken: 34111.5452
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 108 ended. Search finished for the next optimal point.
+Time taken: 34499.7318
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 109 ended. Search finished for the next optimal point.
+Time taken: 34806.8821
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 110 ended. Search finished for the next optimal point.
+Time taken: 35018.2178
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 111 ended. Search finished for the next optimal point.
+Time taken: 35287.8258
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 112 ended. Search finished for the next optimal point.
+Time taken: 35683.1240
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 113 ended. Search finished for the next optimal point.
+Time taken: 36024.3461
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 114 ended. Search finished for the next optimal point.
+Time taken: 36465.0978
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 115 ended. Search finished for the next optimal point.
+Time taken: 36999.2788
+Function value obtained: -0.5514
+Current minimum: -0.6975
+Iteration No: 116 ended. Search finished for the next optimal point.
+Time taken: 37482.5579
+Function value obtained: -0.1639
+Current minimum: -0.6975
+Iteration No: 117 ended. Search finished for the next optimal point.
+Time taken: 37931.1183
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 118 ended. Search finished for the next optimal point.
+Time taken: 38282.3522
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 119 ended. Search finished for the next optimal point.
+Time taken: 38542.9391
+Function value obtained: -0.3087
+Current minimum: -0.6975
+Iteration No: 120 ended. Search finished for the next optimal point.
+Time taken: 38984.7054
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 121 ended. Search finished for the next optimal point.
+Time taken: 39431.4751
+Function value obtained: -0.6807
+Current minimum: -0.6975
+Iteration No: 122 ended. Search finished for the next optimal point.
+Time taken: 39954.3345
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 123 ended. Search finished for the next optimal point.
+Time taken: 40384.3974
+Function value obtained: -0.4426
+Current minimum: -0.6975
+Iteration No: 124 ended. Search finished for the next optimal point.
+Time taken: 40828.5549
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 125 ended. Search finished for the next optimal point.
+Time taken: 41303.7883
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 126 ended. Search finished for the next optimal point.
+Time taken: 41738.5474
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 127 ended. Search finished for the next optimal point.
+Time taken: 41758.4063
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 128 ended. Search finished for the next optimal point.
+Time taken: 43078.2634
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 129 ended. Search finished for the next optimal point.
+Time taken: 43097.8203
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 130 ended. Search finished for the next optimal point.
+Time taken: 43589.3555
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 131 ended. Search finished for the next optimal point.
+Time taken: 43623.4764
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 132 ended. Search finished for the next optimal point.
+Time taken: 44072.2711
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 133 ended. Search finished for the next optimal point.
+Time taken: 44563.9925
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 134 ended. Search finished for the next optimal point.
+Time taken: 44996.7766
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 135 ended. Search finished for the next optimal point.
+Time taken: 45021.0794
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 136 ended. Search finished for the next optimal point.
+Time taken: 45469.5973
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 137 ended. Search finished for the next optimal point.
+Time taken: 45578.6014
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 138 ended. Search finished for the next optimal point.
+Time taken: 45606.1254
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 139 ended. Search finished for the next optimal point.
+Time taken: 46920.1133
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 140 ended. Search finished for the next optimal point.
+Time taken: 47321.9451
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 141 ended. Search finished for the next optimal point.
+Time taken: 47756.1974
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 142 ended. Search finished for the next optimal point.
+Time taken: 47986.0361
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 143 ended. Search finished for the next optimal point.
+Time taken: 48413.8803
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 144 ended. Search finished for the next optimal point.
+Time taken: 49706.7544
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 145 ended. Search finished for the next optimal point.
+Time taken: 50128.3504
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 146 ended. Search finished for the next optimal point.
+Time taken: 51425.8314
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 147 ended. Search finished for the next optimal point.
+Time taken: 51448.1944
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 148 ended. Search finished for the next optimal point.
+Time taken: 51776.0794
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 149 ended. Search finished for the next optimal point.
+Time taken: 51804.5774
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 150 ended. Search finished for the next optimal point.
+Time taken: 51832.0254
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 151 ended. Search finished for the next optimal point.
+Time taken: 52263.0825
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 152 ended. Search finished for the next optimal point.
+Time taken: 52784.7352
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 153 ended. Search finished for the next optimal point.
+Time taken: 54088.3945
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 154 ended. Search finished for the next optimal point.
+Time taken: 55384.8926
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 155 ended. Search finished for the next optimal point.
+Time taken: 55409.5563
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 156 ended. Search finished for the next optimal point.
+Time taken: 55439.6655
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 157 ended. Search finished for the next optimal point.
+Time taken: 55870.3274
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 158 ended. Search finished for the next optimal point.
+Time taken: 56351.7585
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 159 ended. Search finished for the next optimal point.
+Time taken: 56828.6095
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 160 ended. Search finished for the next optimal point.
+Time taken: 57962.6493
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 161 ended. Search finished for the next optimal point.
+Time taken: 58395.2043
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 162 ended. Search finished for the next optimal point.
+Time taken: 59649.0625
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 163 ended. Search finished for the next optimal point.
+Time taken: 59680.1299
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 164 ended. Search finished for the next optimal point.
+Time taken: 60004.8890
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 165 ended. Search finished for the next optimal point.
+Time taken: 61267.6731
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 166 ended. Search finished for the next optimal point.
+Time taken: 61334.1364
+Function value obtained: -0.3372
+Current minimum: -0.6975
+Iteration No: 167 ended. Search finished for the next optimal point.
+Time taken: 62615.3355
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 168 ended. Search finished for the next optimal point.
+Time taken: 63093.5341
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 169 ended. Search finished for the next optimal point.
+Time taken: 63575.7304
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 170 ended. Search finished for the next optimal point.
+Time taken: 64062.1586
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 171 ended. Search finished for the next optimal point.
+Time taken: 65460.1415
+Function value obtained: -0.1563
+Current minimum: -0.6975
+Iteration No: 172 ended. Search finished for the next optimal point.
+Time taken: 65910.2723
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 173 ended. Search finished for the next optimal point.
+Time taken: 66334.3246
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 174 ended. Search finished for the next optimal point.
+Time taken: 66812.7314
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 175 ended. Search finished for the next optimal point.
+Time taken: 67302.9074
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 176 ended. Search finished for the next optimal point.
+Time taken: 67733.0167
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 177 ended. Search finished for the next optimal point.
+Time taken: 68225.5926
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 178 ended. Search finished for the next optimal point.
+Time taken: 68641.9434
+Function value obtained: -0.6415
+Current minimum: -0.6975
+Iteration No: 179 ended. Search finished for the next optimal point.
+Time taken: 69076.0089
+Function value obtained: -0.4600
+Current minimum: -0.6975
+Iteration No: 180 ended. Search finished for the next optimal point.
+Time taken: 69102.4325
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 181 ended. Search finished for the next optimal point.
+Time taken: 69131.1429
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 182 ended. Search finished for the next optimal point.
+Time taken: 69480.9992
+Function value obtained: -0.4466
+Current minimum: -0.6975
+Iteration No: 183 ended. Search finished for the next optimal point.
+Time taken: 69531.4675
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 184 ended. Search finished for the next optimal point.
+Time taken: 69974.8854
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 185 ended. Search finished for the next optimal point.
+Time taken: 70459.6064
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 186 ended. Search finished for the next optimal point.
+Time taken: 70898.7134
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 187 ended. Search finished for the next optimal point.
+Time taken: 71023.7905
+Function value obtained: -0.4657
+Current minimum: -0.6975
+Iteration No: 188 ended. Search finished for the next optimal point.
+Time taken: 71515.0624
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 189 ended. Search finished for the next optimal point.
+Time taken: 71622.0836
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 190 ended. Search finished for the next optimal point.
+Time taken: 71649.8006
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 191 ended. Search finished for the next optimal point.
+Time taken: 71679.0964
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 192 ended. Search finished for the next optimal point.
+Time taken: 72142.2393
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 193 ended. Search finished for the next optimal point.
+Time taken: 72625.7984
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 194 ended. Search finished for the next optimal point.
+Time taken: 72652.3135
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 195 ended. Search finished for the next optimal point.
+Time taken: 73130.3822
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 196 ended. Search finished for the next optimal point.
+Time taken: 74382.5555
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 197 ended. Search finished for the next optimal point.
+Time taken: 74839.1035
+Function value obtained: -0.5814
+Current minimum: -0.6975
+Iteration No: 198 ended. Search finished for the next optimal point.
+Time taken: 74867.2996
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 199 ended. Search finished for the next optimal point.
+Time taken: 75022.0684
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 200 ended. Search finished for the next optimal point.
+Time taken: 75452.8035
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 201 ended. Search finished for the next optimal point.
+Time taken: 75490.0054
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 202 ended. Search finished for the next optimal point.
+Time taken: 75916.6314
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 203 ended. Search finished for the next optimal point.
+Time taken: 75943.5254
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 204 ended. Search finished for the next optimal point.
+Time taken: 77129.7795
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 205 ended. Search finished for the next optimal point.
+Time taken: 77162.2724
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 206 ended. Search finished for the next optimal point.
+Time taken: 78177.7814
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 207 ended. Search finished for the next optimal point.
+Time taken: 78603.3914
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 208 ended. Search finished for the next optimal point.
+Time taken: 79035.0704
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 209 ended. Search finished for the next optimal point.
+Time taken: 79060.1793
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 210 ended. Search finished for the next optimal point.
+Time taken: 79496.8724
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 211 ended. Search finished for the next optimal point.
+Time taken: 80766.8120
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 212 ended. Search finished for the next optimal point.
+Time taken: 80791.7424
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 213 ended. Search finished for the next optimal point.
+Time taken: 80823.3905
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 214 ended. Search finished for the next optimal point.
+Time taken: 82108.0564
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 215 ended. Search finished for the next optimal point.
+Time taken: 82132.4834
+Function value obtained: -0.3231
+Current minimum: -0.6975
+Iteration No: 216 ended. Search finished for the next optimal point.
+Time taken: 82659.6425
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 217 ended. Search finished for the next optimal point.
+Time taken: 83161.5234
+Function value obtained: -0.6639
+Current minimum: -0.6975
+Iteration No: 218 ended. Search finished for the next optimal point.
+Time taken: 83669.2141
+Function value obtained: -0.3717
+Current minimum: -0.6975
+Iteration No: 219 ended. Search finished for the next optimal point.
+Time taken: 84421.8853
+Function value obtained: -0.6562
+Current minimum: -0.6975
+Iteration No: 220 ended. Search finished for the next optimal point.
