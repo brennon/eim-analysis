@@ -9,7 +9,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from pathlib import Path
-from sklearn.metrics import confusion_matrix, fbeta_score, precision_recall_curve
+from sklearn.metrics import confusion_matrix, fbeta_score, precision_recall_curve, auc, average_precision_score
 from skopt.space import Real, Integer, Categorical
 from typing import List, Tuple, Union
 from torch.utils.data import DataLoader, Dataset
@@ -608,3 +608,63 @@ def threshold_array(threshold, array):
     array[array >= threshold] = 1.
     array[array < threshold] = 0.
     return array
+
+
+def get_best_f05(ys, y_hats, thresholds):
+    best_fbeta = 0.0
+    best_fbeta_thresh = 0.0
+    for thresh in thresholds:
+        test_outputs_thresh = threshold_array(thresh, y_hats)
+        fb = fbeta_score(ys, test_outputs_thresh, 0.5, average='weighted')
+        if fb >= best_fbeta:
+            best_fbeta = fb
+            best_fbeta_thresh = thresh
+
+    return best_fbeta, best_fbeta_thresh
+
+
+def break_ties(xs, ys):
+    zipped = list(zip(xs, ys))
+    unique = np.unique(zipped, axis=0)
+    unique_xs, unique_ys = unique[:, 0], unique[:, 1]
+    
+    new_xs, new_ys = [], []
+    
+    for i in range(len(unique_xs)):
+        x = unique_xs[i]
+        y = unique_ys[i]
+        
+        # Get indices of matching xs
+        matching_idxs = np.argwhere(unique_xs == x)
+        matching_ys = unique_ys[matching_idxs]
+        
+        if y == np.max(matching_ys):
+            new_xs.append(x)
+            new_ys.append(y)
+    
+    return new_xs, new_ys
+
+
+def plot_pr_curve(ys, y_hats, classifier_name):
+    import matplotlib.pyplot as plt
+    average_precision = average_precision_score(ys, y_hats)
+
+    precision, recall, thresholds = precision_recall_curve(ys, y_hats)
+    pr_auc = auc(recall, precision)
+    best_fbeta, best_fbeta_thresh = get_best_f05(ys, y_hats, thresholds)
+
+    step_kwargs = ({'step': 'post'})
+    plt.step(recall, precision, alpha=0.2,
+             where='post')
+    plt.fill_between(recall, precision, alpha=0.2, **step_kwargs)
+
+    plt.xlabel('Recall')
+    plt.ylabel('Precision')
+    plt.ylim([0.0, 1.05])
+    plt.xlim([0.0, 1.0])
+    plot_title = """{}
+    Precision-Recall Curve
+    Average Precision: {:.2f}
+    Best $F_{{0.5}}$: {:.2f} at $P(Reaction)={:.2f}$)"""
+    plt.title(plot_title
+              .format(classifier_name, average_precision, pr_auc, best_fbeta, best_fbeta_thresh));
